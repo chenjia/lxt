@@ -23,7 +23,7 @@ public class RequestWrapper implements Serializable {
 		this.request = request;
 	}
 
-	public Map<String, Object> data(){
+	public Object data(){
 		return request.getBody().getData();
 	}
 }

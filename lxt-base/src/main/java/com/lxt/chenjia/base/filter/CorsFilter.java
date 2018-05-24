@@ -18,7 +18,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 @Component
 @ServletComponentScan
-@WebFilter(urlPatterns = "/callService/*",filterName = "corsFilter")
+@WebFilter(urlPatterns = "/api/*",filterName = "corsFilter")
 public class CorsFilter extends OncePerRequestFilter {
 	@Value("${security.allowDomain}")
 	private String allowDomain;

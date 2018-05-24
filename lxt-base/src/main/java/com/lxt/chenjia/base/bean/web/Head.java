@@ -22,6 +22,8 @@ public class Head implements Serializable {
 
 	private int status = 200;
 
+	private String msg = "接口调用成功";
+
 	private boolean debug = true;
 
 	public String getUserId() {
@@ -70,6 +72,14 @@ public class Head implements Serializable {
 
 	public void setDebug(boolean debug) {
 		this.debug = debug;
+	}
+
+	public String getMsg() {
+		return msg;
+	}
+
+	public void setMsg(String msg) {
+		this.msg = msg;
 	}
 
 }

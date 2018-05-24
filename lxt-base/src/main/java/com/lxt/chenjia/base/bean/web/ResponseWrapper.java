@@ -18,17 +18,8 @@ public class ResponseWrapper implements Serializable {
 		this.response = response;
 	}
 
-	public String getResponse() {
-		String json = "";
-		
-		try {
-			json = SecurityUtils.encrypt(FormatUtils.obj2Json(response));
-			System.out.println(FormatUtils.obj2Json(response));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		return json;
+	public String getResponse() throws Exception {
+		return SecurityUtils.encrypt(FormatUtils.obj2Json(response));
 	}
 
 	public void setResponse(Response response) {

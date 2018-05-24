@@ -1,7 +1,0 @@
-spring:
-  profiles:
-    active: dev
-  resources: 
-    static-locations: classpath:/templates/
-  thymeleaf:
-    prefix: classpath:/templates/
