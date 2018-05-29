@@ -1,14 +1,15 @@
+allowDomain: http://localhost:8888,http://localhost:8080
 eureka:
   client:
     serviceUrl:
       defaultZone:  http://localhost:8000/eureka/
 mapper:
-  mappers:  com.lxt.chenjia.dao
+  mappers:  com.lxt.chenjia.manage.mapper
   not-empty: false
   identity: MYSQL
 mybatis:
   mapper-locations: com/lxt/chenjia/**/*Mapper.xml
-  type-aliases-package: com.lxt.chenjia.model
+  type-aliases-package: com.lxt.chenjia.manage.model
 pagehelper:
     helperDialect: mysql
     reasonable: true
@@ -16,7 +17,9 @@ pagehelper:
     params: count=countSql
     returnPageInfo: check      
 security:
-  allowDomain: http://localhost:8888,http://localhost:8080
+  oauth2:
+    resource:
+      filter-order: 3
 server:
   port: 8001  
 spring:
@@ -43,6 +46,22 @@ spring:
     poolPreparedStatements: true
     maxPoolPreparedStatementPerConnectionSize: 20
     maxOpenPreparedStatements: 20
+  devtools:
+    restart:
+      enable: true
+      additional-paths: src/main/java
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
   resources: 
     static-locations: classpath:/templates/
   thymeleaf:

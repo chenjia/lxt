@@ -15,71 +15,90 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.lxt.chenjia.base.bean.web.Request;
-import com.lxt.chenjia.base.bean.web.RequestWrapper;
-import com.lxt.chenjia.base.bean.web.Response;
+import com.lxt.chenjia.base.bean.web.Packages;
 import com.lxt.chenjia.base.bean.web.ResponseWrapper;
-import com.lxt.chenjia.base.bean.web.ServiceBean;
-import com.lxt.chenjia.base.utils.FormatUtils;
+import com.lxt.chenjia.base.utils.JsonUtils;
 import com.lxt.chenjia.base.utils.SecurityUtils;
 import com.lxt.chenjia.base.utils.SpringUtils;
+import com.lxt.chenjia.manage.service.api.ApiService;
 
 @Controller
 public class ServiceController {
-	
+
 	@RequestMapping("/")
 	public String index() {
 		return "/index";
 	}
-	
+
 	@ResponseBody
-	@RequestMapping(value="/api/{serviceId}", method=RequestMethod.POST)
-	public ResponseWrapper callService(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, @PathVariable String serviceId, @RequestParam String request) throws Exception {
-		System.out.println("【call api:】"+serviceId);
-		RequestWrapper requestWrapper = new RequestWrapper();
-		Request req = null;
-		try {
-			req = FormatUtils.json2Obj(SecurityUtils.decrypt(request), Request.class);
-			requestWrapper.setRequest(req);
-		} catch (Exception e) {
-			req = new Request();
-			req.getHead().setStatus(500);
-			req.getHead().setMsg("报文格式转化异常");
-			requestWrapper.setRequest(req);
-			
-			httpServletResponse.setContentType("application/json;charset=utf-8");
-			httpServletResponse.getWriter().write(SecurityUtils.encrypt(FormatUtils.obj2Json(requestWrapper)));
-			httpServletResponse.getWriter().flush();
-			httpServletResponse.getWriter().close();
-			return null;
-		}
-		
-		ServiceBean serviceBean = SpringUtils.getBeanMap().get(serviceId);
-		ApplicationContext ac = SpringUtils.getApplicationContext();
-		Object service = ac.getBean(serviceBean.getName());
-		Class clazz = service.getClass();
-		Method[] methods = clazz.getMethods();
-		Method method = null;
-		for(Method m : methods){
-			if(m.getName().equals(serviceBean.getMethod())){
-				method = m;
-				break;
+	@RequestMapping(value = "/api/{serviceName}", method = RequestMethod.POST)
+	public ResponseWrapper api(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, @PathVariable String serviceName, @RequestParam String request) throws Exception {
+		System.out.println("【call api:】" + serviceName);
+
+		Packages pkg = decryptRequest(request);
+
+		if (pkg.getHead().getStatus() == 200) {
+			String servicePath = ApiService.getServicePath(serviceName);
+
+			if (servicePath == null) {
+				pkg.getHead().setStatus(500);
+				pkg.getHead().setMsg("未知的接口服务");
+			} else {
+				pkg = callService(servicePath, pkg);
 			}
 		}
-		LocalVariableTableParameterNameDiscoverer u = new LocalVariableTableParameterNameDiscoverer();
-		String[] paramNames = u.getParameterNames(method);
-		Object[] args = new Object[paramNames.length];
-		Object data = req.getBody().getData();
-		Map<String, Object> map = (Map<String, Object>) req.getBody().getData();
-		for (int i = 0; i < paramNames.length; i++) {
-			args[i] = map.get(paramNames[i]);
+
+		return new ResponseWrapper(pkg);
+	}
+
+	private Packages decryptRequest(String decryptedText) {
+		Packages request = null;
+
+		try {
+			request = JsonUtils.json2Obj(SecurityUtils.decrypt(decryptedText), Packages.class);
+		} catch (Exception e) {
+			e.printStackTrace();
+			request = new Packages();
+			request.getHead().setStatus(500);
+			request.getHead().setMsg("报文格式转化异常");
 		}
-		Object result = method.invoke(service, args);
-		
-		Response response = new Response();
-		response.getBody().setData(result);
-		
-		return new ResponseWrapper(response);
+
+		return request;
 	}
 	
+	@SuppressWarnings("unchecked")
+	private Packages callService(String servicePath, Packages pkg){
+		Packages result = null;
+		
+		try {
+			String[] serviceArray = servicePath.split("[.]");
+			ApplicationContext ac = SpringUtils.getApplicationContext();
+			Object service = ac.getBean(serviceArray[0]);
+			Class<ApiService> clazz = (Class<ApiService>) service.getClass();
+			Method[] methods = clazz.getMethods();
+			Method method = null;
+			for (Method m : methods) {
+				if (m.getName().equals(serviceArray[1])) {
+					method = m;
+					break;
+				}
+			}
+			LocalVariableTableParameterNameDiscoverer u = new LocalVariableTableParameterNameDiscoverer();
+			String[] paramNames = u.getParameterNames(method);
+			Object[] args = new Object[paramNames.length];
+			Map<String, Object> map = (Map<String, Object>) pkg.getBody().getData();
+			for (int i = 0; i < paramNames.length; i++) {
+				args[i] = map.get(paramNames[i]);
+			}
+			
+			result = (Packages) method.invoke(service, args);
+		} catch (Exception e) {
+			e.printStackTrace();
+			pkg.getHead().setStatus(500);
+			int msgLength = e.getMessage().length()>100?100:e.getMessage().length();
+			pkg.getHead().setMsg("接口调用异常:"+e.getMessage().substring(0,msgLength));
+		}
+		
+		return result;
+	}
 }

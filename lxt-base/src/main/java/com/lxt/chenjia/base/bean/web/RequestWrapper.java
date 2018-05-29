@@ -6,20 +6,20 @@ import java.util.Map;
 public class RequestWrapper implements Serializable {
 	private static final long serialVersionUID = -4437251842787588081L;
 
-	private Request request;
+	private Packages request;
 
 	public RequestWrapper() {
 	}
 
-	public RequestWrapper(Request request) {
+	public RequestWrapper(Packages request) {
 		this.request = request;
 	}
 
-	public Request getRequest() {
+	public Packages getRequest() {
 		return request;
 	}
 
-	public void setRequest(Request request) {
+	public void setRequest(Packages request) {
 		this.request = request;
 	}
 
