@@ -44,7 +44,7 @@ public class CaptchaUtils {
 		Map<String, String> map = new HashMap<String, String>();
 		
 		String uuid = "CAPTCHA_"+UUIDUtils.UUID();
-		CacheUtils.set(uuid, captcha, 120);
+		CacheUtils.set(uuid, captcha, 60);
 		map.put("captchaToken", uuid);
 		map.put("base64Img", base64Img);
 		

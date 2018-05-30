@@ -1,4 +1,3 @@
-allowDomain: http://localhost:8888,http://localhost:8080
 eureka:
   client:
     serviceUrl:
@@ -16,6 +15,8 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
     returnPageInfo: check      
+safeApi: /api/captcha,/api/login
+safeDomain: http://localhost:8888,http://localhost:8080
 security:
   oauth2:
     resource:

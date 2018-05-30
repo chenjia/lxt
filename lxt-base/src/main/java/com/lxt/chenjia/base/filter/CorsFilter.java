@@ -20,13 +20,13 @@ import org.springframework.web.filter.OncePerRequestFilter;
 @ServletComponentScan
 @WebFilter(urlPatterns = "/api/*",filterName = "corsFilter")
 public class CorsFilter extends OncePerRequestFilter {
-	@Value("${allowDomain}")
-	private String allowDomain;
+	@Value("${safeDomain}")
+	private String safeDomain;
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
 		
-		Set<String> allowedOrigins= new HashSet<String>(Arrays.asList(allowDomain.split(","))); 
+		Set<String> allowedOrigins= new HashSet<String>(Arrays.asList(safeDomain.split(","))); 
 		String originHeader = request.getHeader("Origin");
 		if (allowedOrigins.contains(originHeader)){
 			response.setHeader("Access-Control-Allow-Origin", originHeader);

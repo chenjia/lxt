@@ -1,6 +1,8 @@
 package com.lxt.chenjia.manage.service.impl;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,6 +11,7 @@ import com.lxt.chenjia.base.bean.web.Packages;
 import com.lxt.chenjia.base.exception.ServiceException;
 import com.lxt.chenjia.base.utils.CacheUtils;
 import com.lxt.chenjia.base.utils.CaptchaUtils;
+import com.lxt.chenjia.base.utils.JWTUtils;
 import com.lxt.chenjia.base.utils.SecurityUtils;
 import com.lxt.chenjia.manage.mapper.UserMapper;
 import com.lxt.chenjia.manage.mapper.UserSettingMapper;
@@ -38,6 +41,8 @@ public class LoginServiceImpl implements LoginService {
 		Packages pkg = new Packages();
 
 		if (captcha.equalsIgnoreCase((String) CacheUtils.get(captchaToken))) {
+			CacheUtils.del(captchaToken);
+			
 			UserExample example = new UserExample();
 			Criteria criteria = example.createCriteria();
 			criteria.andUsernameEqualTo(username);
@@ -52,6 +57,11 @@ public class LoginServiceImpl implements LoginService {
 				UserSetting userSetting = userSettingMapper
 						.selectByPrimaryKey(user.getUserId());
 				loginBO.setUserSetting(userSetting);
+				Map<String, String> map = new HashMap<String, String>();
+				map.put("userId", user.getUserId());
+				String token = JWTUtils.sign(map);
+				pkg.getHead().setUserId(user.getUserId());
+				pkg.getHead().setToken(token);
 				pkg.getBody().setData(loginBO);
 			}else{
 				pkg.getHead().setStatus(500);
@@ -59,7 +69,7 @@ public class LoginServiceImpl implements LoginService {
 			}
 		} else {
 			pkg.getHead().setStatus(500);
-			pkg.getHead().setMsg("验证码输入错误！");
+			pkg.getHead().setMsg("验证码错误！");
 		}
 
 		return pkg;
