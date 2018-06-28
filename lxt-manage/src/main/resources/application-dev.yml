@@ -1,7 +1,9 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone:  http://localhost:8000/eureka/
+      defaultZone:  http://localhost:8080/eureka/
+file:
+  uploadPath: D:/test
 mapper:
   mappers:  com.lxt.chenjia.manage.mapper
   not-empty: false
@@ -15,14 +17,14 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
     returnPageInfo: check      
-safeApi: /api/captcha,/api/login
+safeApi: /api/user/captcha,/api/user/login
 safeDomain: http://localhost:8888,http://localhost:8080
 security:
   oauth2:
     resource:
       filter-order: 3
 server:
-  port: 8001  
+  port: 8001
 spring:
   application:
     name: lxt-manage

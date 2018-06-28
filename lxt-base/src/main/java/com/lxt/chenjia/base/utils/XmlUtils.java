@@ -2,7 +2,7 @@ package com.lxt.chenjia.base.utils;
 
 import com.thoughtworks.xstream.XStream;
 
-public class XmlUtils {
+public class XMLUtils {
 	private static final XStream xstream = new XStream();
 	
 	/**

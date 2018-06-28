@@ -2,7 +2,7 @@ package com.lxt.chenjia.base.bean.web;
 
 import java.io.Serializable;
 
-import com.lxt.chenjia.base.utils.JsonUtils;
+import com.lxt.chenjia.base.utils.JSONUtils;
 
 public class Body implements Serializable {
 
@@ -12,7 +12,7 @@ public class Body implements Serializable {
 
 	@Override
 	public String toString() {
-		return JsonUtils.obj2Json(data);
+		return JSONUtils.obj2Json(data);
 	}
 
 	public Object getData() {

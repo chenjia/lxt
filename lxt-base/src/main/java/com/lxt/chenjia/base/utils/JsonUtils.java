@@ -9,7 +9,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class JsonUtils {
+public class JSONUtils {
 	private static ObjectMapper objectMapper = new ObjectMapper();
 
 	public static String obj2Json(Object obj) {

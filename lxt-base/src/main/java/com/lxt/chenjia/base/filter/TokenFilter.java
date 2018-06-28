@@ -21,8 +21,8 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.lxt.chenjia.base.bean.web.Packages;
 import com.lxt.chenjia.base.bean.web.ResponseWrapper;
+import com.lxt.chenjia.base.utils.JSONUtils;
 import com.lxt.chenjia.base.utils.JWTUtils;
-import com.lxt.chenjia.base.utils.JsonUtils;
 import com.lxt.chenjia.base.utils.SecurityUtils;
 
 @Component
@@ -39,6 +39,11 @@ public class TokenFilter extends OncePerRequestFilter {
 		
 		Set<String> safeApis= new HashSet<String>(Arrays.asList(safeApi.split(",")));
 		
+		if("/api/upload".equals(request.getRequestURI())){
+			filterChain.doFilter(request, response);
+			return;
+		}
+		
 		String text = request.getParameter("request");
 		Packages pkg = decryptRequest(text);
 		
@@ -47,10 +52,10 @@ public class TokenFilter extends OncePerRequestFilter {
 			String userId = pkg.getHead().getUserId();
 			
 			if (!StringUtils.isEmpty(userId)) {
-				Map<String, String> claimMap = new HashMap<String, String>();
+				Map<String, Object> claimMap = new HashMap<String, Object>();
 				claimMap.put("userId", userId);
-				boolean b = JWTUtils.unsign(token, claimMap);
-				if (b) {
+				Map<String, Object> map = JWTUtils.parse(token);
+				if (map != null) {
 					filterChain.doFilter(request, response);
 					return;
 				} else {
@@ -76,7 +81,7 @@ public class TokenFilter extends OncePerRequestFilter {
 		Packages request = null;
 
 		try {
-			request = JsonUtils.json2Obj(SecurityUtils.decrypt(decryptedText), Packages.class);
+			request = JSONUtils.json2Obj(SecurityUtils.decrypt(decryptedText), Packages.class);
 		} catch (Exception e) {
 			e.printStackTrace();
 			request = new Packages();

@@ -2,7 +2,7 @@ package com.lxt.chenjia.base.bean.web;
 
 import java.io.Serializable;
 
-import com.lxt.chenjia.base.utils.JsonUtils;
+import com.lxt.chenjia.base.utils.JSONUtils;
 import com.lxt.chenjia.base.utils.SecurityUtils;
 
 public class ResponseWrapper implements Serializable {
@@ -18,7 +18,7 @@ public class ResponseWrapper implements Serializable {
 	}
 
 	public String getResponse() throws Exception {
-		return SecurityUtils.encrypt(JsonUtils.obj2Json(response));
+		return SecurityUtils.encrypt(JSONUtils.obj2Json(response));
 	}
 
 	public void setResponse(Packages response) {
@@ -26,6 +26,6 @@ public class ResponseWrapper implements Serializable {
 	}
 
 	public String toJson(){
-		return JsonUtils.obj2Json(this);
+		return JSONUtils.obj2Json(this);
 	}
 }
