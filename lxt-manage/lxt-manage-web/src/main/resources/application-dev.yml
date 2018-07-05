@@ -1,0 +1,76 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://47.101.141.225:8100/lxt-eureka/eureka/
+file:
+  uploadPath: D:/test
+log:
+  path: D:\\logs
+  level: debug
+mapper:
+  mappers: com.lxt.chenjia.manage.mapper
+  not-empty: false
+  identity: MYSQL
+mybatis:
+  mapper-locations: com/lxt/chenjia/**/*Mapper.xml
+  type-aliases-package: com.lxt.chenjia.manage.model
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+    returnPageInfo: check
+safeApi: /api/user/captcha,/api/user/login
+safeDomain: http://localhost:8888,http://localhost:8080
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+server:
+  port: 8200
+  servlet:
+    contextPath: /lxt-manage
+spring:
+  application:
+    name: lxt-manage
+  datasource:
+    url: jdbc:mysql://47.101.141.225:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 1
+    maxIdle: 1
+    minIdle: 1
+    initialSize: 1
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    maxOpenPreparedStatements: 20
+  devtools:
+    restart:
+      enable: true
+      additional-paths: src/main/java
+  redis:
+    database: 0
+    host: 47.101.141.225
+    port: 6379
+    password:
+    timeout: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+  resources: 
+    static-locations: classpath:/templates/
+  thymeleaf:
+    prefix: classpath:/templates/

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: lxt-base
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: chenjia
+Implementation-Vendor-Id: com.lxt.chenjia
+Build-Jdk: 1.8.0_65
+Implementation-URL: http://www.example.com
+Created-By: Maven Integration for Eclipse
+

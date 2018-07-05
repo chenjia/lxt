@@ -160,10 +160,9 @@ public class SecurityUtils {
 	    }  
 	}
 	
-	public static void main(String[] args) throws Exception {
-		String data = "oI0fC7Up00hNB0k/Uh8B91GkoNUCcAnsY1Ts4YfymIV3dQwG0rnsuEC809Y1v6n3viknPCKJTs1DiD/etWq+3DPeK++GE/V3eTFlrcXqGjQCI1sQbihbFictMI6sa+JiqTGhEAYC4gFMQYwIt2McnsNU8hdDwOEAGdZM/qmnXmPxU6VoNmPjKyycbDD/9DCoyhn+id6tB/M=";
-        String key = "ed26d4cd99aa11e5b8a4c89cdc776729";
-//        System.err.println(encrypt(data, key));
-        System.err.println(decrypt(data, key));
-	}
+//	public static void main(String[] args) throws Exception {
+//		String data = "oI0fC7Up00hNB0k/Uh8B91GkoNUCcAnsY1Ts4YfymIV3dQwG0rnsuEC809Y1v6n3viknPCKJTs1DiD/etWq+3DPeK++GE/V3eTFlrcXqGjQCI1sQbihbFictMI6sa+JiqTGhEAYC4gFMQYwIt2McnsNU8hdDwOEAGdZM/qmnXmPxU6VoNmPjKyycbDD/9DCoyhn+id6tB/M=";
+//        String key = "ed26d4cd99aa11e5b8a4c89cdc776729";
+//        System.err.println(decrypt(data, key));
+//	}
 }

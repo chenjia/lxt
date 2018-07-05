@@ -1,0 +1,13 @@
+{
+  "content_url": "https://chenjia1989.gitlab.io/vue-app",
+  "update": "now",
+  "appVersion": "1.0.38",
+  "nativeVersion": "1.0",
+  "description": [
+    "1. 优化浏览器功能",
+    "2. 优化动画加载效果",
+    "3. 新增缩放功能",
+    "4. 新增上传图片裁剪预览功能"
+  ],
+  "release": "2018.06.21-09.25.14"
+}

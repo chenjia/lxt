@@ -1,7 +1,6 @@
 package com.lxt.chenjia.base.bean.web;
 
 import java.io.Serializable;
-import java.util.Map;
 
 public class RequestWrapper implements Serializable {
 	private static final long serialVersionUID = -4437251842787588081L;
