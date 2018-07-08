@@ -1,14 +1,15 @@
 package com.lxt.chenjia.common.bean.web;
 
-public class Packages {
+import java.io.Serializable;
+
+public class Packages implements Serializable{
+	private static final long serialVersionUID = -3289042842274897416L;
 
 	private Head head = new Head();
 
 	private Body body = new Body();
 	
-	public Packages() {
-		// TODO Auto-generated constructor stub
-	}
+	public Packages() {}
 	
 	public Packages(Object obj) {
 		this.body.setData(obj);

@@ -1,11 +1,11 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://47.101.141.225:8100/lxt-eureka/eureka/
+      defaultZone: http://localhost:8100/eureka/
 file:
-  uploadPath: D:/test
+  uploadPath: /home/chenjia/uploadFiles
 log:
-  path: D:\\logs
+  path: /home/chenjia/logs
   level: debug
 mapper:
   mappers: com.lxt.chenjia.manage.mapper
@@ -21,7 +21,7 @@ pagehelper:
     params: count=countSql
     returnPageInfo: check
 safeApi: /api/user/captcha,/api/user/login
-safeDomain: http://localhost:8888,http://localhost:8080
+safeDomain: http://localhost:8888,http://localhost:8080,http://localhost:8888,http://localhost:8080
 security:
   oauth2:
     resource:
@@ -34,7 +34,7 @@ spring:
   application:
     name: lxt-manage
   datasource:
-    url: jdbc:mysql://47.101.141.225:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
@@ -60,7 +60,7 @@ spring:
       additional-paths: src/main/java
   redis:
     database: 0
-    host: 47.101.141.225
+    host: localhost
     port: 6379
     password:
     timeout: 0

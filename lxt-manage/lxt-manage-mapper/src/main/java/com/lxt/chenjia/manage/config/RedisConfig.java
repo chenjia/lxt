@@ -1,4 +1,4 @@
-package com.lxt.chenjia.common.config;
+package com.lxt.chenjia.manage.config;
 
 import java.lang.reflect.Method;
 

@@ -40,24 +40,16 @@ public class TokenFilter implements Filter {
 	public void doFilter(ServletRequest servletRequest,
 			ServletResponse servletResponse, FilterChain filterChain)
 			throws ServletException, IOException {
+		
 		HttpServletRequest request = (HttpServletRequest) servletRequest;
 		HttpServletResponse response = (HttpServletResponse) servletResponse;
-		Set<String> safeApis = new HashSet<String>(Arrays.asList(safeApi
-				.split(",")));
-		Set<String> allowedOrigins = new HashSet<String>(
-				Arrays.asList(safeDomain.split(",")));
-		String originHeader = request.getHeader("Origin");
+		
+		System.out.println("\n"+request.getContextPath()+"\n"+request.getRequestURI()+"\n");
+		
+		Set<String> safeApis = new HashSet<String>(Arrays.asList(safeApi.split(",")));
 
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("application/json;charset=utf-8");
-		if (allowedOrigins.contains(originHeader)) {
-			response.setHeader("Access-Control-Allow-Origin", originHeader);
-			response.setHeader("Access-Control-Allow-Methods",
-					"POST,GET,OPTIONS");
-			response.setHeader("Access-Control-Allow-Headers",
-					"Origin,X-Requested-With,Content-Type,Accept,token");
-			response.setHeader("Access-Control-Allow-Credentials", "true");
-		}
 
 		if (!"/api/upload".equals(request.getRequestURI())) {
 			String text = request.getParameter("request");
@@ -78,8 +70,7 @@ public class TokenFilter implements Filter {
 						pkg.getHead().setStatus(500);
 						pkg.getHead().setMsg("token验证失败！");
 					}
-				} else if (!safeApis.contains(request.getRequestURI()
-						.replaceAll(contextPath, ""))) {
+				} else if (!safeApis.contains(request.getRequestURI().replaceAll(request.getContextPath(), ""))) {
 					pkg.getHead().setStatus(500);
 					pkg.getHead().setMsg("未知的用户！");
 				}

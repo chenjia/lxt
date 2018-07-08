@@ -1,4 +1,4 @@
-package com.lxt.chenjia.common.config;
+package com.lxt.chenjia.manage.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

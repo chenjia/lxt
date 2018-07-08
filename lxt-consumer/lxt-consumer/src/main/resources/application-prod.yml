@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://47.101.141.225:8100/lxt-eureka/eureka/
+server:
+  port: 8080
+  servlet:
+    contextPath: /lxt-consumer
+spring:
+  application:
+    name: lxt-consumer
+  devtools:
+    restart:
+      enable: true
+      additional-paths: src/main/java
+  resources: 
+    static-locations: classpath:/templates/
+  thymeleaf:
+    prefix: classpath:/templates/

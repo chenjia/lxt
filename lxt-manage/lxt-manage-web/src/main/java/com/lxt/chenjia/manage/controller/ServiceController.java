@@ -21,8 +21,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.lxt.chenjia.common.bean.web.Packages;
 import com.lxt.chenjia.common.bean.web.ResponseWrapper;
-import com.lxt.chenjia.common.utils.JSONUtils;
-import com.lxt.chenjia.common.utils.SecurityUtils;
 import com.lxt.chenjia.common.utils.SpringUtils;
 import com.lxt.chenjia.common.utils.UUIDUtils;
 
@@ -35,31 +33,28 @@ public class ServiceController {
 	public String index() {
 		return "/index";
 	}
-
+	
 	@ResponseBody
 	@RequestMapping(value = "/api/{service}/{method}", method = RequestMethod.POST)
-	public ResponseWrapper api(HttpServletRequest request,
-			HttpServletResponse httpServletResponse,
-			@PathVariable String service, @PathVariable String method)
-			throws Exception {
-		System.out.println("[api]" + service + "/" + method);
+	public Packages api(HttpServletRequest request, HttpServletResponse httpServletResponse, @PathVariable String service, @PathVariable String method) throws Exception {
+		System.out.println("\n[service api]" + service + "/" + method + "\n");
 
 		Packages pkg = (Packages) request.getAttribute("pkg");
 
-		if (pkg.getHead().getStatus() == 200) {
-			pkg = callService(service, method, pkg);
+		try {
+			if (pkg.getHead().getStatus() == 200) {
+				pkg = callService(service, method, pkg);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 
-		return new ResponseWrapper(pkg);
+		return pkg;
 	}
 
 	@ResponseBody
 	@RequestMapping(value = "/api/upload", method = RequestMethod.POST)
-	public ResponseWrapper upload(@RequestParam("file") MultipartFile file)
-			throws Exception {
-		// if(file.isEmpty()){
-		// return "false";
-		// }
+	public ResponseWrapper upload(@RequestParam("file") MultipartFile file) throws Exception {
 		String fileName = file.getOriginalFilename();
 		int size = (int) file.getSize();
 		System.out.println(fileName + "-->" + size);
@@ -70,34 +65,13 @@ public class ServiceController {
 		}
 		try {
 			file.transferTo(dest); // 保存文件
-			// return "true";
 		} catch (IllegalStateException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-			// return "false";
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-			// return "false";
 		}
 
 		return null;
-	}
-
-	private Packages decryptRequest(String decryptedText) {
-		Packages request = null;
-
-		try {
-			request = JSONUtils.json2Obj(SecurityUtils.decrypt(decryptedText),
-					Packages.class);
-		} catch (Exception e) {
-			e.printStackTrace();
-			request = new Packages();
-			request.getHead().setStatus(500);
-			request.getHead().setMsg("报文格式转化异常");
-		}
-
-		return request;
 	}
 
 	@SuppressWarnings("unchecked")
