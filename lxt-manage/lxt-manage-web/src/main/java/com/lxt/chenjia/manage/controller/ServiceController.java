@@ -21,6 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.lxt.chenjia.common.bean.web.Packages;
 import com.lxt.chenjia.common.bean.web.ResponseWrapper;
+import com.lxt.chenjia.common.utils.JSONUtils;
 import com.lxt.chenjia.common.utils.SpringUtils;
 import com.lxt.chenjia.common.utils.UUIDUtils;
 
@@ -29,17 +30,23 @@ public class ServiceController {
 	@Value("${file.uploadPath}")
 	private String uploadPath;
 
-	@RequestMapping("/")
-	public String index() {
+	@RequestMapping("/index")
+	public String index(HttpServletRequest request) {
+		System.out.println("\n[request service]" + request.getRequestURI() + "\n");
+
+		Packages pkg = (Packages) request.getAttribute("pkg");
+		System.out.println(pkg);
 		return "/index";
 	}
 	
 	@ResponseBody
 	@RequestMapping(value = "/api/{service}/{method}", method = RequestMethod.POST)
 	public Packages api(HttpServletRequest request, HttpServletResponse httpServletResponse, @PathVariable String service, @PathVariable String method) throws Exception {
-		System.out.println("\n[service api]" + service + "/" + method + "\n");
-
-		Packages pkg = (Packages) request.getAttribute("pkg");
+		System.out.println("\n[service api]" + service + "/" + method);
+		
+		String encryptedText = request.getParameter("request");
+		System.out.println(encryptedText + "\n");
+		Packages pkg = JSONUtils.json2Obj(encryptedText, Packages.class);
 
 		try {
 			if (pkg.getHead().getStatus() == 200) {
@@ -49,6 +56,8 @@ public class ServiceController {
 			e.printStackTrace();
 		}
 
+		System.out.println("\n[response service]" + service + "/" + method);
+		System.out.println(JSONUtils.obj2Json(pkg) + "\n");
 		return pkg;
 	}
 

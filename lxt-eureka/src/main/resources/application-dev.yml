@@ -1,6 +1,7 @@
 server:
   port: 8100
-  contextPath: /lxt-eureka
+  servlet:
+    contextPath: /lxt-eureka
 spring:
   application:
     name: lxt-eureka
@@ -11,4 +12,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/lxt-eureka/eureka/

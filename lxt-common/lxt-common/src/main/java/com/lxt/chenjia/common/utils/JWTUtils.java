@@ -8,13 +8,14 @@ import io.jsonwebtoken.impl.crypto.MacProvider;
 
 import java.security.Key;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 
 public class JWTUtils {
 	private static final Key key = MacProvider.generateKey();
 
 	public static String build(Map<String, Object> claims) {
-		String compactJws = Jwts.builder().setSubject("Joe")
+		String compactJws = Jwts.builder()
 				.setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 30))
 				.addClaims(claims)
 				.signWith(SignatureAlgorithm.HS512, key).compact();
@@ -31,5 +32,13 @@ public class JWTUtils {
 		}
 
 		return claims;
+	}
+	
+	public static void main(String[] args) {
+		Map<String, Object> claims = new HashMap<String, Object>();
+		claims.put("name", "chenjia");
+		String token = build(claims);
+		Map<String, Object> map = parse(token);
+		System.out.println(map.get("name"));
 	}
 }

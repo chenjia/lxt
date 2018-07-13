@@ -161,7 +161,7 @@ public class SecurityUtils {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		String data = "oI0fC7Up00hNB0k/Uh8B91GkoNUCcAnsqwbs95n+vZlxdp6wgxQMRkm6Y4GMRX6kZFHHzGjHJxlRpKDVAnAJ7PBiraYCDaX3FiuQrOwpB7Vwm3OMqBtaD5U2DO5c1OUhQq3TafM79BxTQ2fxU/JhZCR3Siu189mXzefNRe8pVB82x+h0GzA1eBsxcZbedTv+";
+		String data = "oI0fC7Up00hNB0k/Uh8B91GkoNUCcAnsqwbs95n+vZlxdp6wgxQMRkm6Y4GMRX6kZFHHzGjHJxlRpKDVAnAJ7PBiraYCDaX3RubQdcqadI4M8ismqk32gSqrKJzKiYt+U9K9D2/YvRFscJYgms0UMhr2ada5jNLKQIFTQFQk/vPRfDRBB7t33PWyrmAGhpIX";
         String key = "ed26d4cd99aa11e5b8a4c89cdc776729";
         System.err.println(decrypt(data, key));
 	}

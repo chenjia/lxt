@@ -1,9 +1,11 @@
 eureka:
   client:
-  	registryFetchIntervalSeconds: 300
+    registryFetchIntervalSeconds: 300
     serviceUrl:
       defaultZone: http://localhost:8100/lxt-eureka/eureka/
-      
+
+ignoreUrl: /api/upload
+
 safeApi: /api/user/captcha,/api/user/login
 
 safeDomain: http://localhost:8888,http://localhost:8080,http://localhost:8888,http://localhost:8080
@@ -11,11 +13,11 @@ safeDomain: http://localhost:8888,http://localhost:8080,http://localhost:8888,ht
 server:
   port: 8080
   servlet:
-    contextPath: /lxt-consumer
-    
+    contextPath: /lxt-gateway
+
 spring:
   application:
-    name: lxt-consumer
+    name: lxt-gateway
   devtools:
     restart:
       enable: true
@@ -24,3 +26,9 @@ spring:
     static-locations: classpath:/templates/
   thymeleaf:
     prefix: classpath:/templates/
+
+zuul:
+  routes:
+    lxt-manage:
+      path: /lxt-manage/**
+      serviceId: lxt-manage
