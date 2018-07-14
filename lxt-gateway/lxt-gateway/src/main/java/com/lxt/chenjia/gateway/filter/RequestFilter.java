@@ -10,8 +10,6 @@ import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.util.StreamUtils;
@@ -27,7 +25,6 @@ import com.netflix.zuul.http.HttpServletRequestWrapper;
 import com.netflix.zuul.http.ServletInputStreamWrapper;
 
 public class RequestFilter extends ZuulFilter{
-	private final static Logger logger = LoggerFactory.getLogger(RequestFilter.class);
 	
 	@Value("${safeDomain}")
 	private String safeDomain;
@@ -115,7 +112,6 @@ public class RequestFilter extends ZuulFilter{
 	@Override
 	public boolean shouldFilter() {
 		HttpServletRequest req = RequestContext.getCurrentContext().getRequest();
-        logger.info("\n[TokenFilter]" + req.getRequestURI() + "\n");
         return StringUtils.equalsIgnoreCase(req.getMethod(), "post") && !StringUtils.contains(safeApi, req.getRequestURI());
 	}
 

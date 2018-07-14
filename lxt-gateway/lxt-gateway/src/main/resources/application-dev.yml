@@ -4,11 +4,28 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8100/lxt-eureka/eureka/
 
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+            ribbon:
+              ReadTimeout:1000
+              ConnectTimeout:1000
+
 ignoreUrl: /api/upload
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
 
 safeApi: /api/user/captcha,/api/user/login
 
-safeDomain: http://localhost:8888,http://localhost:8080,http://localhost:8888,http://localhost:8080
+safeDomain: http://localhost:8888,http://localhost:8080,http://47.101.141.225:8888,http://47.101.141.225:8080
 
 server:
   port: 8080
@@ -28,6 +45,9 @@ spring:
     prefix: classpath:/templates/
 
 zuul:
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
   routes:
     lxt-manage:
       path: /lxt-manage/**

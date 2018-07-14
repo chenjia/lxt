@@ -29,7 +29,7 @@ public class FallbackConfig implements FallbackProvider {
 	public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
 		if (cause != null && cause.getCause() != null) {
 			String reason = cause.getCause().getMessage();
-			logger.info("Excption {}", reason);
+			System.out.println("\n[fallback]"+reason+"\n");
 		}
 		
 		return new ClientHttpResponse() {
@@ -45,7 +45,7 @@ public class FallbackConfig implements FallbackProvider {
 			public InputStream getBody() throws IOException {
 				Packages pkg = new Packages();
 				pkg.getHead().setStatus(500);
-				pkg.getHead().setMsg("服务正在开小差");
+				pkg.getHead().setMsg("服务器正在开小差");
 				return new ByteArrayInputStream(JSONUtils.obj2Json(pkg).replace("\r\n", "").replace("\n", "").getBytes());
 			}
 			
