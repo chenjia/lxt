@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 300
     serviceUrl:
-      defaultZone: http://localhost:8100/lxt-eureka/eureka/
+      defaultZone: http://localhost:8100/lxt-eureka/eureka/,http://localhost:8200/lxt-eureka/eureka/
 file:
   uploadPath: /home/chenjia/uploadFiles
 log:
@@ -22,13 +22,13 @@ pagehelper:
     params: count=countSql
     returnPageInfo: check
 safeApi: /api/user/captcha,/api/user/login
-safeDomain: http://localhost:8888,http://localhost:8080
+safeDomain: http://localhost:8888,http://localhost:8080,http://47.100.119.102:8888,http://47.100.119.102:8080
 security:
   oauth2:
     resource:
       filter-order: 3
 server:
-  port: 8200
+  port: 8400
   servlet:
     contextPath: /lxt-manage
 spring:

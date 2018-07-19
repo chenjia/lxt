@@ -1,0 +1,22 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 300
+    serviceUrl:
+      defaultZone: http://localhost:8100/lxt-eureka/eureka/
+
+server:
+  port: 8900
+  servlet:
+    contextPath: /lxt-config
+
+spring:
+  application:
+    name: lxt-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenjia/lxt.git
+          searchPaths: lxt-config/config
+          username: 251746034@qq.com
+          password: Chenjia1989
