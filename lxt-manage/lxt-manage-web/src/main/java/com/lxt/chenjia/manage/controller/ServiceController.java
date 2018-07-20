@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
 import org.springframework.stereotype.Controller;
@@ -25,17 +26,21 @@ import com.lxt.chenjia.common.utils.JSONUtils;
 import com.lxt.chenjia.common.utils.SpringUtils;
 import com.lxt.chenjia.common.utils.UUIDUtils;
 
+@RefreshScope
 @Controller
 public class ServiceController {
 	@Value("${file.uploadPath}")
 	private String uploadPath;
+	
+	@Value("${safeApi}")
+	private String safeApi;
 
 	@RequestMapping("/index")
 	public String index(HttpServletRequest request) {
 		System.out.println("\n[request service]" + request.getRequestURI() + "\n");
 
 		Packages pkg = (Packages) request.getAttribute("pkg");
-		System.out.println(pkg);
+		System.out.println(safeApi);
 		return "/index";
 	}
 	

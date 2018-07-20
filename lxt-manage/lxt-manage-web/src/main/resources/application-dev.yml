@@ -28,7 +28,7 @@ security:
     resource:
       filter-order: 3
 server:
-  port: 8400
+  port: 8300
   servlet:
     contextPath: /lxt-manage
 spring:
