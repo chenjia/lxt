@@ -8,6 +8,8 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.ApplicationContext;
@@ -29,6 +31,8 @@ import com.lxt.chenjia.common.utils.UUIDUtils;
 @RefreshScope
 @Controller
 public class ServiceController {
+	private Logger logger = LoggerFactory.getLogger(getClass());
+	
 	@Value("${file.uploadPath}")
 	private String uploadPath;
 	
@@ -38,10 +42,12 @@ public class ServiceController {
 	@RequestMapping("/index")
 	public String index(HttpServletRequest request) {
 		System.out.println("\n[request service]" + request.getRequestURI() + "\n");
+		
+		logger.debug("Logger Level ：DEBUG");
+	    logger.info("Logger Level ：INFO");
+	    logger.error("Logger Level ：ERROR");
 
-		Packages pkg = (Packages) request.getAttribute("pkg");
-		System.out.println(safeApi);
-		return "/index";
+		return null;
 	}
 	
 	@ResponseBody

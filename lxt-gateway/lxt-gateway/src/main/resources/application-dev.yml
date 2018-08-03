@@ -15,7 +15,7 @@ hystrix:
               ReadTimeout:1000
               ConnectTimeout:1000
 
-ignoreUrl: /api/upload
+ignoreUrl: /lxt-manage/api/upload
 
 ribbon:
   ReadTimeout: 60000
@@ -28,7 +28,7 @@ safeApi: /api/user/captcha,/api/user/login
 safeDomain: http://localhost:8888,http://localhost:8080,http://47.100.119.102:8888,http://47.100.119.102:8080
 
 server:
-  port: 8800
+  port: 8700
   servlet:
     contextPath: /lxt-gateway
 

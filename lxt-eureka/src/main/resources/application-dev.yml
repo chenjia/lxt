@@ -9,7 +9,7 @@ eureka:
   instance:
     hostname: localhost
   client:
-    registerWithEureka: true
-    fetchRegistry: true
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:8200/lxt-eureka/eureka/
+      defaultZone: http://${eureka.instance.hostname}:8100/lxt-eureka/eureka/
