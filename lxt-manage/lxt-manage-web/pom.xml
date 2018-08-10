@@ -21,6 +21,12 @@
 			<version>0.5.0</version>
 		</dependency>
 		<dependency>
+			<groupId>org.directwebremoting</groupId>
+			<artifactId>dwr</artifactId>
+			<version>3.0.2-RELEASE</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.lxt.chenjia</groupId>
 			<artifactId>lxt-manage-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>

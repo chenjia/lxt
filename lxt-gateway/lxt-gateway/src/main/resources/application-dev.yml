@@ -1,8 +1,10 @@
 eureka:
   client:
-    registryFetchIntervalSeconds: 30
+    registryFetchIntervalSeconds: 300
     serviceUrl:
-      defaultZone: http://localhost:8100/lxt-eureka/eureka/,http://localhost:8200/lxt-eureka/eureka/
+      defaultZone: http://localhost:8100/lxt-eureka/eureka/
+
+filterUrl: /lxt-manage/api/
 
 hystrix:
   command:
@@ -23,9 +25,10 @@ ribbon:
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 1
 
+
 safeApi: /api/user/captcha,/api/user/login
 
-safeDomain: http://localhost:8888,http://localhost:8080,http://47.100.119.102:8888,http://47.100.119.102:8080
+safeDomain: http://localhost:8888,http://localhost:8080
 
 server:
   port: 8700

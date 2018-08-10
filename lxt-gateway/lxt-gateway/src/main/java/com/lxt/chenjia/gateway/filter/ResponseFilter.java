@@ -22,7 +22,9 @@ import com.netflix.zuul.exception.ZuulException;
 
 public class ResponseFilter extends ZuulFilter {
 private final static Logger logger = LoggerFactory.getLogger(RequestFilter.class);
-	
+	@Value("${filterUrl}")
+	private String filterUrl;
+
 	@Value("${safeDomain}")
 	private String safeDomain;
 	
@@ -68,7 +70,21 @@ private final static Logger logger = LoggerFactory.getLogger(RequestFilter.class
 
 	@Override
 	public boolean shouldFilter() {
-		return true;
+		boolean shouldFilter = false;
+		
+		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
+		String contextPath = request.getContextPath();
+		String uri = request.getRequestURI().replaceAll(contextPath, "");
+		
+		String[] filterUrls = filterUrl.split(",");
+		for(String url : filterUrls){
+			if(uri.startsWith(url)){
+				shouldFilter = true;
+				break;
+			}
+		}
+		
+		return shouldFilter;
 	}
 
 	@Override

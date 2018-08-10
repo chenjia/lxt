@@ -25,6 +25,8 @@ import com.netflix.zuul.http.HttpServletRequestWrapper;
 import com.netflix.zuul.http.ServletInputStreamWrapper;
 
 public class RequestFilter extends ZuulFilter{
+	@Value("${filterUrl}")
+	private String filterUrl;
 	
 	@Value("${safeDomain}")
 	private String safeDomain;
@@ -40,7 +42,8 @@ public class RequestFilter extends ZuulFilter{
 		RequestContext ctx = RequestContext.getCurrentContext();
 		HttpServletRequest request = ctx.getRequest();
 		
-		System.out.println("\n"+request.getContextPath()+"\n"+request.getRequestURI()+"\n");
+		System.out.println("【"+request.getContextPath()+"】");
+		System.out.println("【"+request.getRequestURI()+"】");
 		
 		String contextPath = request.getContextPath();
 		String uri = request.getRequestURI().replaceAll(contextPath, "");
@@ -111,8 +114,21 @@ public class RequestFilter extends ZuulFilter{
 
 	@Override
 	public boolean shouldFilter() {
-		HttpServletRequest req = RequestContext.getCurrentContext().getRequest();
-        return StringUtils.equalsIgnoreCase(req.getMethod(), "post") && !StringUtils.contains(safeApi, req.getRequestURI());
+		boolean shouldFilter = false;
+		
+		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
+		String contextPath = request.getContextPath();
+		String uri = request.getRequestURI().replaceAll(contextPath, "");
+		
+		String[] filterUrls = filterUrl.split(",");
+		for(String url : filterUrls){
+			if(uri.startsWith(url)){
+				shouldFilter = true;
+				break;
+			}
+		}
+		
+		return shouldFilter;
 	}
 
 	@Override
