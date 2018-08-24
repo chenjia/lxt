@@ -49,7 +49,7 @@ public class ManageApp extends SpringBootServletInitializer {
         initParameters.put("initApplicationScopeCreatorsAtStartup","true");
         initParameters.put("jsonRpcEnabled","true");
         initParameters.put("jsonpEnabled","true");
-        initParameters.put("maxWaitAfterWrite","30000");
+        initParameters.put("maxWaitAfterWrite","500");
         initParameters.put("overridePath","/lxt-gateway/lxt-manage/chatEngine");
         initParameters.put("preferDataUrlSchema","false");
         initParameters.put("scriptSessionTimeout","1800000");
