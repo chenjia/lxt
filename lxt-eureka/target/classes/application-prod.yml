@@ -1,0 +1,15 @@
+server:
+  port: 8100
+  servlet:
+    contextPath: /lxt-eureka
+spring:
+  application:
+    name: lxt-eureka
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8200/lxt-eureka/eureka/

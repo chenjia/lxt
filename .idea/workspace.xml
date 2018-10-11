@@ -1,7 +1,912 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="" />
+    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_directwebremoting_dwr_3_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_legacy_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/chcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/chcp.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/html/baiduMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/html/empty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/banner/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/banner/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/banner/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/banner/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/banner/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/captcha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/female.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/gallery/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/gallery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/gallery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/gallery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/gallery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/head_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/lock-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/male.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/no_smoking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/pdf/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/smoking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/img/yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/lazyLibs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/lock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/workflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/js/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mobiscroll/css/icons_mobiscroll.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mobiscroll/css/icons_mobiscroll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mobiscroll/css/icons_mobiscroll.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mobiscroll/css/icons_mobiscroll.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mobiscroll/css/mobiscroll.javascript.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mobiscroll/js/mobiscroll.javascript.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/css/mui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/css/mui.picker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/css/mui.poppicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/fonts/mui.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/js/mui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/js/mui.picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/js/mui.picker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mui/js/mui.poppicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/anchors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/autolayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/boundary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/clipboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/codec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/collapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/constituent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/contexticons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/dragsource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/drop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/dynamicloading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/dynamicstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/dynamictoolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/edgetolerance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/diagrameditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/editor-commons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/keyhandler-commons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/keyhandler-minimal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/layouteditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/processeditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/wfeditor-commons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/wfgraph-commons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/wftoolbar-commons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/config/workfloweditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/css/process.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/css/wordpress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/diagrameditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/diagrams/empty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/diagrams/swimlanes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/diagrams/travel-booking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/diagrams/withdrawal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/grapheditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/help/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/help/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/actor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/alignbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/aligncenter.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/alignleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/alignmiddle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/alignright.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/aligntop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/block_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/block_start.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/bold.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/camera.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/center.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/classic_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/classic_start.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/cloud.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/cmp-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/connect.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/connector.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/console.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/copy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/cube_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/cut.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/cylinder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/diagram.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/diamond_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/diamond_start.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/doubleellipse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/draw/drawbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/draw/drawbgcolor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/draw/drawfooter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/draw/drawheader.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/draw/mxlogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/dude3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/ellipse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/entity.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/fillcolor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/fit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/font.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/fontcolor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/gear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/grid.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/help.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/hexagon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/hline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/house.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/image.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/italic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/linecolor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/link.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/middle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/new.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/open_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/open_start.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/outline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/oval_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/oval_start.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/flash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/forbidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/lightbulb_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/users3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/overlays/workplace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/package.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/pan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/paste.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/plain.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/preferences.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/press.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/preview.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/print.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/properties.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/rectangle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/redo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/refresh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/rhombus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/rounded.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/save.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/saveas.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/script.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/straight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/swimlane.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/cancel_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/cancel_intermediate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/event.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/event_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/event_intermediate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/fork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/inclusive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/merge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/message_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/message_intermediate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/multiple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/rule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_cancel_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_cancel_intermediate.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_event.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_event_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_event_intermediate.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_fork.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_inclusive.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_link.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_merge.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_message.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_message_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_message_intermediate.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_multiple.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_rule.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_terminate.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/small_timer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/terminate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/symbols/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/tasks.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/text.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/toback.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/tofront.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/toolbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/tree.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/triangle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/underline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/undo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/ungroup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/vertical.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/workplace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/wrench.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/zoom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/zoomactual.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/zoomin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/images/zoomout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/layouteditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/processeditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/resources/app.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/resources/app_de.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/resources/app_zh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/editors/workfloweditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/extendcanvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/fileio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/fileio.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/fileio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/fixedicon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/fixedpoints.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/folding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/deflate/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/deflate/pako.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/checkmark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/clear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/collapsed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/dropdown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/dropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/expanded.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/grid.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-fixed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-rotate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-secondary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-terminal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/nocolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/round-drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/tooltip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/transparent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/images/unlocked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Dialogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/EditorUi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Menus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Shapes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/js/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/cross.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/hs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/hv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/jscolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/open.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/resources/grapheditor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/resources/grapheditor_de.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/resources/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/resources/help_de.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/sanitizer/sanitizer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/arrows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/basic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/bpmn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Credit_Card_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Database_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Doctor1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Earth_globe_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Email_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Empty_Folder_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Firewall_02_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Full_Folder_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Gear_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Graph_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Laptop_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Lock_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/MacBook_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Monitor_Tower_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Piggy_Bank_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Pilot1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Printer_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Router_Icon_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Safe_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Security1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Server_Tower_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Shopping_Cart_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Software_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Soldier1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Suit1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Suit2_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Suit3_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Tech1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Telesales1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Virtual_Machine_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Virus_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Wireless_Router_N_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Worker1_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Workstation_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/iMac_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/iPad_128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/flowchart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/grapheditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/thumb_horz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/thumb_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/styles/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grapheditor/www/viewer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/graphlayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/guides.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/handles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/helloport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/hierarchicallayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/hovericons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/hoverstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/htmllabel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/ie9svg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/connector.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/delete2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/export1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/fit_to_size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/gradient_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/green-dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/handle-connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/handle-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/icons48/column.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/icons48/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/icons48/gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/icons48/keys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/icons48/mail_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/icons48/server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/icons48/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/navigate_minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/navigate_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/paste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/press32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/print32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/sidebar_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/toolbar_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/view_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/view_1_132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/view_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/view_previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/wires-grid.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/zoom_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/zoom_in32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/zoom_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/images/zoom_out32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/indicators.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/jsondata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/labelposition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/labels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/layers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/lod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/images/layers-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/images/layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/images/marker-icon-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/images/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/images/marker-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map-background/map-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/markers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/menustyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/merge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/monitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/morph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/offpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/orgchart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/orthogonal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/overlays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/pagebreaks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/perimeter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/permissions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/portrefs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/ports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/radialtreelayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/resources.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/schema.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/scrollbars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/secondlabel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/serverview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/shape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/showregion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/standardsmode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/stencils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/stencils.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/stylesheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/swimlanes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/thread.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/touch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/uiconfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/uiconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/userobject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/visibility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/webpack/anchors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/webpack/src/anchors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/windows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/wires.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/examples/wrapping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/mxClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/mxClient.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/css/explorer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/collapsed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/expanded.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/maximize.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/minimize.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/normalize.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/point.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/resize.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/separator.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/submenu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/transparent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/window-title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/images/window.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/editor/mxDefaultKeyHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/editor/mxDefaultPopupMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/editor/mxDefaultToolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/editor/mxEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxCellHighlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxCellMarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxCellTracker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxConnectionHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxConstraintHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxEdgeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxEdgeSegmentHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxElbowEdgeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxGraphHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxHandle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxKeyHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxPanningHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxPopupMenuHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxRubberband.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxSelectionCellsHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxTooltipHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/handler/mxVertexHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxCellCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxChildChangeCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxCodecRegistry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxDefaultKeyHandlerCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxDefaultPopupMenuCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxDefaultToolbarCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxEditorCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxGenericChangeCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxGraphCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxGraphViewCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxModelCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxObjectCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxRootChangeCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxStylesheetCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/io/mxTerminalChangeCodec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphAbstractHierarchyCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphHierarchyEdge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphHierarchyModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphHierarchyNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxSwimlaneModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/mxHierarchicalLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/mxSwimlaneLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxCoordinateAssignment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxHierarchicalLayoutStage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxMedianHybridCrossingReduction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxMinimumCycleRemover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxSwimlaneOrdering.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxCircleLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxCompactTreeLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxCompositeLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxEdgeLabelLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxFastOrganicLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxGraphLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxParallelEdgeLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxPartitionLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxRadialTreeLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/layout/mxStackLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/model/mxCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/model/mxCellPath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/model/mxGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/model/mxGraphModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/mxClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxActor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxArrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxArrowConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxCloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxCylinder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxDoubleEllipse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxEllipse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxHexagon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxImageShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxMarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxPolyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxRectangleShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxRhombus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxStencil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxStencilRegistry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxSwimlane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/shape/mxTriangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxAbstractCanvas2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxAutoSaveManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxDictionary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxDivResizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxDragSource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxEventObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxEventSource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxGuide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxImageBundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxImageExport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxLog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxMorphing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxMouseEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxObjectIdentity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxPanningManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxPopupMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxRectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxResources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxSvgCanvas2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxToolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxUndoManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxUndoableEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxUrlConverter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxVmlCanvas2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxXmlCanvas2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/util/mxXmlRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxCellEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxCellOverlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxCellRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxCellState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxCellStatePreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxConnectionConstraint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxEdgeStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxGraphSelectionModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxGraphView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxLayoutManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxMultiplicity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxOutline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxPerimeter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxPrintPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxStyleRegistry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxStylesheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxSwimlaneManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/js/view/mxTemporaryCellStates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/resources/editor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/resources/editor_de.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/resources/editor_zh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/resources/graph.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/resources/graph_de.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/mxgraph/src/resources/graph_zh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/security/mode-ecb-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/security/mode-ecb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/lib/security/tripledes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-web/src/main/resources/templates/static/media/7957a8f7246d2caf1e552e1a989f37f6.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-workflow/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
     <ignored path="$PROJECT_DIR$/lxt-common/target/" />
@@ -11,6 +916,8 @@
     <ignored path="$PROJECT_DIR$/lxt-gateway/target/" />
     <ignored path="$PROJECT_DIR$/lxt-chat/target/" />
     <ignored path="$PROJECT_DIR$/lxt-upload/target/" />
+    <ignored path="$PROJECT_DIR$/lxt-workflow/target/" />
+    <ignored path="$PROJECT_DIR$/lxt-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +928,12 @@
     <session id="-487909995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,11 +941,11 @@
           <entry key="class" value="2" />
           <entry key="html" value="3" />
           <entry key="iml" value="2" />
-          <entry key="java" value="195" />
+          <entry key="java" value="203" />
           <entry key="js" value="2" />
-          <entry key="json" value="3" />
-          <entry key="xml" value="109" />
-          <entry key="yml" value="56" />
+          <entry key="json" value="4" />
+          <entry key="xml" value="117" />
+          <entry key="yml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,35 +953,50 @@
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="195" />
-          <entry key="JSON" value="3" />
+          <entry key="JAVA" value="203" />
+          <entry key="JSON" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="XML" value="109" />
-          <entry key="YAML" value="56" />
+          <entry key="XML" value="117" />
+          <entry key="YAML" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="109" />
-          <entry key="java" value="351" />
+          <entry key="dummy" value="123" />
+          <entry key="java" value="422" />
           <entry key="js" value="1" />
-          <entry key="xml" value="337" />
-          <entry key="yml" value="72" />
+          <entry key="xml" value="343" />
+          <entry key="yml" value="319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="351" />
+          <entry key="JAVA" value="422" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="109" />
-          <entry key="XML" value="337" />
-          <entry key="YAML" value="72" />
+          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="XML" value="343" />
+          <entry key="YAML" value="319" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lxt-web/src/main/java/com/lxt/ms/WebApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -111,12 +1034,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/lxt-config/pom.xml" />
-        <option value="$PROJECT_DIR$/lxt-config/src/main/java/com/lxt/ms/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/lxt-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/lxt-consumer/src/main/java/com/lxt/ms/consumer/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/chenjia/manage/chat/ChatServer.java" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/CacheUtils.java" />
         <option value="$PROJECT_DIR$/lxt-common/pom.xml" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/resources/templates/static/js/app.js" />
@@ -160,8 +1077,14 @@
         <option value="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/config/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/lxt-manage/pom.xml" />
-        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lxt-eureka/src/main/java/com/lxt/ms/EurekaApplication.java" />
+        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" />
+        <option value="$PROJECT_DIR$/lxt-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lxt-web/pom.xml" />
+        <option value="$PROJECT_DIR$/lxt-web/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lxt-web/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/lxt-web/src/main/java/com/lxt/ms/WebApplication.java" />
       </list>
     </option>
   </component>
@@ -187,26 +1110,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-chat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-chat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-manage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-manage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -223,8 +1127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,12 +1139,50 @@
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lxt" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lxt" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lxt" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lxt" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lxt" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,7 +1198,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539171239301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539222341033" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -266,11 +1209,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lxt-web/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/lxt-web/src/main" />
       <recent name="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/config" />
       <recent name="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat" />
       <recent name="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/" />
-      <recent name="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/server" />
-      <recent name="$PROJECT_DIR$/lxt-chat/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,22 +1234,9 @@
     </option>
     <option name="contentProportion" value="0.23357664" />
   </component>
-  <component name="RunManager" selected="Application.SecurityUtils">
-    <configuration name="SecurityUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.common.utils.SecurityUtils" />
-      <module name="lxtcommon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxt.ms.common.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="lxtchat" />
+      <module name="lxt-chat" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lxt.ms.*" />
@@ -327,6 +1257,19 @@
     </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lxtconfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lxt-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxt.ms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -353,9 +1296,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lxt-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxt.ms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lxtmanage" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ManageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lxt-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxt.ms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ManageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lxtweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxt.ms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.WebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,13 +1349,19 @@
       <item itemvalue="Spring Boot.CommonApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Application.SecurityUtils" />
-      <item itemvalue="Spring Boot.ChatApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication (1)" />
+      <item itemvalue="Spring Boot.ManageApplication (1)" />
+      <item itemvalue="Spring Boot.ChatApplication (1)" />
+      <item itemvalue="Spring Boot.GatewayApplication (1)" />
+      <item itemvalue="Spring Boot.WebApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecurityUtils" />
-        <item itemvalue="Spring Boot.ChatApplication" />
+        <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication (1)" />
+        <item itemvalue="Spring Boot.ChatApplication (1)" />
+        <item itemvalue="Spring Boot.ManageApplication (1)" />
+        <item itemvalue="Spring Boot.ConfigApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -393,17 +1381,19 @@
       <workItem from="1539049697777" duration="13082000" />
       <workItem from="1539071419139" duration="183000" />
       <workItem from="1539072248859" duration="7786000" />
-      <workItem from="1539132182726" duration="23017000" />
+      <workItem from="1539132182726" duration="23567000" />
+      <workItem from="1539217836465" duration="4070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57998000" />
+    <option name="totallyTimeSpent" value="62618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27539343" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,7 +1403,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33941093" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22440393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22440393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,13 +1415,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32959327" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49928468" weight="0.40112203" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49928468" visible="true" weight="0.39551193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -457,99 +1447,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/Process.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ProcessCategoryExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatRecordExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/DepartmentExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriendCategory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/server/ChatSessionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatRecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/OrganizationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-872">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ProcessCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ProcessMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/UserSettingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/resources/dwr-spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -613,9 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,26 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/GatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,13 +1589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/config/PageHelperConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/config/PageHelperConfig.java" />
     <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1013">
@@ -750,13 +1618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -775,9 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
           <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,6 +1643,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-eureka/src/main/java/com/lxt/ms/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-config/src/main/java/com/lxt/ms/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-eureka/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-eureka/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="15" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/src/main/resources/templates/chcp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2301">
+          <caret line="105" column="12" selection-start-line="64" selection-start-column="4" selection-end-line="105" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/src/main/java/com/lxt/ms/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -840,7 +1824,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lxtchat</last-edited>
+          <last-edited>lxt-upload</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

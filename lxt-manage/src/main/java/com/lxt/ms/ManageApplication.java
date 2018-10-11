@@ -18,9 +18,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableCaching
 @EnableCircuitBreaker
 @EnableDiscoveryClient
-//@EnableTransactionManagement
 @MapperScan("com.lxt.ms.manage.mapper")
-@ImportResource("classpath:dwr-spring-config.xml")
 @SpringBootApplication
 public class ManageApplication{
 

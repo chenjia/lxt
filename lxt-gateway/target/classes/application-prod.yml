@@ -1,0 +1,57 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 300
+    serviceUrl:
+      defaultZone: http://localhost:8100/lxt-eureka/eureka/,http://localhost:8200/lxt-eureka/eureka/
+
+filterUrl: /lxt-manage/api/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+            ribbon:
+              ReadTimeout:1000
+              ConnectTimeout:1000
+
+ignoreUrl: /lxt-manage/api/upload
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+
+safeApi: /api/user/captcha,/api/user/login
+
+safeDomain: http://localhost:8888,http://localhost:8080,http://47.100.119.102:8888,http://47.100.119.102:8080,https://chenjia1989.gitlab.io:80,https://chenjia.github.io:80
+
+server:
+  port: 8800
+  servlet:
+    contextPath: /lxt-gateway
+
+spring:
+  application:
+    name: lxt-gateway
+  devtools:
+    restart:
+      enable: true
+      additional-paths: src/main/java
+  resources: 
+    static-locations: classpath:/templates/
+  thymeleaf:
+    prefix: classpath:/templates/
+
+zuul:
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+  routes:
+    lxt-manage:
+      path: /lxt-manage/**
+      serviceId: lxt-manage
+      stripPrefix: false

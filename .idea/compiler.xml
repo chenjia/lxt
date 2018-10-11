@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lxt-chat" />
+        <module name="lxt-common" />
+        <module name="lxt-config" />
+        <module name="lxt-consumer" />
+        <module name="lxt-eureka" />
+        <module name="lxt-gateway" />
+        <module name="lxt-manage" />
+        <module name="lxt-upload" />
+        <module name="lxtweb" />
+        <module name="lxtworkflow" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lxt" target="1.8" />
+      <module name="lxt-chat" target="1.8" />
+      <module name="lxt-common" target="1.8" />
+      <module name="lxt-config" target="1.8" />
+      <module name="lxt-consumer" target="1.8" />
+      <module name="lxt-eureka" target="1.8" />
+      <module name="lxt-gateway" target="1.8" />
+      <module name="lxt-manage" target="1.8" />
+      <module name="lxt-upload" target="1.8" />
+      <module name="lxtweb" target="1.8" />
+      <module name="lxtworkflow" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

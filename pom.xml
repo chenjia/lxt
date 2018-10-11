@@ -30,6 +30,8 @@
         <module>lxt-config</module>
         <module>lxt-chat</module>
         <module>lxt-upload</module>
+        <module>lxt-workflow</module>
+        <module>lxt-web</module>
     </modules>
 
     <dependencies>
