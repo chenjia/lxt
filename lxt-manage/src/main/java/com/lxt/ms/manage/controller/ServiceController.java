@@ -72,28 +72,6 @@ public class ServiceController {
 		return pkg;
 	}
 
-	@ResponseBody
-	@RequestMapping(value = "/api/upload", method = RequestMethod.POST)
-	public ResponseWrapper upload(@RequestParam("file") MultipartFile file) throws Exception {
-		String fileName = file.getOriginalFilename();
-		int size = (int) file.getSize();
-		System.out.println(fileName + "-->" + size);
-
-		File dest = new File(uploadPath + "/" + UUIDUtils.UUID()+fileName.substring(fileName.lastIndexOf(".")));
-		if (!dest.getParentFile().exists()) { // 判断文件父目录是否存在
-			dest.getParentFile().mkdir();
-		}
-		try {
-			file.transferTo(dest); // 保存文件
-		} catch (IllegalStateException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		return null;
-	}
-
 	@SuppressWarnings("unchecked")
 	private Packages callService(String service, String method, Packages pkg) {
 		Packages result = pkg;

@@ -27,9 +27,9 @@ public class ResponseFilter extends ZuulFilter {
 	@Value("${safeApi}")
 	private String safeApi;
 	
-	@Value("${ignoreUrl}")
-    private String ignoreUrl;
-	
+	@Value("${unencryptedApi}")
+    private String unencryptedApi;
+
 	@Override
 	public Object run() throws ZuulException {
 		RequestContext ctx = RequestContext.getCurrentContext();

@@ -3,7 +3,6 @@ package com.lxt.ms;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.directwebremoting.spring.DwrSpringServlet;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -26,29 +25,6 @@ public class ManageApplication{
 		SpringApplication.run(ManageApplication.class, args);
 	}
 	
-	@Bean
-    public ServletRegistrationBean servletRegistrationBean() {
-        DwrSpringServlet servlet = new DwrSpringServlet();
-        ServletRegistrationBean registrationBean = new ServletRegistrationBean(servlet, "/chatEngine/*");
-        Map<String, String> initParameters = new HashMap<String, String>();
-        
-        initParameters.put("accessLogLevel","runtimeexception");
-        initParameters.put("activeReverseAjaxEnabled","true");
-        initParameters.put("allowScriptTagRemoting","true");
-        initParameters.put("debug", "true");
-        initParameters.put("initApplicationScopeCreatorsAtStartup","true");
-        initParameters.put("jsonRpcEnabled","true");
-        initParameters.put("jsonpEnabled","true");
-        initParameters.put("maxWaitAfterWrite","500");
-        initParameters.put("overridePath","/lxt-gateway/lxt-manage/chatEngine");
-        initParameters.put("preferDataUrlSchema","false");
-        initParameters.put("scriptSessionTimeout","1800000");
-        
-        registrationBean.setInitParameters(initParameters);
-        return registrationBean;
-    }
-
-
 //	@Bean
 //    public FilterRegistrationBean someFilterRegistration() {
 //        FilterRegistrationBean registration = new FilterRegistrationBean();

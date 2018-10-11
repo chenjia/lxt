@@ -22,15 +22,20 @@ public class FallbackConfig implements FallbackProvider {
 
 	@Override
 	public String getRoute() {
-		return "lxt-manage";
+		return "*";
 	}
 
 	@Override
 	public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
-		if (cause != null && cause.getCause() != null) {
-			String reason = cause.getCause().getMessage();
-			System.out.println("\n[fallback]"+reason+"\n");
-		}
+//		if (cause != null && cause.getCause() != null) {
+//			System.out.println(cause.getMessage());
+//			String reason = cause.getCause().getMessage();
+//			System.out.println("\n[fallback]"+reason+"\n");
+//		}
+
+		System.out.println("【fallback msg】"+cause.getMessage());
+		System.out.println("【fallback cause】"+cause.getCause().getMessage());
+
 		
 		return new ClientHttpResponse() {
 			

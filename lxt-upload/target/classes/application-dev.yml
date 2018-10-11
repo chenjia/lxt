@@ -1,28 +1,28 @@
 eureka:
   client:
-    registryFetchIntervalSeconds: 3
+    registryFetchIntervalSeconds: 300
     serviceUrl:
       defaultZone: http://localhost:8100/lxt-eureka/eureka/
 file:
-  uploadPath: ~/uploadFiles
+  uploadPath: /Users/farben/uploadFiles
 log:
   path: ~/logs
   level: error
 mapper:
-  mappers: com.lxt.ms.manage.mapper
+  mappers: com.lxt.ms.upload.mapper
   not-empty: false
   identity: MYSQL
 mybatis:
   mapper-locations: com/lxt/ms/**/*Mapper.xml
-  type-aliases-package: com.lxt.ms.manage.model
+  type-aliases-package: com.lxt.ms.upload.model
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 pagehelper:
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql
-    returnPageInfo: check
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  returnPageInfo: check
 safeApi: /api/user/captcha,/api/user/login
 safeDomain: http://localhost:8888,http://localhost:8080,http://localhost:8300
 security:
@@ -30,12 +30,12 @@ security:
     resource:
       filter-order: 3
 server:
-  port: 8300
+  port: 8311
   servlet:
-    contextPath: /lxt-manage
+    contextPath: /lxt-upload
 spring:
   application:
-    name: lxt-manage
+    name: lxt-upload
   datasource:
     url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
     username: root
@@ -73,7 +73,7 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
-  resources: 
+  resources:
     static-locations: classpath:/templates/
   thymeleaf:
     prefix: classpath:/templates/

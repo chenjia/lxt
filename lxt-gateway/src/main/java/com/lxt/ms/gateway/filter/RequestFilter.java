@@ -35,8 +35,8 @@ public class RequestFilter extends ZuulFilter{
 	@Value("${safeApi}")
 	private String safeApi;
 	
-	@Value("${ignoreUrl}")
-    private String ignoreUrl;
+	@Value("${unencryptedApi}")
+    private String unencryptedApi;
 	
 	@Override
 	public Object run() throws ZuulException{
@@ -49,7 +49,7 @@ public class RequestFilter extends ZuulFilter{
 		String contextPath = request.getContextPath();
 		String uri = request.getRequestURI().replaceAll(contextPath, "");
 
-		if (!StringUtils.contains(ignoreUrl, uri)) {
+		if (!StringUtils.contains(unencryptedApi, uri)) {
 			String encryptedText = request.getParameter("request");
 			Packages pkg = null;
 			String decryptedText = null;
@@ -66,14 +66,17 @@ public class RequestFilter extends ZuulFilter{
 				String userId = pkg.getHead().getUserId();
 
 				if (!StringUtils.isEmpty(userId)) {
-					Map<String, Object> claimMap = new HashMap<String, Object>();
-					claimMap.put("userId", userId);
-					Map<String, Object> map = JWTUtils.parse(token);
-					if (map != null) {
-						return null;
-					} else {
+					try {
+						Map<String, Object> map = JWTUtils.parse(token);
+						if(!userId.equals(map.get("userId"))){
+							pkg.getHead().setStatus(500);
+							pkg.getHead().setMsg("token验证失败！");
+							ctx.setSendZuulResponse(false);
+						}
+					} catch (Exception e) {
+						e.printStackTrace();
 						pkg.getHead().setStatus(500);
-						pkg.getHead().setMsg("token验证失败！");
+						pkg.getHead().setMsg("token转换失败！");
 						ctx.setSendZuulResponse(false);
 					}
 				}

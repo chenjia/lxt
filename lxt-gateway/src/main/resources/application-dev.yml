@@ -1,10 +1,10 @@
 eureka:
   client:
-    registryFetchIntervalSeconds: 300
+    registryFetchIntervalSeconds: 3
     serviceUrl:
       defaultZone: http://localhost:8100/lxt-eureka/eureka/
 
-filterUrl: /lxt-manage/api/
+filterUrl: /lxt-manage/api/,/lxt-upload/api/,/lxt-chat/api/,/lxt-workflow/api/
 
 hystrix:
   command:
@@ -17,7 +17,7 @@ hystrix:
               ReadTimeout:1000
               ConnectTimeout:1000
 
-ignoreUrl: /lxt-manage/api/upload
+unencryptedApi: /lxt-upload/api/upload
 
 ribbon:
   ReadTimeout: 60000
@@ -55,6 +55,10 @@ zuul:
     lxt-chat:
       path: /lxt-chat/**
       serviceId: lxt-chat
+      stripPrefix: false
+    lxt-upload:
+      path: /lxt-upload/**
+      serviceId: lxt-upload
       stripPrefix: false
     lxt-manage:
       path: /lxt-manage/**

@@ -2,9 +2,9 @@ eureka:
   client:
     registryFetchIntervalSeconds: 300
     serviceUrl:
-      defaultZone: http://localhost:8100/lxt-eureka/eureka/,http://localhost:8200/lxt-eureka/eureka/
+      defaultZone: http://localhost:8100/lxt-eureka/eureka/
 
-filterUrl: /lxt-manage/api/
+filterUrl: /lxt-manage/api/,/lxt-upload/api/,/lxt-chat/api/,/lxt-workflow/api/
 
 hystrix:
   command:
@@ -17,7 +17,7 @@ hystrix:
               ReadTimeout:1000
               ConnectTimeout:1000
 
-ignoreUrl: /lxt-manage/api/upload
+unencryptedApi: /lxt-upload/api/upload
 
 ribbon:
   ReadTimeout: 60000
@@ -25,12 +25,13 @@ ribbon:
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 1
 
+
 safeApi: /api/user/captcha,/api/user/login
 
-safeDomain: http://localhost:8888,http://localhost:8080,http://47.100.119.102:8888,http://47.100.119.102:8080,https://chenjia1989.gitlab.io:80,https://chenjia.github.io:80
+safeDomain: http://localhost:8888,http://localhost:8080
 
 server:
-  port: 8800
+  port: 8700
   servlet:
     contextPath: /lxt-gateway
 
@@ -41,7 +42,7 @@ spring:
     restart:
       enable: true
       additional-paths: src/main/java
-  resources: 
+  resources:
     static-locations: classpath:/templates/
   thymeleaf:
     prefix: classpath:/templates/
@@ -51,6 +52,14 @@ zuul:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
   routes:
+    lxt-chat:
+      path: /lxt-chat/**
+      serviceId: lxt-chat
+      stripPrefix: false
+    lxt-upload:
+      path: /lxt-upload/**
+      serviceId: lxt-upload
+      stripPrefix: false
     lxt-manage:
       path: /lxt-manage/**
       serviceId: lxt-manage
