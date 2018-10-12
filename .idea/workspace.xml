@@ -2,862 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/ImageUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/ChatApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DepartmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DepartmentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryTypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/NodeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/NodeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/OrganizationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/OrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessCategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserSettingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Organization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Process.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessWithBLOBs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSetting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatSessionFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatSessionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatSessionManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatFriendCategoryVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatFriendVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatGroupVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatRecordVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ContactVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/DepartmentVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/OrganizationVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/TaskVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/UserVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/WorkflowVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/dwr-spring-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/templates/chatFrame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JWTUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JWTUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/JWTUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/JWTUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-eureka/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/config/FallbackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/config/FallbackConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/RequestFilter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/RequestFilter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/RequestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/RequestFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/ResponseFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/ResponseFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/resources/dwr-spring-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/ManageApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/ManageApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/controller/ServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/controller/ServiceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/dwr-spring-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/UploadApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/src/test/java/com/lxt/ms/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/com/lxt/ms/WebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/chcp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/chcp.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/html/baiduMap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/html/empty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/banner/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/banner/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/banner/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/banner/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/banner/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/captcha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/female.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/gallery/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/gallery/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/gallery/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/gallery/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/gallery/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/head.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/head_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/lock-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/male.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/no_smoking.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/pdf/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/smoking.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/img/yes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/chat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/lazyLibs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/lock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/setting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/vendor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/workflow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/js/zoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mobiscroll/css/icons_mobiscroll.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mobiscroll/css/icons_mobiscroll.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mobiscroll/css/icons_mobiscroll.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mobiscroll/css/icons_mobiscroll.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mobiscroll/css/mobiscroll.javascript.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mobiscroll/js/mobiscroll.javascript.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/css/mui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/css/mui.picker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/css/mui.poppicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/fonts/mui.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/js/mui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/js/mui.picker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/js/mui.picker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mui/js/mui.poppicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/anchors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/animation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/autolayout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/boundary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/clipboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/codec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/collapse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/constituent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/contexticons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/control.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/dragsource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/drop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/dynamicloading.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/dynamicstyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/dynamictoolbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/edgetolerance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/diagrameditor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/editor-commons.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/keyhandler-commons.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/keyhandler-minimal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/layouteditor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/processeditor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/wfeditor-commons.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/wfgraph-commons.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/wftoolbar-commons.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/config/workfloweditor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/css/process.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/css/wordpress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/diagrameditor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/diagrams/empty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/diagrams/swimlanes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/diagrams/travel-booking.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/diagrams/withdrawal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/grapheditor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/help/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/help/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/actor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/alignbottom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/aligncenter.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/alignleft.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/alignmiddle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/alignright.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/aligntop.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/bell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/block_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/block_start.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/bold.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/bottom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/camera.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/center.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/classic_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/classic_start.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/cloud.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/cmp-bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/connect.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/connector.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/console.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/copy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/cube_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/cut.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/cylinder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/delete.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/diagram.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/diamond_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/diamond_start.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/doubleellipse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/draw/drawbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/draw/drawbgcolor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/draw/drawfooter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/draw/drawheader.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/draw/mxlogo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/dude3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/ellipse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/entity.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/fillcolor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/fit.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/font.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/fontcolor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/gear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/gear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/grid.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/help.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/hexagon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/hline.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/house.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/image.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/italic.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/left.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/linecolor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/link.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/middle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/new.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/open.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/open_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/open_start.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/outline.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/oval_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/oval_start.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/flash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/forbidden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/information.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/lightbulb_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/pencil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/printer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/user3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/users3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/overlays/workplace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/package.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/pan.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/paste.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/plain.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/preferences.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/press.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/preview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/print.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/printer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/properties.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/rectangle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/redo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/refresh.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/rhombus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/right.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/rounded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/save.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/saveas.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/script.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/select.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/server.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/straight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/swimlane.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/cancel_end.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/cancel_intermediate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/event.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/event_end.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/event_intermediate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/fork.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/inclusive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/link.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/merge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/message_end.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/message_intermediate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/multiple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/rule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_cancel_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_cancel_intermediate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_error.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_event.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_event_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_event_intermediate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_fork.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_inclusive.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_link.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_merge.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_message.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_message_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_message_intermediate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_multiple.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_rule.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_terminate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/small_timer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/terminate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/symbols/timer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/tasks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/text.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/toback.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/tofront.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/toolbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/top.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/tree.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/triangle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/underline.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/undo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/ungroup.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/vertical.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/workplace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/wrench.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/zoom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/zoomactual.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/zoomin.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/images/zoomout.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/layouteditor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/processeditor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/resources/app.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/resources/app_de.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/resources/app_zh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/editors/workfloweditor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/events.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/extendcanvas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/fileio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/fileio.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/fileio.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/fixedicon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/fixedpoints.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/folding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/deflate/base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/deflate/pako.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/checkmark.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/clear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/collapsed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/dropdown.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/dropdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/edit.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/expanded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/grid.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-fixed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-rotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-secondary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/handle-terminal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/locked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/nocolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/round-drop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/tooltip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/transparent.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/triangle-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/images/unlocked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Dialogs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/EditorUi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Format.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Graph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Menus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Shapes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/js/Toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/cross.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/hs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/hv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/jscolor/jscolor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/open.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/resources/grapheditor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/resources/grapheditor_de.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/resources/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/resources/help_de.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/sanitizer/sanitizer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/arrows.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/basic.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/bpmn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Credit_Card_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Database_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Doctor1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Earth_globe_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Email_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Empty_Folder_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Firewall_02_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Full_Folder_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Gear_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Graph_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Laptop_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Lock_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/MacBook_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Monitor_Tower_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Piggy_Bank_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Pilot1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Printer_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Router_Icon_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Safe_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Security1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Server_Tower_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Shopping_Cart_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Software_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Soldier1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Suit1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Suit2_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Suit3_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Tech1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Telesales1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Virtual_Machine_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Virus_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Wireless_Router_N_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Worker1_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/Workstation_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/iMac_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/clipart/iPad_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/stencils/flowchart.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/grapheditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/help.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/thumb_horz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/thumb_vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/styles/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grapheditor/www/viewer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/graphlayout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/guides.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/handles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/helloport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/helloworld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/hierarchicallayout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/hovericons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/hoverstyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/htmllabel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/ie9svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/connector.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/cut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/delete2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/dot.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/export1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/fit_to_size.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/gradient_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/green-dot.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/handle-connect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/handle-main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/icons48/column.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/icons48/earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/icons48/gear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/icons48/keys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/icons48/mail_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/icons48/server.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/icons48/table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/key.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/navigate_minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/navigate_plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/paste.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/press32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/print32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/printer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/redo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/sidebar_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/toolbar_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/undo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/view_1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/view_1_132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/view_next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/view_previous.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/wires-grid.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/zoom_in.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/zoom_in32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/zoom_out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/images/zoom_out32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/indicators.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/jsondata.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/labelposition.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/labels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/layers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/lod.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/images/layers-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/images/layers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/images/marker-icon-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/images/marker-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/images/marker-shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/leaflet-src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/leaflet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/leaflet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map-background/map-background.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/markers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/menustyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/merge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/monitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/morph.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/offpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/orgchart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/orthogonal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/overlays.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/pagebreaks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/perimeter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/permissions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/portrefs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/ports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/radialtreelayout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/resources.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/schema.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/scrollbars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/secondlabel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/serverview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/shape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/showregion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/standardsmode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/stencils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/stencils.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/stylesheet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/swimlanes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/thread.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/toolbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/touch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/uiconfig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/uiconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/userobject.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/validation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/visibility.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/webpack/anchors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/webpack/src/anchors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/windows.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/wires.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/examples/wrapping.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/mxClient.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/mxClient.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/css/explorer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/button.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/collapsed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/error.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/expanded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/maximize.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/minimize.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/normalize.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/point.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/resize.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/separator.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/submenu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/transparent.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/warning.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/window-title.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/images/window.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/editor/mxDefaultKeyHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/editor/mxDefaultPopupMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/editor/mxDefaultToolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/editor/mxEditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxCellHighlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxCellMarker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxCellTracker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxConnectionHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxConstraintHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxEdgeHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxEdgeSegmentHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxElbowEdgeHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxGraphHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxHandle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxKeyHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxPanningHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxPopupMenuHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxRubberband.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxSelectionCellsHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxTooltipHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/handler/mxVertexHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxCellCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxChildChangeCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxCodecRegistry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxDefaultKeyHandlerCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxDefaultPopupMenuCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxDefaultToolbarCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxEditorCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxGenericChangeCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxGraphCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxGraphViewCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxModelCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxObjectCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxRootChangeCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxStylesheetCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/io/mxTerminalChangeCodec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphAbstractHierarchyCell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphHierarchyEdge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphHierarchyModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxGraphHierarchyNode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/model/mxSwimlaneModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/mxHierarchicalLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/mxSwimlaneLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxCoordinateAssignment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxHierarchicalLayoutStage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxMedianHybridCrossingReduction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxMinimumCycleRemover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/hierarchical/stage/mxSwimlaneOrdering.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxCircleLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxCompactTreeLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxCompositeLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxEdgeLabelLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxFastOrganicLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxGraphLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxParallelEdgeLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxPartitionLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxRadialTreeLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/layout/mxStackLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/model/mxCell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/model/mxCellPath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/model/mxGeometry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/model/mxGraphModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/mxClient.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxActor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxArrow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxArrowConnector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxCloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxConnector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxCylinder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxDoubleEllipse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxEllipse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxHexagon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxImageShape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxLabel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxLine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxMarker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxPolyline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxRectangleShape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxRhombus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxShape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxStencil.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxStencilRegistry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxSwimlane.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/shape/mxTriangle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxAbstractCanvas2D.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxAnimation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxAutoSaveManager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxClipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxConstants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxDictionary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxDivResizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxDragSource.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxEffects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxEvent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxEventObject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxEventSource.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxGuide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxImage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxImageBundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxImageExport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxLog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxMorphing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxMouseEvent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxObjectIdentity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxPanningManager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxPoint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxPopupMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxRectangle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxResources.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxSvgCanvas2D.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxToolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxUndoManager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxUndoableEdit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxUrlConverter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxVmlCanvas2D.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxWindow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxXmlCanvas2D.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/util/mxXmlRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxCellEditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxCellOverlay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxCellRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxCellState.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxCellStatePreview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxConnectionConstraint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxEdgeStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxGraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxGraphSelectionModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxGraphView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxLayoutManager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxMultiplicity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxOutline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxPerimeter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxPrintPreview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxStyleRegistry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxStylesheet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxSwimlaneManager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/js/view/mxTemporaryCellStates.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/resources/editor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/resources/editor_de.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/resources/editor_zh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/resources/graph.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/resources/graph_de.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/mxgraph/src/resources/graph_zh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/security/mode-ecb-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/security/mode-ecb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/lib/security/tripledes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/target/classes/templates/static/media/7957a8f7246d2caf1e552e1a989f37f6.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/com/lxt/ms/upload/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/com/lxt/ms/upload/controller/UploadController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
@@ -880,14 +30,15 @@
     <session id="-487909995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -895,7 +46,7 @@
           <entry key="class" value="2" />
           <entry key="html" value="3" />
           <entry key="iml" value="2" />
-          <entry key="java" value="266" />
+          <entry key="java" value="274" />
           <entry key="js" value="2" />
           <entry key="json" value="4" />
           <entry key="xml" value="129" />
@@ -907,7 +58,7 @@
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="266" />
+          <entry key="JAVA" value="274" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="2" />
           <entry key="XML" value="129" />
@@ -917,7 +68,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="140" />
-          <entry key="java" value="1437" />
+          <entry key="java" value="2610" />
           <entry key="js" value="1" />
           <entry key="xml" value="377" />
           <entry key="yml" value="428" />
@@ -925,7 +76,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1437" />
+          <entry key="JAVA" value="2610" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="140" />
           <entry key="XML" value="377" />
@@ -936,35 +87,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/UploadApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="256">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -972,8 +102,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="100">
+              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/ImageUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="54" column="74" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1015,6 +160,9 @@
       <find>ignore</find>
       <find>if</find>
       <find>jwtutils</find>
+      <find>try \{\n\ \ \ BASE64Decoder decoder \= new sun\.misc\.BASE64Decoder\(\)\;\n\ \ \ byte\[\] bytes1 \= decoder\.decodeBuffer\(base64url\)\;\n\n\ \ \ ByteArrayInputStream bais \= new ByteArrayInputStream\(bytes1\)\;\n\ \ \ RenderedImage bi1 \= ImageIO\.read\(bais\)\;\n            String fileName \= UUIDUtils\.UUID\(\) \+ \&quot;\.jpeg\&quot;\;\n\ \ \ File w2 \= new File\(uploadPath \+ \&quot;\/\&quot; \+ fileName\)\;\/\/ 可以是jpg\,png\,gif格式\n\ \ \ if\(\!w2\.exists\(\)\)\{\n\ \ \ \ w2\.createNewFile\(\)\;\n\ \ \ \ System\.out\.println\(\&quot;no exist\=\=\=\=\=\&quot;\)\;\n\ \ \ \}\n\ \ \ System\.out\.println\(\&quot;pass\.\.\.\.\.\.\.\.\.\.\.\&quot;\)\;\n\ \ \ return ImageIO\.write\(bi1\, \&quot;jpg\&quot;\, w2\)\;\/\/ 不管输出什么格式图片\，此处不需改动\n\ \ \} catch \(IOException e\) \{\n\ \ \ e\.printStackTrace\(\)\;\n\ \ \ return false\;\n\ \ \}</find>
+      <find> </find>
+      <find>imageutils</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -1030,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/lxt-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/lxt-gateway/src/main/resources/application.yml" />
@@ -1076,11 +223,12 @@
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/bean/web/ResponseWrapper.java" />
         <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JWTUtils.java" />
-        <option value="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/lxt-manage/pom.xml" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" />
         <option value="$PROJECT_DIR$/lxt-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/ImageUtils.java" />
       </list>
     </option>
   </component>
@@ -1133,6 +281,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1164,24 +315,12 @@
               <item name="lxt-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-upload" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1191,7 +330,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539256474229" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539339268448" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1228,7 +367,20 @@
     </option>
     <option name="contentProportion" value="0.23357664" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UploadApplication">
+  <component name="RunManager" selected="Application.ImageUtils">
+    <configuration name="ImageUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.common.utils.ImageUtils" />
+      <module name="lxt-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxt.ms.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lxt-chat" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ChatApplication" />
@@ -1259,19 +411,6 @@
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lxt-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="lxt-eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxt.ms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.EurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1332,19 +471,19 @@
       <item itemvalue="Spring Boot.ChatApplication" />
       <item itemvalue="Spring Boot.CommonApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ManageApplication" />
       <item itemvalue="Spring Boot.UploadApplication" />
+      <item itemvalue="Application.ImageUtils" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManageApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.UploadApplication" />
+        <item itemvalue="Application.ImageUtils" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.ManageApplication" />
         <item itemvalue="Spring Boot.ConfigApplication" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1367,12 +506,13 @@
       <workItem from="1539132182726" duration="23567000" />
       <workItem from="1539217836465" duration="27768000" />
       <workItem from="1539254414569" duration="1124000" />
-      <workItem from="1539255637474" duration="899000" />
+      <workItem from="1539255637474" duration="1024000" />
+      <workItem from="1539304620428" duration="22777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88339000" />
+    <option name="totallyTimeSpent" value="111241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1387,7 +527,7 @@
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16165951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1409,7 +549,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32959327" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49928468" visible="true" weight="0.44319776" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49928468" visible="true" weight="0.39691445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1480,13 +620,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1013">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/config/JedisRedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1625,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="60" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5044">
@@ -1715,24 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1767,13 +879,6 @@
     <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-manage/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1788,10 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="990">
+          <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1805,10 +910,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1487">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/UploadApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="256">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="54" column="74" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

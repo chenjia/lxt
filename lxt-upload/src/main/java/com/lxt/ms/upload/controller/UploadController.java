@@ -2,6 +2,7 @@ package com.lxt.ms.upload.controller;
 
 import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.bean.web.ResponseWrapper;
+import com.lxt.ms.common.utils.ImageUtils;
 import com.lxt.ms.common.utils.JSONUtils;
 import com.lxt.ms.common.utils.UUIDUtils;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,11 +14,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import sun.misc.BASE64Decoder;
 
+import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.awt.image.RenderedImage;
+import java.io.*;
+import java.net.URLEncoder;
 import java.util.Map;
 
 @Controller
@@ -27,7 +28,7 @@ public class UploadController {
 
     @ResponseBody
     @RequestMapping(value = "/api/uploadFile", method = RequestMethod.POST)
-    public ResponseWrapper upload(@RequestParam("file") MultipartFile file) throws Exception {
+    public Packages upload(@RequestParam("file") MultipartFile file) throws Exception {
         Packages result = new Packages();
         String fileName = file.getOriginalFilename();
         int size = (int) file.getSize();
@@ -46,44 +47,30 @@ public class UploadController {
             result.getHead().setMsg("文件上传失败:" + e.getMessage().substring(0, msgLength));
         }
 
-        return new ResponseWrapper(result);
+        return result;
     }
 
     @ResponseBody
     @RequestMapping(value = "/api/uploadImg", method = RequestMethod.POST)
-    public ResponseWrapper uploadImg(HttpServletRequest request) throws Exception {
+    public Packages uploadImg(HttpServletRequest request) throws Exception {
         String encryptedText = request.getParameter("request");
-        System.out.println(encryptedText + "\n");
-        Packages pkg = JSONUtils.json2Obj(encryptedText, Packages.class);
+        Packages result = JSONUtils.json2Obj(encryptedText, Packages.class);
 
-        Map<String, String> params = (Map<String, String>) pkg.getBody().getData();
+        Map<String, String> params = (Map<String, String>) result.getBody().getData();
         String base64url = params.get("base64url");
+        String type = params.get("type");
 
-        Packages result = new Packages();
-        BASE64Decoder decoder = new BASE64Decoder();
         try {
-            byte[] b = decoder.decodeBuffer(base64url);
-            for(int i=0;i<b.length;++i) {
-                if(b[i]<0) {
-                    b[i]+=256;
-                }
-            }
-            File dest = new File(uploadPath + "/" + UUIDUtils.UUID() + ".jpeg");
-            if (!dest.getParentFile().exists()) {
-                dest.getParentFile().mkdir();
-            }
-            OutputStream out = new FileOutputStream(dest);
-            out.write(b);
-            out.flush();
-            out.close();
-        }
-        catch (Exception e) {
+            String fileName = ImageUtils.base64ToImageMin(base64url, uploadPath, type);
+
+            result.getBody().setData(fileName);
+        } catch (Exception e) {
             e.printStackTrace();
             result.getHead().setStatus(500);
             int msgLength = e.getMessage().length() > 100 ? 100 : e.getMessage().length();
             result.getHead().setMsg("图片上传失败:" + e.getMessage().substring(0, msgLength));
         }
 
-        return new ResponseWrapper(result);
+        return result;
     }
 }
