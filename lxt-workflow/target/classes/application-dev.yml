@@ -1,0 +1,79 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 3
+    serviceUrl:
+      defaultZone: http://localhost:8100/lxt-eureka/eureka/
+file:
+  uploadPath: ~/uploadFiles
+log:
+  path: ~/logs
+  level: error
+mapper:
+  mappers: com.lxt.ms.workflow.mapper
+  not-empty: false
+  identity: MYSQL
+mybatis:
+  mapper-locations: com/lxt/ms/**/*Mapper.xml
+  type-aliases-package: com.lxt.ms.workflow.model
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+    returnPageInfo: check
+safeApi: /api/user/captcha,/api/user/login
+safeDomain: http://localhost:8888,http://localhost:8080,http://localhost:8300
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+server:
+  port: 8331
+  servlet:
+    contextPath: /lxt-workflow
+spring:
+  application:
+    name: lxt-workflow
+  datasource:
+    url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 1
+    maxIdle: 1
+    minIdle: 1
+    initialSize: 1
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    maxOpenPreparedStatements: 20
+  devtools:
+    restart:
+      enable: true
+      additional-paths: src/main/java
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password:
+    timeout: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+  resources: 
+    static-locations: classpath:/templates/
+  thymeleaf:
+    prefix: classpath:/templates/

@@ -1,0 +1,68 @@
+.property-form{
+	padding:10px 0px;
+}
+.form-config-table tr{
+	height:40px;
+}
+.form-component{
+	width:210px;
+	height:30px;
+	line-height:30px;
+	padding:0px 10px;
+	background: none repeat scroll 0 0 #AACCFF;
+    border:2px solid #CCCCCC;
+}
+.grid{
+	background:url(../mxgraph/images/grid.gif) repeat;
+}
+.component-separate{
+	height:10px;
+}
+.drag-icon{
+	position:absolute;top:6px;right:5px;
+}
+.form-dropped-component{
+	position:absolute;
+	padding:4px;
+}
+.selection{
+	border:2px dashed green;
+	padding:2px;
+}
+.field-label{
+	font-family:"Î¢ÈíÑÅºÚ","Microsoft YaHei","ºÚÌå",Helvetica,Arial,Tahoma;
+	font-size:13px;
+}
+.field-button{
+	
+}
+.field-text{
+	background:none repeat scroll 0 0 #FAFAFA;
+    border:1px solid #CCCCCC;
+    height:20px;
+    width:135px;
+    padding:1px 2px;
+}
+.field-textarea{
+	background:none repeat scroll 0 0 #FAFAFA;
+    border:1px solid #CCCCCC;
+    height:20px;
+    width:135px;
+    padding:1px 2px;
+    vertical-align:middle;
+}
+.field-select{
+	background:none repeat scroll 0 0 #FAFAFA;
+    border:1px solid #CCCCCC;
+    height:20px;
+    width:135px;
+    padding:1px 2px;
+}
+.field-radio{
+	width:20px;
+	vertical-align:middle;
+}
+.field-checkbox{
+	width:20px;
+	vertical-align:middle;
+}

@@ -1,0 +1,16 @@
+.required{
+	font-family:tahoma;
+	font-size:14px;
+	font-weight:bold;
+	color:red;
+	position:relative;
+	top:4px;
+}
+.operation{
+	color:inherit;
+	text-decoration: none;
+}
+
+.operation:hover{
+	text-decoration: underline;
+}
