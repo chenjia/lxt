@@ -1,8 +1,8 @@
 eureka:
   client:
-    registryFetchIntervalSeconds: 3
+    registryFetchIntervalSeconds: 30
     serviceUrl:
-      defaultZone: http://localhost:8100/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/lxt-eureka/eureka/
 file:
   uploadPath: ~/uploadFiles
 log:
@@ -24,13 +24,13 @@ pagehelper:
     params: count=countSql
     returnPageInfo: check
 safeApi: /api/user/captcha,/api/user/login
-safeDomain: http://localhost:8888,http://localhost:8080,http://localhost:8300
+safeDomain: http://localhost,http://localhost:8888,http://47.100.119.102
 security:
   oauth2:
     resource:
       filter-order: 3
 server:
-  port: 8300
+  port: 8301
   servlet:
     contextPath: /lxt-manage
 spring:
@@ -73,7 +73,7 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
-  resources: 
+  resources:
     static-locations: classpath:/templates/
   thymeleaf:
     prefix: classpath:/templates/

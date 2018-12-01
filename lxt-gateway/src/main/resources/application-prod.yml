@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 300
     serviceUrl:
-      defaultZone: http://localhost:8100/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/lxt-eureka/eureka/
 
 filterUrl: /lxt-manage/api/,/lxt-upload/api/,/lxt-chat/api/,/lxt-workflow/api/
 
@@ -31,7 +31,7 @@ safeApi: /api/user/captcha,/api/user/login
 safeDomain: http://localhost:8888,http://localhost:8080
 
 server:
-  port: 8700
+  port: 8201
   servlet:
     contextPath: /lxt-gateway
 

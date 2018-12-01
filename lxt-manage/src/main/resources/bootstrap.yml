@@ -9,6 +9,6 @@ management:
 spring:
   cloud:
     config:
-     profile: dev
-     label: master
-     uri: http://localhost:8900/lxt-config
+      profile: dev
+      label: master
+      uri: http://localhost:8900/lxt-config

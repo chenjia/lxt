@@ -5,5 +5,11 @@ server:
 spring:
   application:
     name: lxt-web
+  devtools:
+    restart:
+      enable: true
+      additional-paths: src/main
   resources: 
     static-locations: classpath:/templates/
+  thymeleaf:
+    cache: false

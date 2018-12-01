@@ -6,23 +6,28 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
 public class MapUtils {
-    public static void main(String[] args) throws IOException {
-        MapUtils utils = new MapUtils();
+//    public static void main(String[] args) throws IOException {
+//        MapUtils utils = new MapUtils();
+//
+//        Map<String,Object> map = utils.getLngAndLat("陈家镇安若路58弄");
+//        if("OK".equals(map.get("status"))){
+//            Map<String, Object> temp = (Map)((Map)map.get("result")).get("location");
+//            System.out.println("经度："+temp.get("lng")+"---纬度："+temp.get("lat")+"---level："+((Map)map.get("result")).get("level"));
+//        }
+//    }
 
-        Map<String,Object> map = utils.getLngAndLat("杭州市华立科技园1号楼");
-        if("OK".equals(map.get("status"))){
-            Map<String, Object> temp = (Map)((Map)map.get("result")).get("location");
-            System.out.println("经度："+temp.get("lng")+"---纬度："+temp.get("lat"));
-        }
-    }
+    //http://api.map.baidu.com/geocoder?address=%E5%98%89%E5%AE%9A%E5%8C%BA%E5%8D%97%E7%BF%94%E9%95%87%E5%8F%A4%E6%BC%AA%E5%9B%AD%E8%B7%AF658%E5%BC%84%E5%AE%BD%E5%BA%A6%E7%BD%91%E7%BB%9C-%E5%98%89%E5%AE%9D%E5%B0%8F%E5%8C%BA&output=json&ak=V4lA9lI4pyViBK1BQIXN2uNau9QnK4yL
+    //http://api.map.baidu.com/geocoder/v2/?address=上海市&output=json&city=上海市&ak=qkLucZ2AnCHjuFci45pkGNXL
 
     public  Map<String,Object> getLngAndLat(String address){
         Map<String,Object> map=new HashMap<String, Object>();
-        String url = "http://api.map.baidu.com/geocoder?address="+address+"&output=json&ak=V4lA9lI4pyViBK1BQIXN2uNau9QnK4yL";
+
+        String url = "http://api.map.baidu.com/geocoder/v2/?address="+URLEncoder.encode(address)+"&output=json&city="+URLEncoder.encode("上海市")+"&ak=qkLucZ2AnCHjuFci45pkGNXL";
         String json = loadJSON(url);
         System.out.println(json);
         map = JSONUtils.json2Map(json);

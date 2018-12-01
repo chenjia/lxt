@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 300
     serviceUrl:
-      defaultZone: http://localhost:8100/lxt-eureka/eureka/,http://localhost:8200/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/lxt-eureka/eureka/,http://localhost:8102/lxt-eureka/eureka/
 file:
   uploadPath: /home/ms/uploadFiles
 log:
@@ -28,7 +28,7 @@ security:
     resource:
       filter-order: 3
 server:
-  port: 8400
+  port: 8301
   servlet:
     contextPath: /lxt-manage
 spring:

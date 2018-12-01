@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 30
     serviceUrl:
-      defaultZone: http://localhost:8100/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/lxt-eureka/eureka/
 
 server:
   port: 8900
@@ -19,4 +19,4 @@ spring:
           uri: https://github.com/ms/lxt-config
           searchPaths: config
           username: 251746034@qq.com
-          password: Chenjia1989
+          password:

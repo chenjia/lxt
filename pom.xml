@@ -32,6 +32,7 @@
         <module>lxt-upload</module>
         <module>lxt-workflow</module>
         <module>lxt-web</module>
+        <module>lxt-pc</module>
     </modules>
 
     <dependencies>
@@ -52,6 +53,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -89,6 +91,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.4.2.RELEASE</version>
+                <configuration>
+                    <fork>true</fork>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

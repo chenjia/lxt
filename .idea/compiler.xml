@@ -13,9 +13,10 @@
         <module name="lxt-eureka" />
         <module name="lxt-gateway" />
         <module name="lxt-manage" />
+        <module name="lxt-pc" />
         <module name="lxt-upload" />
-        <module name="lxtweb" />
-        <module name="lxtworkflow" />
+        <module name="lxt-web" />
+        <module name="lxt-workflow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,9 +28,11 @@
       <module name="lxt-eureka" target="1.8" />
       <module name="lxt-gateway" target="1.8" />
       <module name="lxt-manage" target="1.8" />
+      <module name="lxt-pc" target="1.8" />
+      <module name="lxt-test" target="1.5" />
       <module name="lxt-upload" target="1.8" />
-      <module name="lxtweb" target="1.8" />
-      <module name="lxtworkflow" target="1.8" />
+      <module name="lxt-web" target="1.8" />
+      <module name="lxt-workflow" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
