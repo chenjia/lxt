@@ -1,7 +1,0 @@
-com/lxt/ms/GatewayApplication.class
-com/lxt/ms/gateway/config/FallbackConfig.class
-com/lxt/ms/gateway/filter/RequestFilter$1.class
-com/lxt/ms/gateway/config/FallbackConfig$1.class
-com/lxt/ms/gateway/filter/RequestFilter.class
-com/lxt/ms/gateway/filter/ResponseFilter.class
-com/lxt/ms/gateway/config/CorsConfig.class

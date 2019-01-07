@@ -1,692 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcmail_jdk14_138.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcprov_jdk14_138.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk14_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk14_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_core_9_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_pdf_9_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/org/directwebremoting/extend/DwrConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/org/directwebremoting/util/LocalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-chat/src/main/resources/WEB-INF/dwr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/lib/iTextAsian.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/CommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/BaiduUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/Base64Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/OcrUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/resources/tessdata/chi_sim.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/resources/tessdata/ocr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-common/src/main/resources/tessdata/ocr_skewed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-manage/src/main/resources/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/PdfController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/css/pdf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/fonts/MicrosoftYaHei.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/fonts/simhei.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/fonts/simsun.ttc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/images/checkbox_no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/images/checkbox_yes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/jquery.barcode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/jquery.qrcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/jquery2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/qrcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/security.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/static/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/css/pdf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/fonts/MicrosoftYaHei.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/fonts/simhei.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/fonts/simsun.ttc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/images/checkbox_no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/images/checkbox_yes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/jquery.barcode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/jquery.qrcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/jquery2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/qrcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/security.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/template_dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_8_5_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_8_5_29.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_29.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManageApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-config-1.0-SNAPSHOT.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lxt-config-1.0-SNAPSHOT.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-eureka-1.0-SNAPSHOT.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lxt-eureka-1.0-SNAPSHOT.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-upload-1.0-SNAPSHOT.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lxt-upload-1.0-SNAPSHOT.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/ChatApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatFriendMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatGroupUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ChatRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DepartmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryTypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/DictionaryTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/NodeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/NodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/OrganizationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/OrganizationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/OrganizationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessCategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/ProcessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserSettingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/mapper/UserSettingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatFriendExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatGroupUserKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ChatRecordExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DepartmentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/DictionaryTypeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/NodeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Organization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/OrganizationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/Process.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessCategoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/ProcessWithBLOBs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSetting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/model/UserSettingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatSessionFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatSessionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/server/ChatSessionManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatFriendCategoryVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatFriendVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatGroupVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ChatRecordVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/ContactVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/DepartmentVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/OrganizationVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/TaskVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/UserVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/com/lxt/ms/chat/vo/WorkflowVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/dwr-spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/dwr-spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/classes/templates/chatFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/classes/templates/chatFrame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/ChatApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatFriendMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatFriendMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatGroupMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatGroupUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatGroupUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ChatRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/DepartmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/DepartmentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/DictionaryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/DictionaryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/DictionaryTypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/DictionaryTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/NodeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/NodeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/OrganizationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/OrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ProcessCategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ProcessCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ProcessMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/ProcessMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/UserSettingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/mapper/UserSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendCategoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatFriendExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupUserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupUserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupUserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupUserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatGroupUserKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatRecordExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatRecordExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatRecordExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ChatRecordExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DepartmentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DepartmentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DepartmentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DepartmentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryTypeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryTypeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryTypeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/DictionaryTypeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/NodeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/NodeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/NodeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/NodeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/Organization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/OrganizationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/OrganizationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/OrganizationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/OrganizationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/Process.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessCategoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessCategoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessCategoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessCategoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/ProcessWithBLOBs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserSetting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserSettingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserSettingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserSettingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/model/UserSettingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/server/ChatServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/server/ChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/server/ChatSessionFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/server/ChatSessionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/server/ChatSessionManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/ChatFriendCategoryVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/ChatFriendVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/ChatGroupVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/ChatRecordVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/ContactVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/DepartmentVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/OrganizationVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/TaskVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/UserVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/com/lxt/ms/chat/vo/WorkflowVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/dwr-spring-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/classes/templates/chatFrame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/HdrHistogram-2.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-2.7.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/LatencyUtils-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/antlr-runtime-3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/archaius-core-0.7.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/asm-5.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.56.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.56.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-configuration-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-jxpath-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-math-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/compactmap-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/dexx-collections-0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/druid-spring-boot-starter-1.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/dwr-3.0.2-RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/eureka-client-1.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/eureka-core-1.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/guava-15.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/guice-4.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.9.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/hystrix-core-1.5.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/hystrix-javanica-1.5.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/hystrix-metrics-event-stream-1.5.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/hystrix-serialization-1.5.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-afterburner-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jersey-apache-client4-1.19.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-1.19.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jersey-core-1.19.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jettison-1.3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jjwt-0.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/joda-time-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/lxt-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/micrometer-core-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.46.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netflix-commons-util-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netflix-eventbus-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netflix-infix-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netflix-statistics-0.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-buffer-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-codec-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-codec-http-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-common-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-resolver-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-transport-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-transport-native-epoll-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/netty-transport-native-unix-common-4.1.23.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/patchca-0.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/reactive-streams-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/ribbon-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/ribbon-core-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/ribbon-eureka-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/ribbon-httpclient-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/ribbon-loadbalancer-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/ribbon-transport-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/rxjava-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/rxjava-reactive-streams-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/rxnetty-0.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/rxnetty-contexts-0.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/rxnetty-servo-0.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/servo-core-0.12.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-actuator-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-actuator-autoconfigure-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-actuator-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-redis-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-commons-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-config-client-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-context-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-core-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-config-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-eureka-client-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-hystrix-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-2.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-security-crypto-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-security-rsa-1.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0-2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/stringtemplate-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/xmlpull-1.1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/xpp3_min-1.1.4c.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/lxt-chat-1.0-SNAPSHOT/WEB-INF/lib/xstream-1.4.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/CommonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/CommonApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/Body.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/Body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/Head.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/Head.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/Packages.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/Packages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/RequestWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/RequestWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/ResponseWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/ResponseWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/ServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/bean/web/ServiceBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CacheUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CacheUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CaptchaUtils$MyCaptchaService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CaptchaUtils$MyCaptchaService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CaptchaUtils$MyCaptchaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CaptchaUtils$MyCaptchaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CaptchaUtils$MyWordFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/CaptchaUtils$MyWordFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/DateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/ImageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/ImageUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/JSONUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/JSONUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/JWTUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/JWTUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/MapUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/MapUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/SecurityUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/SecurityUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/SpringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/SpringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/XMLUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/classes/com/lxt/ms/common/utils/XMLUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/lxt-common-1.0-SNAPSHOT-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/lxt-common-1.0-SNAPSHOT-exec.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/lxt-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/lxt-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-consumer/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-consumer/target/classes/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/GatewayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/config/FallbackConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/RequestFilter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/target/classes/com/lxt/ms/gateway/filter/RequestFilter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/ManageApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/ManageApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/config/DataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/config/DataSourceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/config/RedisConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/config/RedisConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/controller/ServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/controller/ServiceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatFriendMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatGroupUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatRecordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ChatRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DepartmentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryTypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/DictionaryTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/NodeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/NodeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/NodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/OrganizationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/OrganizationMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/OrganizationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/OrganizationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessCategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessCategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/ProcessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserSettingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserSettingMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/mapper/UserSettingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriend.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendCategoryExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatFriendExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatGroupUserKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ChatRecordExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DepartmentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Dictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryType.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/DictionaryTypeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/NodeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Organization.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Organization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/OrganizationExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Process.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/Process.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessCategoryExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessWithBLOBs.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/ProcessWithBLOBs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSetting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/model/UserSettingExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/service/api/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/service/api/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/service/bo/LoginBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/service/bo/LoginBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatFriendCategoryVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatFriendCategoryVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatFriendVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatFriendVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatGroupVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatGroupVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatRecordVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ChatRecordVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ContactVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/ContactVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/DepartmentVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/DepartmentVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/OrganizationVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/OrganizationVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/TaskVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/TaskVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/WorkflowVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/target/classes/com/lxt/ms/manage/vo/WorkflowVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/upload/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/pdf/controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/com/lxt/ms/UploadApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/com/lxt/ms/UploadApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/classes/com/lxt/ms/upload/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/target/classes/com/lxt/ms/upload/controller/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/lxt-upload-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/lxt-upload-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nohup.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startChat.sh" beforeDir="false" afterPath="$PROJECT_DIR$/startChat.sh" afterDir="false" />
-    </list>
+    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
     <ignored path="$PROJECT_DIR$/lxt-common/target/" />
@@ -810,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/PdfController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="70">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -818,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="183">
               <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -834,7 +149,7 @@
         <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="1069" column="12" lean-forward="true" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
+              <caret line="1069" column="12" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -843,7 +158,7 @@
         <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -854,7 +169,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -1026,6 +341,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lxt-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lxt-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="lxt-pdf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -1069,60 +393,7 @@
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
               <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pdf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1141,7 +412,7 @@
     <property name="SearchEverywhereHistoryKey" value="html2pdf&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546873350969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546873708956" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1420,12 +691,12 @@
       <workItem from="1546394522568" duration="802000" />
       <workItem from="1546431971481" duration="40000" />
       <workItem from="1546481361896" duration="50926000" />
-      <workItem from="1546823487505" duration="21622000" />
+      <workItem from="1546823487505" duration="21957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319820000" />
+    <option name="totallyTimeSpent" value="320155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1438,9 +709,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1450,7 +720,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33941093" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24123423" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24086604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1462,14 +732,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32959327" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32959327" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" visible="true" weight="0.38024357" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" weight="0.38024357" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32959327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.21101573" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.21101573" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1781,7 +1051,7 @@
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/PdfController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1791,29 +1061,19 @@
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="1069" column="12" lean-forward="true" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
+          <caret line="1069" column="12" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#barcode#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#qrcode#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1833,6 +1093,16 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#barcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#qrcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
