@@ -1,1 +1,1 @@
-java -jar lxt-chat/target/lxt-chat-1.0-SNAPSHOT.jar > logs/lxt-chat-1.0-SNAPSHOT.log &
+nohup sh ~/java/apache-tomcat-8.5.33/bin/startup.sh &

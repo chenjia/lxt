@@ -1,12 +1,11 @@
 package com.lxt.ms;
 
 import org.directwebremoting.spring.DwrSpringServlet;
+import org.directwebremoting.spring.SpringContainer;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -22,11 +21,7 @@ import java.util.Map;
 @MapperScan("com.lxt.ms.chat.mapper")
 @ImportResource("classpath:dwr-spring-config.xml")
 @SpringBootApplication
-public class ChatApplication extends SpringBootServletInitializer {
-
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(new Class[] { ChatApplication.class });
-    }
+public class ChatApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ChatApplication.class, args);

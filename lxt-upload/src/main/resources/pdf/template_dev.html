@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="UTF-8"></meta>
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/pdf.css" type="text/css"></link>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="../../../../../../lxt-common/src/main/resources/pdf/js/app.js"></script>
+<script type="text/javascript" src="../../../../../../lxt-common/src/main/resources/pdf/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../lxt-common/src/main/resources/pdf/js/jquery.qrcode.js"></script>
+<script type="text/javascript" src="../../../../../../lxt-common/src/main/resources/pdf/js/qrcode.js"></script>
+<script type="text/javascript" src="../../../../../../lxt-common/src/main/resources/pdf/js/jquery.barcode.min.js"></script>
+<script type="text/javascript" src="js/security.js"></script>
+<style type="text/css">
+@page {  
+	margin:9mm;
+	size:210mm 297mm;
+	@top-left {
+		font-family:Microsoft YaHei;
+		content:"网页转PDF";
+	}
+	@bottom-center {
+		font-family:Microsoft YaHei;
+		content:"第"+counter(page)+"页" ;
+	}
+}
+</style>
+<script type="text/javascript">
+app.controller("pdfController", function($scope, $timeout, $http) {
+	$scope.vo = {
+		name:'标题',
+		company:'北大方正人寿有限公司',
+		items:(function(){
+			var array = [];
+			for(var i=0;i<10;i++){
+				array.push({
+					key1:(''+Math.random()).substr(9),
+					key2:(''+Math.random()).substr(9),
+					key3:(''+Math.random()).substr(9),
+					key4:(''+Math.random()).substr(9),
+					key5:(''+Math.random()).substr(9),
+					key6:(''+Math.random()).substr(9),
+					key7:(''+Math.random()).substr(9),
+					key8:(''+Math.random()).substr(9),
+					key9:(''+Math.random()).substr(9),
+					key10:(''+Math.random()).substr(9)
+				});
+			}
+			return array;
+		})()
+	};
+
+	function build(vo){
+		$scope.vo = vo;
+		$scope.$apply();
+	}
+	
+	function getHtmlStr() {
+		var str = document.body.outerHTML;
+		var encStr = security.encrypt(str);
+		$http.post('/lxt-upload/pdf',{opt : encStr});
+	}
+
+	$timeout(function() {
+		if(location.href.indexOf('build=true') != -1){
+			getHtmlStr();
+		}
+	}, 1000);
+	
+	window.build = build;
+});
+</script>
+</head>
+<body style="margin:0;padding:0;" ng-controller="pdfController">
+	<img src="images/logo.png" style="width:200px;height:80px;margin:10px;" endimg>
+	<barcode style="position:absolute;left:50px;top:60px;" text="4124674563453"></barcode>
+	<qrcode style="position:absolute;right:10px;top:10px;" text="http://www.baidu.com" size="120"></qrcode>
+	<h2 class="center">{{vo.name}}</h2>
+	<p class="center red">（本投保单系保险合同之重要组成部分，为了维护您的权益，请据实填写）</p>
+	<p class="simhei center">
+		黑体：本投保单系保险合同之重要组成部分
+	</p>
+	<p class="simsun center blue">
+		宋体：本投保单系保险合同之重要组成部分
+	</p>
+	<div class="center">
+		<div class="label">公司名称：</div>
+		<div class="underline width200">{{vo.company}}</div>
+	</div>
+	
+	<table class="border page-before page-after" cellpadding="0" cellspacing="0">
+		<tr><td colspan="11">page-before样式导致表格另起一页</td></tr>
+		<tr ng-repeat="item in vo.items">
+			<td><img class="checkbox" ng-src="images/checkbox_{{$index%2==0?'yes':'no'}}.png" endimg>{{item.id}}</td>
+			<td>{{item.key1}}</td>
+			<td>{{item.key2}}</td>
+			<td>{{item.key3}}</td>
+			<td>{{item.key4}}</td>
+			<td>{{item.key5}}</td>
+			<td>{{item.key6}}</td>
+			<td>{{item.key7}}</td>
+			<td>{{item.key8}}</td>
+			<td>{{item.key9}}</td>
+			<td>{{item.key10}}</td>
+		</tr>
+	</table>
+	
+	<p><img class="checkbox" src="images/checkbox_yes.png" endimg>page-after样式导致表格后面的内容另起一页</p>
+</body>
+</html>

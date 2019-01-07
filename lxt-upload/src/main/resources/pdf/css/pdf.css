@@ -1,0 +1,90 @@
+.page-before{
+	page-break-before:always;
+}
+.page-after{
+	page-break-after:always;
+}
+body{
+	font-family: Microsoft YaHei;
+	font-size:20px;
+}
+.simhei{
+	font-family: SimHei;
+}
+.simsun{
+	font-family: SimSun;
+}
+.font30{
+	font-size:30px;
+}
+.font35{
+	font-size:35px;
+}
+table.border{
+	border-top:1px solid #333;
+	border-left:1px solid #333;
+}
+table.border tr td{
+	padding:5px;
+	border-right:1px solid #333;
+	border-bottom:1px solid #333;
+	font-size:14px;
+}
+.checkbox{
+	width:18px;
+	height:17px;
+	vertical-align:middle;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.center{
+	text-align:center;
+}
+.right{
+	text-align:right;
+}
+.white{
+	color:white;
+}
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+.label{
+	display:inline-block;
+	text-align:center;
+	min-width:80px;
+}
+.underline{
+	display:inline-block;
+	white-space:nowrap;
+	text-align:center;
+	min-width:80px;
+	padding:0 5px;
+	border-bottom:1px solid black;
+}
+.underline:after{
+	content:"a";
+	color:white;
+}
+.width100{
+	min-width:100px;
+}
+.width150{
+	min-width:150px;
+}
+.width200{
+	min-width:200px;
+}
+.width250{
+	min-width:250px;
+}
+.width300{
+	min-width:300px;
+}

@@ -5,5 +5,6 @@
 #upload   8311
 #chat     8321
 #workflow 8331 8332
+#pdf      8341
 #web      8801
 #web      8802

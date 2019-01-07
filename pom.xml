@@ -33,6 +33,7 @@
         <module>lxt-workflow</module>
         <module>lxt-web</module>
         <module>lxt-pc</module>
+        <module>lxt-pdf</module>
     </modules>
 
     <dependencies>

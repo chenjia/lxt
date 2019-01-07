@@ -6,7 +6,7 @@ java -jar lxt-config/target/lxt-config-1.0-SNAPSHOT.jar > logs/lxt-config-1.0-SN
 
 sleep 15s
 
-java -jar lxt-chat/target/lxt-chat-1.0-SNAPSHOT.jar > logs/lxt-chat-1.0-SNAPSHOT.log &
+sh startChat.sh
 
 sleep 25s
 

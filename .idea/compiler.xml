@@ -14,6 +14,7 @@
         <module name="lxt-gateway" />
         <module name="lxt-manage" />
         <module name="lxt-pc" />
+        <module name="lxt-pdf" />
         <module name="lxt-upload" />
         <module name="lxt-web" />
         <module name="lxt-workflow" />
@@ -29,6 +30,7 @@
       <module name="lxt-gateway" target="1.8" />
       <module name="lxt-manage" target="1.8" />
       <module name="lxt-pc" target="1.8" />
+      <module name="lxt-pdf" target="1.8" />
       <module name="lxt-test" target="1.5" />
       <module name="lxt-upload" target="1.8" />
       <module name="lxt-web" target="1.8" />

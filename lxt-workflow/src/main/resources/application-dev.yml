@@ -74,6 +74,6 @@ spring:
         max-idle: 8
         min-idle: 0
   resources: 
-    static-locations: classpath:/templates/
+    static-locations: classpath:/templates/,classpath:/pdf/
   thymeleaf:
     prefix: classpath:/templates/

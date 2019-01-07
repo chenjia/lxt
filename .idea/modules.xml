@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/lxt-gateway/lxt-gateway.iml" filepath="$PROJECT_DIR$/lxt-gateway/lxt-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-manage/lxt-manage.iml" filepath="$PROJECT_DIR$/lxt-manage/lxt-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-pc/lxt-pc.iml" filepath="$PROJECT_DIR$/lxt-pc/lxt-pc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxt-pdf/lxt-pdf.iml" filepath="$PROJECT_DIR$/lxt-pdf/lxt-pdf.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-upload/lxt-upload.iml" filepath="$PROJECT_DIR$/lxt-upload/lxt-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-web/lxt-web.iml" filepath="$PROJECT_DIR$/lxt-web/lxt-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-workflow/lxt-workflow.iml" filepath="$PROJECT_DIR$/lxt-workflow/lxt-workflow.iml" />

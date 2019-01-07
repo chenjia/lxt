@@ -1,6 +1,7 @@
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/model/UserSettingExample.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/server/ChatSessionFilter.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/model/User.java
+/Users/farben/project/lxt/lxt-chat/src/main/java/org/directwebremoting/util/LocalUtil.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriend.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatGroupMapper.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatRecordExample.java
@@ -30,6 +31,7 @@
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriendCategoryExample.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/model/DictionaryType.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/model/ProcessExample.java
+/Users/farben/project/lxt/lxt-chat/src/main/java/org/directwebremoting/extend/DwrConstants.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ProcessCategoryMapper.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/vo/DepartmentVO.java
 /Users/farben/project/lxt/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.java

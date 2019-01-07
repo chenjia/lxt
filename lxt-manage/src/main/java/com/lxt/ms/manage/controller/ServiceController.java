@@ -8,6 +8,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.lxt.ms.common.bean.web.Body;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -39,17 +40,6 @@ public class ServiceController {
 	@Value("${safeApi}")
 	private String safeApi;
 
-	@RequestMapping("/index")
-	public String index(HttpServletRequest request) {
-		System.out.println("\n[request service]" + request.getRequestURI() + "\n");
-		
-		logger.debug("Logger Level ：DEBUG");
-	    logger.info("Logger Level ：INFO");
-	    logger.error("Logger Level ：ERROR");
-
-		return null;
-	}
-	
 	@ResponseBody
 	@RequestMapping(value = "/api/{service}/{method}", method = RequestMethod.POST)
 	public Packages api(HttpServletRequest request, HttpServletResponse httpServletResponse, @PathVariable String service, @PathVariable String method) throws Exception {

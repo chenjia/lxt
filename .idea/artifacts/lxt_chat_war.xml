@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="lxt-chat:war">
-    <output-path>$PROJECT_DIR$/lxt-chat/target</output-path>
-    <root id="archive" name="lxt-chat-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="lxt-chat:war exploded" />
-    </root>
-  </artifact>
-</component>
