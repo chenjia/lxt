@@ -43,7 +43,7 @@
 		<div class="underline width200">{{company}}</div>
 	</div>
 
-	<table class="border page-before page-after" cellpadding="0" cellspacing="0">
+	<table class="border page-before page-after" style="table-layout:fixed; word-break:break-all;" cellpadding="0" cellspacing="0">
 		<tr><td colspan="11">page-before样式导致表格另起一页</td></tr>
 		<tr v-for="(item, index) in items">
 			<td><img class="checkbox" :src="'images/checkbox_'+(index%2==0?'yes':'no')+'.png'" endimg>{{item.index}}</td>

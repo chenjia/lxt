@@ -92,4 +92,8 @@ public class BaiduUtils {
 
         return result;
     }
+
+//    public static void main(String[] args) {
+//        ocrText("/Users/farben/Downloads/aaaa.png");
+//    }
 }

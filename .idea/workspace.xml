@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="" />
+    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/org/directwebremoting/extend/DwrConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/org/directwebremoting/util/LocalUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/BaiduUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/BaiduUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.html" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
     <ignored path="$PROJECT_DIR$/lxt-common/target/" />
@@ -29,7 +45,7 @@
     <session id="-487909995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="78" />
+          <entry key="project.closed" value="81" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="9" />
@@ -40,7 +56,7 @@
           <entry key="project.open.time.16" value="4" />
           <entry key="project.open.time.17" value="5" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="2" />
@@ -52,68 +68,68 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="80" />
+          <entry key="project.opened" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="23" />
+          <entry key="class" value="48" />
           <entry key="css" value="7" />
           <entry key="html" value="51" />
           <entry key="iml" value="2" />
-          <entry key="java" value="402" />
+          <entry key="java" value="411" />
           <entry key="jpg" value="1" />
           <entry key="js" value="14" />
           <entry key="json" value="4" />
           <entry key="jsp" value="1" />
           <entry key="log" value="1" />
           <entry key="png" value="2" />
-          <entry key="sh" value="2" />
+          <entry key="sh" value="4" />
           <entry key="txt" value="5" />
           <entry key="vue" value="1" />
-          <entry key="xml" value="239" />
-          <entry key="yml" value="234" />
+          <entry key="xml" value="242" />
+          <entry key="yml" value="236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="23" />
+          <entry key="CLASS" value="48" />
           <entry key="CSS" value="7" />
           <entry key="HTML" value="51" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="402" />
+          <entry key="JAVA" value="411" />
           <entry key="JSON" value="4" />
           <entry key="JSP" value="1" />
           <entry key="JavaScript" value="14" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="XML" value="239" />
-          <entry key="YAML" value="234" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="XML" value="242" />
+          <entry key="YAML" value="236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3" />
           <entry key="dummy" value="165" />
-          <entry key="html" value="1758" />
-          <entry key="java" value="5621" />
+          <entry key="html" value="1768" />
+          <entry key="java" value="5691" />
           <entry key="js" value="39" />
           <entry key="jsp" value="9" />
           <entry key="sh" value="13" />
           <entry key="txt" value="15" />
-          <entry key="xml" value="821" />
+          <entry key="xml" value="870" />
           <entry key="yml" value="744" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="1758" />
-          <entry key="JAVA" value="5621" />
+          <entry key="HTML" value="1768" />
+          <entry key="JAVA" value="5691" />
           <entry key="JSP" value="9" />
           <entry key="JavaScript" value="39" />
           <entry key="PLAIN_TEXT" value="193" />
-          <entry key="XML" value="821" />
+          <entry key="XML" value="870" />
           <entry key="YAML" value="744" />
         </counts>
       </usages-collector>
@@ -121,82 +137,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/PdfController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="1069" column="12" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#barcode#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#qrcode#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#barcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#qrcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lxt-pdf/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="105" column="21" selection-start-line="84" selection-start-column="12" selection-end-line="105" selection-end-column="21" />
+            <state relative-caret-position="80">
+              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -216,9 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>chenjia</find>
-      <find>com.lxt.ms.manage.mapper.UserMapper</find>
-      <find>selectByExample</find>
       <find>\&lt;resources\&gt;      \&lt;resource\&gt;        \&lt;directory\&gt;src\/main\/java\&lt;\/directory\&gt;        \&lt;includes\&gt;          \&lt;include\&gt;\*\*\/\*\.xml\&lt;\/include\&gt;        \&lt;\/includes\&gt;      \&lt;\/resource\&gt;    \&lt;\/resources\&gt;\n</find>
       <find>ms.manage</find>
       <find>PageInterceptor</find>
@@ -246,6 +188,9 @@
       <find>image</find>
       <find>var array \= \[\]\;\n                for\(var i\=0\;i\&lt;10\;i\+\+\)\{\n                    array\.push\(\{\n                        key1\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key2\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key3\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key4\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key5\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key6\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key7\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key8\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key9\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\,\n                        key10\:\(\'\'\+Math\.random\(\)\)\.substr\(9\)\n                    \}\)\;\n                \}</find>
       <find>path</find>
+      <find>new file</find>
+      <find>new File</find>
+      <find>\&lt;groupId\&gt;org\.bouncycastle\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;bcpkix\-jdk15on\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;1\.50\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;org\.bouncycastle\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;bcprov\-ext\-jdk15on\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;1\.55\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;org\.bouncycastle\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;bcprov\-jdk15on\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;1\.50\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -273,14 +218,12 @@
         <option value="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/SpringDwrServlet.java" />
         <option value="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/SpringDwrContainer.java" />
         <option value="$PROJECT_DIR$/lxt-chat/src/main/java/org/directwebremoting/io/Item.java" />
-        <option value="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java" />
         <option value="$PROJECT_DIR$/lxt-chat/src/main/java/org/directwebremoting/extend/DwrConstants.java" />
         <option value="$PROJECT_DIR$/lxt-chat/src/main/resources/WEB-INF/dwr.xml" />
         <option value="$PROJECT_DIR$/lxt-chat/src/main/java/org/directwebremoting/util/LocalUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/HttpUtil.java" />
-        <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/BaiduUtils.java" />
         <option value="$PROJECT_DIR$/lxt-workflow/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/resources/pdf/template_dev.html" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" />
@@ -297,9 +240,7 @@
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/CommonApplication.java" />
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template_dev.html" />
-        <option value="$PROJECT_DIR$/lxt-chat/pom.xml" />
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/resources/static/test.html" />
-        <option value="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java" />
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/resources/templates/test.html" />
         <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ServiceController.java" />
@@ -307,12 +248,16 @@
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/test.html" />
         <option value="$PROJECT_DIR$/temp.html" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/ClassUtils.java" />
-        <option value="$PROJECT_DIR$/lxt-pdf/pom.xml" />
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template.html" />
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/PdfController.java" />
-        <option value="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java" />
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/css/pdf.css" />
         <option value="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html" />
+        <option value="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java" />
+        <option value="$PROJECT_DIR$/lxt-chat/pom.xml" />
+        <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/BaiduUtils.java" />
+        <option value="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java" />
+        <option value="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java" />
+        <option value="$PROJECT_DIR$/lxt-pdf/pom.xml" />
       </list>
     </option>
   </component>
@@ -341,20 +286,29 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lxt-pdf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lxt-pdf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-pdf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lxt-upload" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-pdf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lxt-upload" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lxt-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lxt-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -372,7 +326,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -382,6 +336,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -390,16 +345,10 @@
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-pdf" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -412,7 +361,7 @@
     <property name="SearchEverywhereHistoryKey" value="html2pdf&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546873708956" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546933877057" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -463,7 +412,20 @@
     </option>
     <option name="contentProportion" value="0.23357664" />
   </component>
-  <component name="RunManager" selected="Spring Boot.PdfApplication">
+  <component name="RunManager" selected="Application.BaiduUtils">
+    <configuration name="BaiduUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.common.utils.BaiduUtils" />
+      <module name="lxt-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxt.ms.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lxt.ms.common.utils.MapUtils" />
       <module name="lxt-common" />
@@ -565,19 +527,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkflowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="lxt-workflow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxt.ms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.WorkflowApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.ChatApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
@@ -585,20 +534,20 @@
       <item itemvalue="Spring Boot.ManageApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.PdfApplication" />
+      <item itemvalue="Spring Boot.CommonApplication" />
       <item itemvalue="Spring Boot.UploadApplication" />
       <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
-      <item itemvalue="Spring Boot.WorkflowApplication" />
       <item itemvalue="Application.MapUtils" />
-      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Application.BaiduUtils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaiduUtils" />
         <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Spring Boot.UploadApplication" />
         <item itemvalue="Application.MapUtils" />
         <item itemvalue="Spring Boot.WebApplication" />
-        <item itemvalue="Spring Boot.WorkflowApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -691,12 +640,14 @@
       <workItem from="1546394522568" duration="802000" />
       <workItem from="1546431971481" duration="40000" />
       <workItem from="1546481361896" duration="50926000" />
-      <workItem from="1546823487505" duration="21957000" />
+      <workItem from="1546823487505" duration="22859000" />
+      <workItem from="1546898247011" duration="5000" />
+      <workItem from="1546908850264" duration="12786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320155000" />
+    <option name="totallyTimeSpent" value="333848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,9 +659,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -720,7 +671,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33941093" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24086604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24076608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -732,7 +683,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32959327" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32959327" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" weight="0.38024357" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" weight="0.37893298" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32959327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -760,6 +711,12 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/xhtmlrenderer/flying-saucer-pdf/9.0.8/flying-saucer-pdf-9.0.8.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.class</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -776,100 +733,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/xhtmlrenderer/core-renderer/R8/core-renderer-R8.jar!/org/xhtmlrenderer/pdf/ITextOutputDevice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="789" column="17" selection-start-line="789" selection-start-column="17" selection-end-line="789" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/xhtmlrenderer/core-renderer/R8/core-renderer-R8.jar!/org/xhtmlrenderer/pdf/ITextRenderer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="279" column="29" lean-forward="true" selection-start-line="279" selection-start-column="29" selection-end-line="279" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/resources/pdf/css/pdf.css" />
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/resources/pdf/template_dev.html" />
-    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/template_dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/pdf/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/net/sourceforge/htmlunit/htmlunit/2.33/htmlunit-2.33.jar!/com/gargoylesoftware/htmlunit/BrowserVersion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="138" column="30" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/OcrUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/resources/pdf/template_dev.html" />
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/PdfUtils.java" />
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/CommonApplication.java" />
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/resources/application-rename.yml" />
-    <entry file="file://$PROJECT_DIR$/lxt-chat/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2266">
-          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/static/test.html">
@@ -921,20 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/test.html" />
     <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/xhtmlrenderer/core-renderer/R8/core-renderer-R8.jar!/org/xhtmlrenderer/util/XRRuntimeException.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -961,22 +811,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="1139" column="24" lean-forward="true" selection-start-line="1139" selection-start-column="24" selection-end-line="1139" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html" />
     <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/impl/Log4JLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1826">
           <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3894#3895#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,10 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1237">
           <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-          <folding>
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="e#4296#4297#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,23 +838,7 @@
         <state relative-caret-position="-1709" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="105" column="21" selection-start-line="84" selection-start-column="12" selection-end-line="105" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lowagie/text/pdf/fonts/cmap_info.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lowagie/text/pdf/fonts/cmap_info.txt" />
     <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/net/sourceforge/htmlunit/htmlunit/2.14/htmlunit-2.14.jar!/com/gargoylesoftware/htmlunit/HtmlUnitHttpClientBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1048,26 +867,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/PdfController.java">
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/css/pdf.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1069" column="12" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="726">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1078,32 +887,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/css/pdf.css">
+    <entry file="file://$PROJECT_DIR$/lxt-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        <state relative-caret-position="2310">
+          <caret line="105" column="21" selection-start-line="84" selection-start-column="12" selection-end-line="105" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/RandomAccessFileOrArray.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#barcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#qrcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/EnumerateTTC.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1000" selection-start-line="1000" selection-end-line="1000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1529">
+          <caret line="884" selection-start-line="884" selection-end-line="884" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="1069" column="12" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/CJKFont.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="194" column="33" selection-start-line="194" selection-start-column="29" selection-end-line="194" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/TrueTypeFont.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="214" column="9" lean-forward="true" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/TrueTypeFontUnicode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-695">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/BaseFont.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="158" column="33" lean-forward="true" selection-start-line="158" selection-start-column="33" selection-end-line="158" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/xhtmlrenderer/flying-saucer-pdf/9.0.8/flying-saucer-pdf-9.0.8.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="211" column="38" selection-start-line="211" selection-start-column="38" selection-end-line="211" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/PdfUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="221">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/PdfController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/template-vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#barcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#qrcode#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startChat.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/BaiduUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="97" column="7" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="97" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-chat/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>

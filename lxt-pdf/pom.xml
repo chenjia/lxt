@@ -11,6 +11,7 @@
 
     <artifactId>lxt-pdf</artifactId>
     <name>lxt-pdf</name>
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>

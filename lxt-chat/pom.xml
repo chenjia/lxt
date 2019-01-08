@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>lxt-chat</artifactId>
     <name>lxt-chat</name>
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>

@@ -28,7 +28,7 @@ public class PdfUtils {
     	final WebClient webClient = new WebClient(BrowserVersion.INTERNET_EXPLORER_11);
         final HtmlPage page = webClient.getPage("http://localhost:8341/lxt-pdf/"+template);
         page.executeJavaScript("window.build("+json+")");
-		webClient.waitForBackgroundJavaScript(1);
+		webClient.waitForBackgroundJavaScript(100);
 		long end = System.currentTimeMillis();
 		System.out.println("time:"+(end-start)/1000);
         File f = new File(inputFile);
@@ -55,7 +55,6 @@ public class PdfUtils {
             String simsunPath = ResourceUtils.getFile("/Users/farben/project/lxt/lxt-pdf/src/main/resources/pdf/fonts/simsun.ttc").getAbsolutePath();
             String simheiPath = ResourceUtils.getFile("/Users/farben/project/lxt/lxt-pdf/src/main/resources/pdf/fonts/simhei.ttf").getAbsolutePath();
             String microsoftYaHeiPath = ResourceUtils.getFile("/Users/farben/project/lxt/lxt-pdf/src/main/resources/pdf/fonts/MicrosoftYaHei.ttf").getAbsolutePath();
-
 			fontResolver.addFont(simsunPath, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
 			fontResolver.addFont(simheiPath, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
 			fontResolver.addFont(microsoftYaHeiPath, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
