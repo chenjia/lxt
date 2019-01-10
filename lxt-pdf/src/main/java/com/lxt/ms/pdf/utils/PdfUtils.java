@@ -55,9 +55,9 @@ public class PdfUtils {
             String simsunPath = ResourceUtils.getFile("/Users/farben/project/lxt/lxt-pdf/src/main/resources/pdf/fonts/simsun.ttc").getAbsolutePath();
             String simheiPath = ResourceUtils.getFile("/Users/farben/project/lxt/lxt-pdf/src/main/resources/pdf/fonts/simhei.ttf").getAbsolutePath();
             String microsoftYaHeiPath = ResourceUtils.getFile("/Users/farben/project/lxt/lxt-pdf/src/main/resources/pdf/fonts/MicrosoftYaHei.ttf").getAbsolutePath();
-			fontResolver.addFont(simsunPath, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
-			fontResolver.addFont(simheiPath, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
-			fontResolver.addFont(microsoftYaHeiPath, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+			fontResolver.addFont("simsun.ttc", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+			fontResolver.addFont("simhei.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+			fontResolver.addFont("MicrosoftYaHei.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
 			renderer.getSharedContext().setBaseURL("file:///Users/farben/project/lxt/lxt-pdf/src/main/resources/pdf/");
 			renderer.layout();
 			renderer.createPDF(os);
