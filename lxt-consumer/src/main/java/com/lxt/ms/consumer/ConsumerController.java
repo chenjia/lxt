@@ -65,4 +65,16 @@ public class ConsumerController {
 
 		return new ResponseWrapper(pkg);
 	}
+
+	@Autowired
+	private FeignService feignService;
+
+	@ResponseBody
+	@RequestMapping(value = "/feign")
+	public Packages feign() throws Exception {
+		System.out.println("【call feign】");
+		Packages pkg = feignService.callService();
+
+		return pkg;
+	}
 }

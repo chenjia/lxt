@@ -16,7 +16,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ms/lxt-config
+          uri: https://github.com/chenjia/lxt-config
           searchPaths: config
           username: 251746034@qq.com
-          password:
+          password: Chenjia1989

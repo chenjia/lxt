@@ -37,7 +37,7 @@ spring:
   application:
     name: lxt-manage
   datasource:
-    url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource

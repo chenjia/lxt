@@ -86,6 +86,13 @@ public class BaiduUtils {
             String accessToken = getAuth();
             result = HttpUtil.post(apiHost, accessToken, params);
             System.out.println(result);
+            Map<String, Object> map = JSONUtils.json2Map(result);
+            List<Map<String, Object>> results = (List<Map<String, Object>>) map.get("words_result");
+            String resultStr = "";
+            for(Map<String, Object> item : results){
+                resultStr += item.get("words");
+            }
+            System.out.println(resultStr);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -93,7 +100,7 @@ public class BaiduUtils {
         return result;
     }
 
-//    public static void main(String[] args) {
-//        ocrText("/Users/farben/Downloads/aaaa.png");
-//    }
+    public static void main(String[] args) {
+        ocrText("/Users/farben/Downloads/aaaa.png");
+    }
 }

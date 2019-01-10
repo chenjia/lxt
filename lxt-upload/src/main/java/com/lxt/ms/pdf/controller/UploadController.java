@@ -4,7 +4,6 @@ import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.bean.web.ResponseWrapper;
 import com.lxt.ms.common.utils.ImageUtils;
 import com.lxt.ms.common.utils.JSONUtils;
-import com.lxt.ms.common.utils.PdfUtils;
 import com.lxt.ms.common.utils.UUIDUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -73,25 +72,5 @@ public class UploadController {
         }
 
         return result;
-    }
-
-    @ResponseBody
-    @RequestMapping("/pdf")
-    public Packages index(HttpServletRequest request) {
-        System.out.println("\n[request service]" + request.getRequestURI() + "\n");
-
-        try {
-            PdfUtils.buildPdf("{name:'aa'}");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        Packages pkg = new Packages();
-        return pkg;
-    }
-
-    @RequestMapping("/baidu")
-    public String test(){
-        return "redirect:https://www.baidu.com/";
     }
 }

@@ -154,12 +154,12 @@ public class SecurityUtils {
 	    } catch (NoSuchAlgorithmException e) {  
 	        e.printStackTrace();  
 	        return null;  
-	    }  
+	    }
 	}
 	
 //	public static void main(String[] args) throws Exception {
-//		String data = "oI0fC7Up00gg9nogQIeHxQjbum6uCkobcmXQ6PJJocRWkvzCqDC55nZpV12U0hEVJhiGLMAk9ZiaON6l6nizPoQ5JrTXh8DJ";
+//		String data = "oI0fC7Up00hNB0k/Uh8B91GkoNUCcAnsGUByWZVuObNqM1oPQ1jxV2Xv896MB0O3chf9+9Bl7ClXh9Iqz+zphL4pJzwiiU7NQ4g/3rVqvtwz3ivvhhP1d3kxZa3F6ho0AiNbEG4oWxYnLTCOrGviYrPQPgSMVlpsH5mYs/WxQCnoGVaU7ECCYRnWTP6pp15j8VOlaDZj4yssnGww//QwqMoZ/onerQfz";
 //        String key = "ed26d4cd99aa11e5b8a4c89cdc776729";
-//        System.err.println(decrypt(data, key));
+//        System.out.println(decrypt(data, key));
 //	}
 }

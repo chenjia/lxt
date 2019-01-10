@@ -33,10 +33,14 @@ public class FallbackConfig implements FallbackProvider {
 //			System.out.println("\n[fallback]"+reason+"\n");
 //		}
 
-		System.out.println("【fallback msg】"+cause.getMessage());
-		System.out.println("【fallback cause】"+cause.getCause().getMessage());
+		if(cause != null){
+			System.out.println("【fallback msg】"+cause.getMessage());
+		}
 
-		
+		if (cause.getCause() != null) {
+			System.out.println("【fallback cause】"+cause.getCause().getMessage());
+		}
+
 		return new ClientHttpResponse() {
 			
 			@Override
