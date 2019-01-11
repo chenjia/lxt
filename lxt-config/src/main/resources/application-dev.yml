@@ -19,4 +19,4 @@ spring:
           uri: https://github.com/chenjia/lxt-config
           searchPaths: config
           username: 251746034@qq.com
-          password:
+          password: 

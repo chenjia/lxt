@@ -17,11 +17,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.lxt.ms.common.bean.web.Packages;
@@ -29,6 +25,8 @@ import com.lxt.ms.common.bean.web.ResponseWrapper;
 import com.lxt.ms.common.utils.JSONUtils;
 import com.lxt.ms.common.utils.SpringUtils;
 import com.lxt.ms.common.utils.UUIDUtils;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @RefreshScope
 @Controller
@@ -111,4 +109,24 @@ public class ServiceController {
 		return pkg;
 	}
 
+	@RequestMapping(value = "/pay")
+	public ModelAndView pay(HttpServletRequest request, RedirectAttributes attrs) throws Exception {
+		System.out.println(request.getParameter("name"));
+		System.out.println(request.getParameter("money"));
+		ModelAndView model = new ModelAndView();
+		attrs.addAttribute("name", request.getParameter("name"));
+
+		attrs.addAttribute("money", request.getParameter("money"));
+		model.setViewName("redirect:/ppp");
+		return model;
+	}
+
+	@RequestMapping(value = "/ppp")
+	public ModelAndView ppp(@ModelAttribute("name") String name, @ModelAttribute("money") String money) throws Exception {
+		System.out.println("name:"+name);
+		System.out.println("money:"+money);
+		ModelAndView model = new ModelAndView();
+		model.setViewName("test");
+		return model;
+	}
 }

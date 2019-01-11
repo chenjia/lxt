@@ -16,13 +16,13 @@ public class GatewayApplication {
 		SpringApplication.run(GatewayApplication.class, args);
 	}
 	
-	@Bean
-    public RequestFilter requestFilter() {
-        return new RequestFilter();
-    }
-	
-	@Bean
-    public ResponseFilter responseFilter() {
-        return new ResponseFilter();
-    }
+//	@Bean
+//    public RequestFilter requestFilter() {
+//        return new RequestFilter();
+//    }
+//
+//	@Bean
+//    public ResponseFilter responseFilter() {
+//        return new ResponseFilter();
+//    }
 }
