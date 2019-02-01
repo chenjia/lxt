@@ -1,19 +1,5 @@
 package com.lxt.ms.gateway.filter;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.charset.Charset;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.servlet.ServletInputStream;
-import javax.servlet.http.HttpServletRequest;
-
-import org.apache.commons.lang.StringUtils;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
-import org.springframework.util.StreamUtils;
-
 import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.utils.JSONUtils;
 import com.lxt.ms.common.utils.JWTUtils;
@@ -23,6 +9,17 @@ import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 import com.netflix.zuul.http.HttpServletRequestWrapper;
 import com.netflix.zuul.http.ServletInputStreamWrapper;
+import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
+import org.springframework.util.StreamUtils;
+
+import javax.servlet.ServletInputStream;
+import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.Charset;
+import java.util.Map;
 
 @SuppressWarnings("unchecked")
 public class RequestFilter extends ZuulFilter{
@@ -121,9 +118,7 @@ public class RequestFilter extends ZuulFilter{
 		boolean shouldFilter = false;
 		
 		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
-		String contextPath = request.getContextPath();
-		String uri = request.getRequestURI().replaceAll(contextPath, "");
-		
+		String uri = request.getRequestURI();
 		String[] filterUrls = filterUrl.split(",");
 		for(String url : filterUrls){
 			if(uri.startsWith(url)){

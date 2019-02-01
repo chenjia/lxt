@@ -32,7 +32,7 @@ security:
 server:
   port: 8301
   servlet:
-    contextPath: /lxt-manage
+    contextPath: /
 spring:
   application:
     name: lxt-manage

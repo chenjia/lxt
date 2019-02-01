@@ -32,8 +32,12 @@ security:
 server:
   port: 8331
   servlet:
-    contextPath: /lxt-workflow
+    contextPath: /
 spring:
+  activiti:
+    check-process-definitions: false
+    copy-variables-to-local-for-tasks: false
+    database-schema-update: true
   application:
     name: lxt-workflow
   datasource:

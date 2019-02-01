@@ -4,7 +4,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8101/lxt-eureka/eureka/
 
-filterUrl: /lxt-manage/api/,/lxt-upload/api/,/lxt-chat/api/,/lxt-workflow/api/
+filterUrl: /api/manage/,/api/upload/,/api/chat/,/api/workflow/
 
 hystrix:
   command:
@@ -33,7 +33,7 @@ safeDomain: http://localhost,http://localhost:8888,http://47.100.119.102
 server:
   port: 8201
   servlet:
-    contextPath: /lxt-gateway
+    contextPath: /
 
 spring:
   application:
@@ -58,6 +58,10 @@ zuul:
       serviceId: lxt-upload
       stripPrefix: false
     lxt-manage:
-      path: /lxt-manage/**
+      path: /api/manage/**
       serviceId: lxt-manage
-      stripPrefix: false
+      stripPrefix: true
+    lxt-workflow:
+      path: /api/workflow/**
+      serviceId: lxt-workflow
+      stripPrefix: true

@@ -1,0 +1,19 @@
+<mxGraphModel>
+    <root>
+        <Workflow label="" propertyTitle="流程配置" nodeType="workflow" workflowKey="" version="" status="1" memo="" id="0"><mxCell/></Workflow>
+        <Layer label="Default Layer" id="1"><mxCell parent="0"/></Layer>
+        <Start label="开始" propertyTitle="开始节点" nodeType="start" isSymbol="true" id="2">
+            <mxCell style="start" vertex="1" parent="1">
+                <mxGeometry x="100" y="94" width="48" height="48" as="geometry"/>
+            </mxCell>
+        </Start>
+        <Task label="任务" propertyTitle="任务节点" nodeType="task" form="" formText="无表单" remindRuleId="" remindRuleText="从不提醒" assignerType="0" assignerId="0" handlerText="流程发起人" allowTakeback="1" allowDelegate="1" allowSendback="0" sendbackWay="1" sendbackTargetId="" sendbackTargetText="" allowCheck="1" checkTargetId="" checkTargetText="" allowUpload="1" needAdvice="0" memo="" id="3">
+            <mxCell style="task" vertex="1" parent="1"><mxGeometry x="291" y="94" width="96" height="48" as="geometry"/></mxCell>
+        </Task>
+        <End label="结束" propertyTitle="结束节点" nodeType="end" isSymbol="true" id="4">
+            <mxCell style="end" vertex="1" parent="1"><mxGeometry x="575" y="94" width="48" height="48" as="geometry"/></mxCell>
+        </End>
+        <Edge label="to 任务" description="" propertyTitle="连接线" nodeType="edge" id="5"><mxCell edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell></Edge>
+        <Edge label="to 结束" description="" propertyTitle="连接线" nodeType="edge" id="6"><mxCell edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell></Edge>
+    </root>
+</mxGraphModel>

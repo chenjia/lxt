@@ -30,7 +30,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @RefreshScope
 @Controller
-public class ServiceController {
+public class ManageController {
 	private Logger logger = LoggerFactory.getLogger(getClass());
 
 	@Value("${file.uploadPath}")
@@ -40,13 +40,13 @@ public class ServiceController {
 	private String safeApi;
 
 	@ResponseBody
-	@RequestMapping(value = "/api/{service}/{method}", method = RequestMethod.POST)
+	@RequestMapping(value = "/{service}/{method}", method = RequestMethod.POST)
 	public Packages api(HttpServletRequest request, HttpServletResponse httpServletResponse, @PathVariable String service, @PathVariable String method) throws Exception {
 		System.out.println("【service api】" + service + "/" + method);
 
-		String encryptedText = request.getParameter("request");
-		System.out.println(encryptedText + "\n");
-		Packages pkg = JSONUtils.json2Obj(encryptedText, Packages.class);
+		String requestJson = request.getParameter("request");
+		System.out.println(requestJson + "\n");
+		Packages pkg = JSONUtils.json2Obj(requestJson, Packages.class);
 
 		try {
 			if (pkg.getHead().getStatus() == 200) {

@@ -15,16 +15,16 @@
 			<property name="forceBigDecimals" value="false" />  
 		</javaTypeResolver>  
       
-		<javaModelGenerator targetPackage="com.lxt.ms.manage.model" targetProject="src/main/java">  
+		<javaModelGenerator targetPackage="com.lxt.ms.workflow.model" targetProject="src/main/java">
 			<property name="enableSubPackages" value="true" />  
 			<property name="trimStrings" value="true" />  
 		</javaModelGenerator>  
       
-		<sqlMapGenerator targetPackage="com.lxt.ms.manage.mapper"  targetProject="src/main/java">  
+		<sqlMapGenerator targetPackage="com.lxt.ms.workflow.mapper"  targetProject="src/main/java">
 			<property name="enableSubPackages" value="true" />  
 		</sqlMapGenerator>  
       
-		<javaClientGenerator type="XMLMAPPER" targetPackage="com.lxt.ms.manage.mapper"  targetProject="src/main/java">  
+		<javaClientGenerator type="XMLMAPPER" targetPackage="com.lxt.ms.workflow.mapper"  targetProject="src/main/java">
 			<property name="enableSubPackages" value="true" />  
 		</javaClientGenerator>  
       
