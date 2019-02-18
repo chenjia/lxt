@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 3
     serviceUrl:
-      defaultZone: http://localhost:8101/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/eureka/
 file:
   uploadPath: /Users/farben/uploadFiles
 log:
@@ -32,7 +32,7 @@ security:
 server:
   port: 8311
   servlet:
-    contextPath: /lxt-upload
+    contextPath: /
 spring:
   application:
     name: lxt-upload

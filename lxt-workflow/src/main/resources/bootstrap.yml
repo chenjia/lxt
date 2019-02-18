@@ -11,4 +11,4 @@ spring:
     config:
       profile: dev
       label: master
-      uri: http://localhost:8900/lxt-config
+      uri: http://localhost:8900

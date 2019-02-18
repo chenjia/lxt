@@ -39,8 +39,12 @@ public class TaskServiceImpl implements TaskService {
     private ManagementService managementService = null;
 
     @Override
-    public Packages submit(String taskId) throws APIException {
-        return null;
+    public Packages submit(String $userId, String taskId) throws APIException {
+        Packages pkg = new Packages();
+
+        taskService.complete(taskId);
+
+        return pkg;
     }
 
     @Override

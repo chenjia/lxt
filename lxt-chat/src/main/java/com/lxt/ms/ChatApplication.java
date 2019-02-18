@@ -47,7 +47,7 @@ public class ChatApplication extends SpringBootServletInitializer {
         initParameters.put("jsonRpcEnabled","true");
         initParameters.put("jsonpEnabled","true");
         initParameters.put("maxWaitAfterWrite","500");
-        initParameters.put("overridePath","/lxt-gateway/lxt-chat/chatEngine");
+        initParameters.put("overridePath","/api/chat/chatEngine");
         initParameters.put("preferDataUrlSchema","false");
         initParameters.put("scriptSessionTimeout","1800000");
 

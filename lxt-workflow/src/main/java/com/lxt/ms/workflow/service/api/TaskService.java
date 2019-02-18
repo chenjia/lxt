@@ -5,11 +5,11 @@ import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.common.exception.APIException;
 
 public interface TaskService {
-    public Packages submit(String taskId) throws APIException;
+    public Packages submit(String $userId, String taskId) throws APIException;
 
     public Packages rollback(String taskId, String nodeId, String target) throws APIException;
 
-    public Packages historyList(String userId, PageData page) throws APIException;
+    public Packages historyList(String $userId, PageData page) throws APIException;
 
     public Packages historyActivity(String instanceId) throws APIException;
 

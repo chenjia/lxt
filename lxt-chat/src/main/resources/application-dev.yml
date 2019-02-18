@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 300
     serviceUrl:
-      defaultZone: http://localhost:8101/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/eureka/
 mapper:
   mappers: com.lxt.ms.chat.mapper
   not-empty: false
@@ -25,7 +25,7 @@ security:
 server:
   port: 8321
   servlet:
-    contextPath: /lxt-chat
+    contextPath: /
 spring:
   application:
     name: lxt-chat

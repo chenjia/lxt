@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 300
     serviceUrl:
-      defaultZone: http://localhost:8101/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/eureka/
 
 filterUrl: /lxt-manage/api/,/lxt-upload/api/,/lxt-chat/api/,/lxt-workflow/api/
 

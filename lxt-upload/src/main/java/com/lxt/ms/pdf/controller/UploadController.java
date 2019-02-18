@@ -27,7 +27,7 @@ public class UploadController {
     private String uploadPath;
 
     @ResponseBody
-    @RequestMapping(value = "/api/uploadFile", method = RequestMethod.POST)
+    @RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
     public Packages upload(@RequestParam("file") MultipartFile file) throws Exception {
         Packages result = new Packages();
         String fileName = file.getOriginalFilename();
@@ -51,10 +51,10 @@ public class UploadController {
     }
 
     @ResponseBody
-    @RequestMapping(value = "/api/uploadImg", method = RequestMethod.POST)
+    @RequestMapping(value = "/uploadImg", method = RequestMethod.POST)
     public Packages uploadImg(HttpServletRequest request) throws Exception {
-        String encryptedText = request.getParameter("request");
-        Packages result = JSONUtils.json2Obj(encryptedText, Packages.class);
+        String decryptedText = request.getParameter("request");
+        Packages result = JSONUtils.json2Obj(decryptedText, Packages.class);
 
         Map<String, String> params = (Map<String, String>) result.getBody().getData();
         String base64url = params.get("base64url");

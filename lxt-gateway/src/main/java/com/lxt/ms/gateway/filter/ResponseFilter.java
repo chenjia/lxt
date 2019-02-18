@@ -69,13 +69,19 @@ public class ResponseFilter extends ZuulFilter {
 		boolean shouldFilter = false;
 		
 		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
-		String contextPath = request.getContextPath();
-		String uri = request.getRequestURI().replaceAll(contextPath, "");
-		
+		String uri = request.getRequestURI();
 		String[] filterUrls = filterUrl.split(",");
 		for(String url : filterUrls){
 			if(uri.startsWith(url)){
 				shouldFilter = true;
+				break;
+			}
+		}
+
+		String[] safeUrls = safeApi.split(",");
+		for(String safeUrl : safeUrls){
+			if(uri.startsWith(safeUrl)){
+				shouldFilter = false;
 				break;
 			}
 		}

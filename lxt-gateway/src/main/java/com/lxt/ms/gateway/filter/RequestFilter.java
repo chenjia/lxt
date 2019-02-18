@@ -126,6 +126,14 @@ public class RequestFilter extends ZuulFilter{
 				break;
 			}
 		}
+
+		String[] safeUrls = safeApi.split(",");
+		for(String safeUrl : safeUrls){
+			if(uri.startsWith(safeUrl)){
+				shouldFilter = false;
+				break;
+			}
+		}
 		
 		return shouldFilter;
 	}

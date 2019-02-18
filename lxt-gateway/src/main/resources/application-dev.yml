@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 30
     serviceUrl:
-      defaultZone: http://localhost:8101/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/eureka/
 
 filterUrl: /api/manage/,/api/upload/,/api/chat/,/api/workflow/
 
@@ -17,7 +17,7 @@ hystrix:
               ReadTimeout:1000
               ConnectTimeout:1000
 
-unencryptedApi: /lxt-upload/api/upload
+unencryptedApi: /api/upload/uploadFile
 
 ribbon:
   ReadTimeout: 60000
@@ -26,7 +26,7 @@ ribbon:
   MaxAutoRetriesNextServer: 1
 
 
-safeApi: /api/user/captcha,/api/user/login
+safeApi: /api/user/captcha,/api/user/login,/api/chat/chat
 
 safeDomain: http://localhost,http://localhost:8888,http://47.100.119.102
 
@@ -42,7 +42,11 @@ spring:
     restart:
       enable: true
       additional-paths: src/main/java
-
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
 zuul:
   add-host-header: true
   host:
@@ -50,13 +54,13 @@ zuul:
     socket-timeout-millis: 60000
   routes:
     lxt-chat:
-      path: /lxt-chat/**
+      path: /api/chat/**
       serviceId: lxt-chat
-      stripPrefix: false
+      stripPrefix: true
     lxt-upload:
-      path: /lxt-upload/**
+      path: /api/upload/**
       serviceId: lxt-upload
-      stripPrefix: false
+      stripPrefix: true
     lxt-manage:
       path: /api/manage/**
       serviceId: lxt-manage

@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 30
     serviceUrl:
-      defaultZone: http://localhost:8101/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/eureka/
 file:
   uploadPath: ~/uploadFiles
 log:

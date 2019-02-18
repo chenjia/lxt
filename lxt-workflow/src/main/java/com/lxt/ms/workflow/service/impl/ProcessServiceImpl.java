@@ -78,7 +78,7 @@ public class ProcessServiceImpl implements ProcessService {
         ProcessWithBLOBs processWithBLOBs = null;
         List<Node> nodeList = null;
         String graphWorkflowId = graphWorkflow.getWorkflowId();
-        if(StringUtils.isEmpty(graphWorkflowId)){
+        if(StringUtils.isEmpty(graphWorkflowId) || "0".equalsIgnoreCase(graphWorkflowId)){
             processWithBLOBs = new ProcessWithBLOBs();
             processWithBLOBs.setProcessId(UUIDUtils.UUID());
             processWithBLOBs.setInsertTime(date);
@@ -87,7 +87,10 @@ public class ProcessServiceImpl implements ProcessService {
         }else{
             processWithBLOBs = processMapper.selectByPrimaryKey(graphWorkflowId);
             NodeExample nodeExample = new NodeExample();
-            nodeExample.createCriteria().andProcessIdEqualTo(processWithBLOBs.getProcessId());
+            NodeExample.Criteria criteria = nodeExample.createCriteria();
+            System.out.println("criteria:"+criteria);
+            criteria.andProcessIdEqualTo(processWithBLOBs.getProcessId());
+            System.out.println("criteria:"+criteria);
             nodeList = nodeMapper.selectByExampleWithBLOBs(nodeExample);
         }
 
@@ -152,7 +155,7 @@ public class ProcessServiceImpl implements ProcessService {
         String bpmnXml = WorkflowUtils.toBpmnXml(definitions);
         if(!bpmnXml.equalsIgnoreCase(processWithBLOBs.getBpmnXml())){
             DeploymentBuilder deploymentBuilder = repositoryService.createDeployment();
-            Deployment deployment = deploymentBuilder.addString(processWithBLOBs.getProcessKey()+".bpmn.xml", bpmnXml).name(processWithBLOBs.getProcessKey()).deploy();
+            Deployment deployment = deploymentBuilder.addString(processWithBLOBs.getProcessKey()+".bpmn20.xml", bpmnXml).name(processWithBLOBs.getProcessKey()).deploy();
             String deployId = deployment.getId();
             processWithBLOBs.setDeployeId(deployId);
         }
