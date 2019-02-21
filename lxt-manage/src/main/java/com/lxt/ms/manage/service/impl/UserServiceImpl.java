@@ -5,7 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.lxt.ms.common.bean.web.PageData;
+import com.lxt.ms.manage.mapper.ExtMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,12 +26,16 @@ import com.lxt.ms.manage.model.UserExample.Criteria;
 import com.lxt.ms.manage.model.UserSetting;
 import com.lxt.ms.manage.service.api.UserService;
 import com.lxt.ms.manage.service.bo.LoginBO;
+import org.springframework.util.StringUtils;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
 
 	@Autowired
 	private UserMapper userMapper;
+
+	@Autowired
+	private ExtMapper extMapper;
 
 	@Autowired
 	private UserSettingMapper userSettingMapper;
@@ -75,6 +82,53 @@ public class UserServiceImpl implements UserService {
 			pkg.getHead().setStatus(500);
 			pkg.getHead().setMsg("验证码错误！");
 		}
+
+		return pkg;
+	}
+
+	@Override
+	public Packages list(UserExample example, PageData pageData) throws APIException {
+		Packages pkg = new Packages();
+
+		Page page = PageHelper.startPage(pageData.getPageNumber(), pageData.getPageSize(), true);
+		List<Map<String, Object>> userList = extMapper.selectUserByExample(example);
+		pageData.setData(userList);
+		pageData.setTotal(page.getTotal());
+		pkg.getBody().setData(pageData);
+
+		return pkg;
+	}
+
+	@Override
+	public Packages save(User user) throws APIException {
+		Packages pkg = new Packages();
+
+		if(StringUtils.isEmpty(user.getUserId())){
+			userMapper.insert(user);
+		}else{
+			userMapper.updateByPrimaryKeySelective(user);
+		}
+
+		return pkg;
+	}
+
+	@Override
+	public Packages delete(String userId) throws APIException {
+		Packages pkg = new Packages();
+
+		userMapper.deleteByPrimaryKey(userId);
+
+		return pkg;
+	}
+
+	@Override
+	public Packages status(String userId, int status) throws APIException {
+		Packages pkg = new Packages();
+
+		User user = new User();
+		user.setUserId(userId);
+		user.setStatus(status);
+		userMapper.updateByPrimaryKeySelective(user);
 
 		return pkg;
 	}

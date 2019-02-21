@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lxt.ms.manage.mapper.ExtMapper">
+  <resultMap id="UserMap" type="java.util.Map">
+    <id column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="REALNAME" jdbcType="VARCHAR" property="realname" />
+    <result column="ORG_ID" jdbcType="VARCHAR" property="orgId" />
+    <result column="ORG_NAME" jdbcType="VARCHAR" property="orgName" />
+    <result column="DEPT_ID" jdbcType="VARCHAR" property="deptId" />
+    <result column="DEPT_NAME" jdbcType="VARCHAR" property="deptName" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="INSERT_USER_ID" jdbcType="VARCHAR" property="insertUserId" />
+    <result column="INSERT_TIME" jdbcType="TIMESTAMP" property="insertTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="LOGIN_TIME" jdbcType="TIMESTAMP" property="loginTime" />
+    <result column="SET_QUESTION" jdbcType="INTEGER" property="setQuestion" />
+    <result column="UPDATE_QUESTION_TIME" jdbcType="TIMESTAMP" property="updateQuestionTime" />
+    <result column="UPDATE_PWD_TIME" jdbcType="TIMESTAMP" property="updatePwdTime" />
+    <result column="PWD_STATUS" jdbcType="INTEGER" property="pwdStatus" />
+    <result column="MOBILE" jdbcType="VARCHAR" property="mobile" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="QQ" jdbcType="VARCHAR" property="qq" />
+    <result column="BIRTHDAY" jdbcType="TIMESTAMP" property="birthday" />
+    <result column="GENDER" jdbcType="INTEGER" property="gender" />
+    <result column="IDENTITY_CARD" jdbcType="VARCHAR" property="identityCard" />
+  </resultMap>
+
+  <select id="selectUserByExample" parameterType="com.lxt.ms.manage.model.UserExample" resultMap="UserMap">
+
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    'true' as QUERYID,
+    ORG_NAME as ORG_NAME,
+    DEPT_NAME as DEPT_NAME,
+    <include refid="com.lxt.ms.manage.mapper.UserMapper.Base_Column_List" />
+    from (
+    select u.*,o.org_name,d.dept_name from lxt_user u
+    left join lxt_organization o on u.org_id=o.org_id
+    left join lxt_department d on u.dept_id=d.dept_id
+    ) a
+    <if test="_parameter != null">
+      <include refid="com.lxt.ms.manage.mapper.UserMapper.Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

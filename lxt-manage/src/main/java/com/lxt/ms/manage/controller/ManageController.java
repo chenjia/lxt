@@ -1,14 +1,20 @@
 package com.lxt.ms.manage.controller;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.lang.reflect.Method;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.lxt.ms.common.bean.web.Body;
+import org.apache.commons.beanutils.BeanUtils;
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -81,10 +87,18 @@ public class ManageController {
 			}
 			LocalVariableTableParameterNameDiscoverer u = new LocalVariableTableParameterNameDiscoverer();
 			String[] paramNames = u.getParameterNames(methodObj);
+			Class[] paramClass = methodObj.getParameterTypes();
 			Object[] args = new Object[paramNames.length];
 			Map<String, Object> map = (Map<String, Object>) pkg.getBody().getData();
 			for (int i = 0; i < paramNames.length; i++) {
 				args[i] = map.get(paramNames[i]);
+				if(args[i] instanceof Map){
+					Object instance = paramClass[i].newInstance();
+					BeanUtils.copyProperties(instance, args[i]);
+					args[i] = instance;
+				}else if("$userId".equalsIgnoreCase(paramNames[i])){
+					args[i] = pkg.getHead().getUserId();
+				}
 			}
 			result = (Packages) methodObj.invoke(serviceObj, args);
 		} catch (Exception e) {
@@ -109,24 +123,32 @@ public class ManageController {
 		return pkg;
 	}
 
-	@RequestMapping(value = "/pay")
-	public ModelAndView pay(HttpServletRequest request, RedirectAttributes attrs) throws Exception {
-		System.out.println(request.getParameter("name"));
-		System.out.println(request.getParameter("money"));
-		ModelAndView model = new ModelAndView();
-		attrs.addAttribute("name", request.getParameter("name"));
-
-		attrs.addAttribute("money", request.getParameter("money"));
-		model.setViewName("redirect:/ppp");
-		return model;
+	private String getIp(HttpServletRequest request) {
+		String ip = request.getHeader("X-Forwarded-For");
+		if (StringUtils.isNotEmpty(ip) && !"unKnown".equalsIgnoreCase(ip)) {
+			//多次反向代理后会有多个ip值，第一个ip才是真实ip
+			int index = ip.indexOf(",");
+			if (index != -1) {
+				return ip.substring(0, index);
+			} else {
+				return ip;
+			}
+		}
+		ip = request.getHeader("X-Real-IP");
+		if (StringUtils.isNotEmpty(ip) && !"unKnown".equalsIgnoreCase(ip)) {
+			return ip;
+		}
+		return request.getRemoteAddr();
 	}
 
-	@RequestMapping(value = "/ppp")
-	public ModelAndView ppp(@ModelAttribute("name") String name, @ModelAttribute("money") String money) throws Exception {
-		System.out.println("name:"+name);
-		System.out.println("money:"+money);
-		ModelAndView model = new ModelAndView();
-		model.setViewName("test");
-		return model;
+	private String getMacAddrByIp(String ip) {
+		String macAddr = null;
+		try {
+//			UdpGetClientMacAddr mac = new UdpGetClientMacAddr(ip);
+//			macAddr = mac.GetRemoteMacAddr();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return macAddr;
 	}
 }
