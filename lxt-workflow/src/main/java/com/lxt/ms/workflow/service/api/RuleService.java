@@ -8,10 +8,12 @@ import com.lxt.ms.workflow.model.RuleExample;
 
 public interface RuleService {
 
-    public Packages save(Rule rule) throws APIException;
+    public Packages save(Rule rule, String $userId) throws APIException;
 
     public Packages delete(String ruleId) throws APIException;
 
-    public Packages list(RuleExample example, PageData pageData) throws APIException;
+    public Packages list(RuleExample example) throws APIException;
+
+    public Packages details(String ruleId) throws APIException;
 
 }

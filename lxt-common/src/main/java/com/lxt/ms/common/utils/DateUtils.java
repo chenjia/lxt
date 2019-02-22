@@ -3,6 +3,7 @@ package com.lxt.ms.common.utils;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 import org.springframework.util.StringUtils;
 
@@ -12,7 +13,12 @@ public class DateUtils {
 	public static final String LONG_DATE = "yyyy-MM-dd HH:mm:ss";
 
 	public static SimpleDateFormat dateFormat = new SimpleDateFormat();
-	
+
+//	static{
+//		TimeZone tz = TimeZone.getTimeZone("ETC/GMT+8");
+//		TimeZone.setDefault(tz);
+//	}
+
 	/**
 	 * 日期对象转化成字符串
 	 * @param date 日期对象

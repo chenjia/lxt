@@ -5,6 +5,7 @@ import com.github.pagehelper.PageHelper;
 import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.common.exception.APIException;
+import com.lxt.ms.common.utils.UUIDUtils;
 import com.lxt.ms.workflow.mapper.PageMapper;
 import com.lxt.ms.workflow.mapper.RuleMapper;
 import com.lxt.ms.workflow.model.PageExample;
@@ -18,6 +19,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
 
 @Service("ruleService")
 public class RuleServiceImpl implements RuleService {
@@ -25,13 +27,15 @@ public class RuleServiceImpl implements RuleService {
     private RuleMapper ruleMapper;
 
     @Override
-    public Packages save(Rule rule) throws APIException {
+    public Packages save(Rule rule, String $userId) throws APIException {
         Packages pkg = new Packages();
 
         Date date = new Date();
         rule.setUpdateTime(date);
         try {
             if(rule.getRuleId() == null){
+                rule.setRuleId(UUIDUtils.UUID());
+                rule.setUserId($userId);
                 rule.setInsertTime(date);
                 ruleMapper.insert(rule);
             }else{
@@ -60,19 +64,26 @@ public class RuleServiceImpl implements RuleService {
     }
 
     @Override
-    public Packages list(RuleExample example, PageData pageData) throws APIException {
+    public Packages list(RuleExample example) throws APIException {
         Packages pkg = new Packages();
 
         try {
-            Page page = PageHelper.startPage(pageData.getPageNumber(), pageData.getPageSize(), true);
             List<Rule> list = ruleMapper.selectByExample(new RuleExample());
-            pageData.setData(list);
-            pageData.setTotal(page.getTotal());
-            pkg.getBody().setData(pageData);
+            pkg.getBody().setData(list);
         } catch (Exception e) {
             e.printStackTrace();
             throw new APIException("校验规则查询失败！");
         }
+
+        return pkg;
+    }
+
+    @Override
+    public Packages details(String ruleId) throws APIException {
+        Packages pkg = new Packages();
+
+        Rule rule = ruleMapper.selectByPrimaryKey(ruleId);
+        pkg.getBody().setData(rule);
 
         return pkg;
     }
