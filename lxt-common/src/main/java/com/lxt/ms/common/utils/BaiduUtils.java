@@ -1,5 +1,7 @@
 package com.lxt.ms.common.utils;
 
+import org.springframework.util.StringUtils;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -71,13 +73,19 @@ public class BaiduUtils {
     }
 
 
-    public static String ocrText(String filePath) {
+    public static String ocrTextJson(String filePath, String base64) {
         String result = "";
-        String apiHost = "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic";
+        String apiHost = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic";
 
         try {
-            byte[] imgData = FileUtil.readFileByBytes(filePath);
-            String imgStr = Base64Util.encode(imgData);
+            String imgStr = "";
+            if(StringUtils.isEmpty(filePath)){
+                imgStr = base64;
+            }else{
+                byte[] imgData = FileUtil.readFileByBytes(filePath);
+                imgStr = Base64Util.encode(imgData);
+            }
+
             String params = URLEncoder.encode("image", "UTF-8") + "=" + URLEncoder.encode(imgStr, "UTF-8");
 
             /**
@@ -86,13 +94,6 @@ public class BaiduUtils {
             String accessToken = getAuth();
             result = HttpUtil.post(apiHost, accessToken, params);
             System.out.println(result);
-            Map<String, Object> map = JSONUtils.json2Map(result);
-            List<Map<String, Object>> results = (List<Map<String, Object>>) map.get("words_result");
-            String resultStr = "";
-            for(Map<String, Object> item : results){
-                resultStr += item.get("words");
-            }
-            System.out.println(resultStr);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -100,7 +101,21 @@ public class BaiduUtils {
         return result;
     }
 
+    public static String ocrText(String filePath, String base64) {
+        String result = "";
+
+        String json = ocrTextJson(filePath, base64);
+        Map<String, Object> map = JSONUtils.json2Map(json);
+        List<Map<String, Object>> results = (List<Map<String, Object>>) map.get("words_result");
+        for(Map<String, Object> item : results){
+            result += item.get("words");
+        }
+        System.out.println(result);
+
+        return result;
+    }
+
     public static void main(String[] args) {
-        ocrText("/Users/farben/Downloads/aaaa.png");
+        ocrText("/Users/farben/Downloads/aaaa.png", null);
     }
 }

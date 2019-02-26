@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.lang.reflect.Method;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -98,6 +100,10 @@ public class ManageController {
 					args[i] = instance;
 				}else if("$userId".equalsIgnoreCase(paramNames[i])){
 					args[i] = pkg.getHead().getUserId();
+				}else if(paramClass[i].isArray()){
+					List list = (List) args[i];
+					Object[] obj = (Object[])Array.newInstance(paramClass[i].getComponentType(), list.size());
+					args[i] = list.toArray(obj);
 				}
 			}
 			result = (Packages) methodObj.invoke(serviceObj, args);
@@ -139,16 +145,5 @@ public class ManageController {
 			return ip;
 		}
 		return request.getRemoteAddr();
-	}
-
-	private String getMacAddrByIp(String ip) {
-		String macAddr = null;
-		try {
-//			UdpGetClientMacAddr mac = new UdpGetClientMacAddr(ip);
-//			macAddr = mac.GetRemoteMacAddr();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return macAddr;
 	}
 }

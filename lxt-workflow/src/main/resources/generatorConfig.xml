@@ -42,8 +42,8 @@
 		<table schema="lxt_db" tableName="lxt_process_category" domainObjectName="ProcessCategory" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 		<table schema="lxt_db" tableName="lxt_user" domainObjectName="User" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 		<table schema="lxt_db" tableName="lxt_user_setting" domainObjectName="UserSetting" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
-		<table schema="lxt_db" tableName="lxt_page" domainObjectName="Page" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
-		<table schema="lxt_db" tableName="lxt_page_component" domainObjectName="PageComponent" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+		<table schema="lxt_db" tableName="lxt_dynamic" domainObjectName="Dynamic" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+		<table schema="lxt_db" tableName="lxt_dynamic_component" domainObjectName="DynamicComponent" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 		<table schema="lxt_db" tableName="lxt_rule" domainObjectName="Rule" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 
 

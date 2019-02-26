@@ -9,6 +9,8 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.manage.mapper.ExtMapper;
+import com.lxt.ms.manage.mapper.UserRoleMapper;
+import com.lxt.ms.manage.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,10 +22,7 @@ import com.lxt.ms.common.utils.JWTUtils;
 import com.lxt.ms.common.utils.SecurityUtils;
 import com.lxt.ms.manage.mapper.UserMapper;
 import com.lxt.ms.manage.mapper.UserSettingMapper;
-import com.lxt.ms.manage.model.User;
-import com.lxt.ms.manage.model.UserExample;
 import com.lxt.ms.manage.model.UserExample.Criteria;
-import com.lxt.ms.manage.model.UserSetting;
 import com.lxt.ms.manage.service.api.UserService;
 import com.lxt.ms.manage.service.bo.LoginBO;
 import org.springframework.util.StringUtils;
@@ -33,6 +32,9 @@ public class UserServiceImpl implements UserService {
 
 	@Autowired
 	private UserMapper userMapper;
+
+	@Autowired
+	private UserRoleMapper userRoleMapper;
 
 	@Autowired
 	private ExtMapper extMapper;
@@ -129,6 +131,24 @@ public class UserServiceImpl implements UserService {
 		user.setUserId(userId);
 		user.setStatus(status);
 		userMapper.updateByPrimaryKeySelective(user);
+
+		return pkg;
+	}
+
+	@Override
+	public Packages grant(String userId, String[] roleIds) throws APIException {
+		Packages pkg = new Packages();
+
+		UserRoleExample example = new UserRoleExample();
+		example.createCriteria().andUserIdEqualTo(userId);
+		userRoleMapper.deleteByExample(example);
+
+		for(String roleId : roleIds){
+			UserRoleKey userRoleKey = new UserRoleKey();
+			userRoleKey.setUserId(userId);
+			userRoleKey.setRoleId(roleId);
+			userRoleMapper.insert(userRoleKey);
+		}
 
 		return pkg;
 	}

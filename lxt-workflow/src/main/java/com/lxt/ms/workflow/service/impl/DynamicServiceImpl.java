@@ -2,26 +2,28 @@ package com.lxt.ms.workflow.service.impl;
 
 import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.exception.APIException;
-import com.lxt.ms.workflow.mapper.PageMapper;
+import com.lxt.ms.workflow.mapper.DynamicMapper;
+import com.lxt.ms.workflow.model.Dynamic;
+import com.lxt.ms.workflow.model.DynamicExample;
 import com.lxt.ms.workflow.model.Page;
 import com.lxt.ms.workflow.model.PageExample;
-import com.lxt.ms.workflow.service.api.PageService;
+import com.lxt.ms.workflow.service.api.DynamicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("pageService")
-public class PageServiceImpl implements PageService {
+@Service("dynamicService")
+public class DynamicServiceImpl implements DynamicService {
     @Autowired
-    private PageMapper pageMapper;
+    private DynamicMapper dynamicMapper;
 
     @Override
-    public Packages save(Page page) throws APIException {
+    public Packages save(Dynamic dynamic) throws APIException {
         Packages pkg = new Packages();
 
         try {
-            pageMapper.insert(page);
+            dynamicMapper.insert(dynamic);
         } catch (Exception e) {
             e.printStackTrace();
             throw new APIException("页面保存失败！");
@@ -31,13 +33,13 @@ public class PageServiceImpl implements PageService {
     }
 
     @Override
-    public Packages delete(String pageId) throws APIException {
+    public Packages delete(String dynamicId) throws APIException {
         Packages pkg = new Packages();
 
         try {
-            PageExample example = new PageExample();
-            example.createCriteria().andPageIdEqualTo(pageId);
-            pageMapper.deleteByExample(example);
+            DynamicExample example = new DynamicExample();
+            example.createCriteria().andIdEqualTo(dynamicId);
+            dynamicMapper.deleteByExample(example);
         } catch (Exception e) {
             e.printStackTrace();
             throw new APIException("页面保存失败！");
@@ -51,7 +53,7 @@ public class PageServiceImpl implements PageService {
         Packages pkg = new Packages();
 
         try {
-            List<Page> list = pageMapper.selectByExample(new PageExample());
+            List<Dynamic> list = dynamicMapper.selectByExample(new DynamicExample());
             pkg.getBody().setData(list);
         } catch (Exception e) {
             e.printStackTrace();

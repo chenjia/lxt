@@ -20,4 +20,6 @@ public interface UserService{
 	public abstract Packages delete(String userId) throws APIException;
 
 	public abstract Packages status(String userId, int status) throws APIException;
+
+	public abstract Packages grant(String userId, String[] roleIds) throws APIException;
 }
