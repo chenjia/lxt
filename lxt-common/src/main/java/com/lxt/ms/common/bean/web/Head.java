@@ -10,17 +10,13 @@ public class Head implements Serializable {
 
 	private String url;
 
-	/**
-	 * 终端类型 D:Desktop M:Mobile A:App
-	 */
 	private String terminal;
 
-	/**
-	 * 令牌
-	 */
 	private String token;
 
 	private int status = 200;
+
+	private long timestamp;
 
 	private String msg = "接口调用成功";
 
@@ -66,12 +62,12 @@ public class Head implements Serializable {
 		this.status = status;
 	}
 
-	public boolean isDebug() {
-		return debug;
+	public long getTimestamp() {
+		return timestamp;
 	}
 
-	public void setDebug(boolean debug) {
-		this.debug = debug;
+	public void setTimestamp(long timestamp) {
+		this.timestamp = timestamp;
 	}
 
 	public String getMsg() {
@@ -82,4 +78,11 @@ public class Head implements Serializable {
 		this.msg = msg;
 	}
 
+	public boolean isDebug() {
+		return debug;
+	}
+
+	public void setDebug(boolean debug) {
+		this.debug = debug;
+	}
 }

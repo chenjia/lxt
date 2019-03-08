@@ -3,7 +3,6 @@ package com.lxt.ms.common.utils;
 import org.springframework.util.StringUtils;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -73,26 +72,28 @@ public class BaiduUtils {
     }
 
 
-    public static String ocrTextJson(String filePath, String base64) {
+    public static String ocrText(String path) {
         String result = "";
-        String apiHost = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic";
+        String apiHost = "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic";
 
         try {
-            String imgStr = "";
-            if(StringUtils.isEmpty(filePath)){
-                imgStr = base64;
-            }else{
-                byte[] imgData = FileUtil.readFileByBytes(filePath);
-                imgStr = Base64Util.encode(imgData);
+            if(!path.startsWith("data")){
+                byte[] imgData = FileUtil.readFileByBytes(path);
+                path = Base64Util.encode(imgData);
             }
 
-            String params = URLEncoder.encode("image", "UTF-8") + "=" + URLEncoder.encode(imgStr, "UTF-8");
+            String params = URLEncoder.encode("image", "UTF-8") + "=" + URLEncoder.encode(path, "UTF-8");
+            params += "&language_type=ENG";
 
-            /**
-             * 线上环境access_token有过期时间， 客户端可自行缓存，过期后重新获取。
-             */
             String accessToken = getAuth();
             result = HttpUtil.post(apiHost, accessToken, params);
+            System.out.println(result);
+
+            Map<String, Object> map = JSONUtils.json2Map(result);
+            List<Map<String, Object>> results = (List<Map<String, Object>>) map.get("words_result");
+            for(Map<String, Object> item : results){
+                result += item.get("words");
+            }
             System.out.println(result);
         } catch (Exception e) {
             e.printStackTrace();
@@ -101,21 +102,12 @@ public class BaiduUtils {
         return result;
     }
 
-    public static String ocrText(String filePath, String base64) {
-        String result = "";
-
-        String json = ocrTextJson(filePath, base64);
-        Map<String, Object> map = JSONUtils.json2Map(json);
-        List<Map<String, Object>> results = (List<Map<String, Object>>) map.get("words_result");
-        for(Map<String, Object> item : results){
-            result += item.get("words");
-        }
-        System.out.println(result);
-
-        return result;
-    }
-
-    public static void main(String[] args) {
-        ocrText("/Users/farben/Downloads/aaaa.png", null);
-    }
+//    public static void main(String[] args) throws Exception {
+//        System.out.println(URLEncoder.encode("执行失败", "UTF-8"));
+//        String[] array = new String[]{"0931","7685","7551"};
+//        for(int i=1;i<=3;i++){
+//            ocrText("/Users/farben/Downloads/app"+i+".png");
+//            System.out.println("验证码："+array[i-1]);
+//        }
+//    }
 }
