@@ -3,20 +3,16 @@ package com.lxt.ms.workflow.service.impl;
 import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.common.exception.APIException;
+import com.lxt.ms.workflow.model.User;
 import com.lxt.ms.workflow.service.api.TaskService;
+import com.lxt.ms.workflow.utils.TaskRollbackCmd;
 import org.activiti.engine.*;
-import org.activiti.engine.impl.persistence.entity.TaskEntity;
-import org.activiti.engine.impl.persistence.entity.TaskEntityImpl;
 import org.activiti.engine.task.Task;
 import org.activiti.engine.task.TaskQuery;
-import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service("taskService")
 public class TaskServiceImpl implements TaskService {
@@ -49,7 +45,11 @@ public class TaskServiceImpl implements TaskService {
 
     @Override
     public Packages rollback(String taskId, String nodeId, String target) throws APIException {
-        return null;
+        Packages pkg = new Packages();
+
+        managementService.executeCommand(new TaskRollbackCmd(taskId));
+
+        return pkg;
     }
 
     @Override
@@ -81,9 +81,8 @@ public class TaskServiceImpl implements TaskService {
         long total = taskQuery.count();
         List<Map> taskList = new ArrayList<Map>();
 
-        Map<String, Object> map = null;
         for(Task task : list){
-            map = new HashMap<String, Object>();
+            Map<String, Object> map = new HashMap<String, Object>();
             map.put("id", task.getId());
             map.put("name", task.getName());
             map.put("insertTime", task.getCreateTime());

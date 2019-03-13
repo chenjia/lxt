@@ -18,9 +18,13 @@ import com.lxt.ms.workflow.model.ProcessWithBLOBs;
 import com.lxt.ms.workflow.service.api.ProcessService;
 import com.lxt.ms.workflow.utils.WorkflowUtils;
 import org.activiti.engine.*;
+import org.activiti.engine.history.HistoricDetail;
+import org.activiti.engine.history.HistoricDetailQuery;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.DeploymentBuilder;
 import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.runtime.Execution;
+import org.activiti.engine.runtime.ProcessInstance;
 import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -264,4 +268,104 @@ public class ProcessServiceImpl implements ProcessService {
 
         return pkg;
     }
+
+    @Override
+    public Packages history(String instanceId) throws APIException {
+        Packages pkg = new Packages();
+
+        List<Execution> currentList = runtimeService.createExecutionQuery().executionId(instanceId).list();
+        List<HistoricDetail> historyList = historyService.createHistoricDetailQuery().executionId(instanceId).list();
+
+        Map<String,Object> map = new HashMap<String, Object>();
+        map.put("current", currentList);
+        map.put("history", historyList);
+        pkg.getBody().setData(map);
+
+        return pkg;
+    }
+
+    /*
+    public Map<String, Object> queryHistoryStep(String processInstanceId)
+            throws ServiceException {
+        Map<String,Object> historyMap = new HashMap<String, Object>();
+
+        try {
+            Map<String,Object> json = new HashMap<String, Object>();
+            List<HistoryActivityInstance> history = jbpmUtils.getHistoryService().createHistoryActivityInstanceQuery().processInstanceId(processInstanceId).list();
+            List<Map<String,Object>> currentList = new ArrayList<Map<String,Object>>();
+            List<Map<String,Object>> mapList = new ArrayList<Map<String,Object>>();
+            for(HistoryActivityInstance temp : history){
+                HistoryTaskInstanceImpl haii = (HistoryTaskInstanceImpl) temp;
+                if(haii.getEndTime()==null){
+                    TaskImpl task = new TaskImpl();
+                    List<Task> tasks = jbpmUtils.getTaskService().createTaskQuery().activityName(haii.getActivityName()).executionId(haii.getExecutionId()).list();
+                    if(tasks.size()==1){
+                        task = (TaskImpl) tasks.get(0);
+                    }
+                    Map<String, Object> currentMap = new HashMap<String, Object>();
+                    currentMap.put("activity", haii.getActivityName());
+                    currentMap.put("eid", haii.getExecutionId());
+                    if(!CheckUtils.isNotEmpty(task.getAssignee())){
+
+                        LxtUser assigner = userDAO.getPOJOById(task.getAssignee());
+                        if(assigner!=null){
+                            currentMap.put("assigner", assigner.getUsername());
+                        }else{
+                            currentMap.put("assigner", "");
+                        }
+                    }
+
+                    Set<ParticipationImpl> participations = task.getParticipations();
+                    Set<String> parSet = new HashSet<String>(participations.size());
+                    if(participations.size()!=0){
+                        for(Participation p : participations){
+                            parSet.add(p.getUserId());
+                        }
+                        List<LxtUser> candidate = userDAO.queryByIds(parSet);
+                        parSet.clear();
+                        for(LxtUser user : candidate){
+                            parSet.add(user.getUsername());
+                        }
+                        currentMap.put("candidate", parSet);
+                    }
+
+                    parSet.clear();
+                    if(tasks.size()>1){
+                        for(Task t : tasks){
+                            TaskImpl tempTask = (TaskImpl) t;
+                            if(tempTask.getSuperTask()!=null){
+                                parSet.add(tempTask.getAssignee());
+                            }
+                        }
+                        List<LxtUser> subAssigner = userDAO.queryByIds(parSet);
+                        parSet.clear();
+                        for(LxtUser user : subAssigner){
+                            parSet.add(user.getUsername());
+                        }
+                        currentMap.put("subAssigner", parSet);
+                    }
+                    currentList.add(currentMap);
+                    continue;
+                }
+                Map<String,Object> map = new HashMap<String, Object>();
+                map.put("activity", temp.getActivityName());
+                map.put("eid", temp.getExecutionId());
+                map.put("transition", haii.getTransitionName());
+                map.put("createTime", temp.getStartTime());
+                map.put("endTime", temp.getEndTime());
+                LxtUser user = userDAO.getPOJOById(haii.getHistoryTask().getAssignee());
+                map.put("assigner", user.getUsername());
+                map.put("userId", user.getUserId());
+                mapList.add(map);
+            }
+            historyMap.put("history", mapList);
+            historyMap.put("current", currentList);
+        } catch (DAOException e) {
+            e.printStackTrace();
+            throw new ServiceException(e);
+        }
+
+        return historyMap;
+    }
+*/
 }
