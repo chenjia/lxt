@@ -6,10 +6,10 @@
     <file url="file://$PROJECT_DIR$/lxt-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lxt-drools" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-manage" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lxt-pc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-pdf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lxt-web" charset="UTF-8" />

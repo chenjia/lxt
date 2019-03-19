@@ -1,0 +1,10 @@
+package com.lxt.ms
+
+import com.lxt.ms.drools.model.Person;
+
+rule "test"
+    when
+        eval(true)
+    then
+        System.out.println("test.drl");
+end
