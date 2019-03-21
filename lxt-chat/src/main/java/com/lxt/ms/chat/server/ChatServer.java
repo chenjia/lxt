@@ -3,6 +3,7 @@ package com.lxt.ms.chat.server;
 import com.lxt.ms.chat.mapper.ChatRecordMapper;
 import com.lxt.ms.chat.vo.ChatRecordVO;
 import com.lxt.ms.common.utils.JSONUtils;
+import com.lxt.ms.common.utils.SpringUtils;
 import com.lxt.ms.common.utils.UUIDUtils;
 import org.directwebremoting.*;
 import org.directwebremoting.annotations.RemoteMethod;
@@ -15,7 +16,6 @@ import java.util.Date;
 
 @RemoteProxy
 public class ChatServer {
-	@Autowired
 	private static ChatRecordMapper chatRecordMapper;
 
 	private static ScriptSessionManager manager = null;
@@ -41,7 +41,10 @@ public class ChatServer {
 		record.setRecordId(UUIDUtils.UUID());
 		record.setInsertTime(new Date());
 		record.setMsgType(0);
-//		chatRecordMapper.insert(record);
+		if (chatRecordMapper == null) {
+			chatRecordMapper = (ChatRecordMapper) SpringUtils.getApplicationContext().getBean("chatRecordMapper");
+		}
+		chatRecordMapper.insert(record);
 		final String json = JSONUtils.obj2Json(record);
 		
 		ScriptSessionFilter filter = new ChatSessionFilter(record);
