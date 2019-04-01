@@ -3,6 +3,9 @@ eureka:
     registryFetchIntervalSeconds: 300
     serviceUrl:
       defaultZone: http://localhost:8101/eureka/
+logging:
+  level:
+    com.lxt.ms.chat.mapper: debug
 mapper:
   mappers: com.lxt.ms.chat.mapper
   not-empty: false

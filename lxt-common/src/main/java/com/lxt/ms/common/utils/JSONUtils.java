@@ -1,6 +1,8 @@
 package com.lxt.ms.common.utils;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Map;
 
@@ -10,13 +12,13 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JSONUtils {
+	private static DateFormat longDateFormat = new SimpleDateFormat(DateUtils.LONG_DATE);
 	private static ObjectMapper objectMapper = new ObjectMapper();
 
 	public static String obj2Json(Object obj) {
 		String jsonStr = "";
 		try {
-			DateUtils.dateFormat.applyPattern(DateUtils.LONG_DATE);
-			objectMapper.setDateFormat(DateUtils.dateFormat);
+			objectMapper.setDateFormat(longDateFormat);
 			jsonStr = objectMapper.writeValueAsString(obj);
 		} catch (JsonProcessingException e) {
 			e.printStackTrace();

@@ -3,6 +3,7 @@ package com.lxt.ms.chat.service.impl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.lxt.ms.chat.mapper.ChatRecordMapper;
+import com.lxt.ms.chat.mapper.ext.ChatRecordExtMapper;
 import com.lxt.ms.chat.model.ChatRecord;
 import com.lxt.ms.chat.model.ChatRecordExample;
 import com.lxt.ms.chat.service.api.RecordService;
@@ -20,28 +21,35 @@ import java.util.List;
 public class RecordServiceImpl implements RecordService {
 
     @Autowired
-    private ChatRecordMapper chatRecordMapper;
+    private ChatRecordMapper cRecordMapper;
+
+    @Autowired
+    private ChatRecordExtMapper chatRecordExtMapper;
 
     @Override
     public Packages list(HashMap<String, Object> example, PageData pageData) throws APIException {
+        Page page = PageHelper.startPage(pageData.getPageNumber(), pageData.getPageSize(), true);
+
         Packages pkg = new Packages();
 
         System.out.println("example:"+example);
         System.out.println("pagedata:"+pageData);
-        Page page = PageHelper.startPage(pageData.getPageNumber(), pageData.getPageSize(), true);
 
         long time = (Long) example.get("beforeDate");
         String sendId = (String) example.get("sendId");
         String receiveId = (String) example.get("receiveId");
-        ChatRecordExample chatRecordExample = new ChatRecordExample();
+        example.put("insertTime", new Date(time));
+        example.put("startIndex", (pageData.getPageNumber()-1)*pageData.getPageSize());
+        example.put("pageSize", pageData.getPageSize());
 
-        chatRecordExample.createCriteria().andSendIdEqualTo(sendId).andReceiveIdEqualTo(receiveId);
-        chatRecordExample.or(chatRecordExample.createCriteria().andSendIdEqualTo(receiveId).andReceiveIdEqualTo(sendId));
-        chatRecordExample.createCriteria().andInsertTimeLessThan(new Date(time));
-        chatRecordExample.setOrderByClause("INSERT_TIME desc");
-        List<ChatRecord> list = chatRecordMapper.selectByExample(chatRecordExample);
+//        ChatRecordExample chatRecordExample = new ChatRecordExample();
+//        chatRecordExample.createCriteria().andInsertTimeLessThan(new Date(time)).andOrUserId(sendId, receiveId);
+//        chatRecordExample.setOrderByClause("INSERT_TIME desc");
+//        List<ChatRecord> list = chatRecordMapper.selectByExample(chatRecordExample);
+        List<ChatRecord> list = chatRecordExtMapper.queryRecord(example);
+        int count = chatRecordExtMapper.queryRecordCount(example);
         pageData.setData(list);
-        pageData.setTotal(page.getTotal());
+        pageData.setTotal(count);
         pkg.getBody().setData(pageData);
 
         return pkg;

@@ -594,6 +594,11 @@ public class ChatRecordExample {
             addCriterion("INSERT_TIME not between", value1, value2, "insertTime");
             return (Criteria) this;
         }
+
+        public Criteria andOrUserId(String sendId, String receiveId){
+            addCriterion("(SEND_ID = '"+sendId+"' and RECEIVE_ID = '"+receiveId+"' or SEND_ID = '"+receiveId+"' and RECEIVE_ID = '"+sendId+"')");
+            return (Criteria) this;
+        }
     }
 
     /**

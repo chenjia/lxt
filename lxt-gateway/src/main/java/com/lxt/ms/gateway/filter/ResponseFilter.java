@@ -38,10 +38,10 @@ public class ResponseFilter extends ZuulFilter {
 		
 		Set<String> allowedOrigins = new HashSet<String>(Arrays.asList(safeDomain.split(",")));
 		String origin = request.getHeader("Origin");
-		
+
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("application/json;charset=utf-8");
-		
+
 		if (allowedOrigins.contains(origin)) {
 			response.setHeader("Access-Control-Allow-Origin", origin);
 			response.setHeader("Access-Control-Allow-Methods",
@@ -78,13 +78,13 @@ public class ResponseFilter extends ZuulFilter {
 			}
 		}
 
-		String[] safeUrls = safeApi.split(",");
-		for(String safeUrl : safeUrls){
-			if(uri.startsWith(safeUrl)){
-				shouldFilter = false;
-				break;
-			}
-		}
+//		String[] safeUrls = safeApi.split(",");
+//		for(String safeUrl : safeUrls){
+//			if(uri.startsWith(safeUrl)){
+//				shouldFilter = false;
+//				break;
+//			}
+//		}
 		
 		return shouldFilter;
 	}

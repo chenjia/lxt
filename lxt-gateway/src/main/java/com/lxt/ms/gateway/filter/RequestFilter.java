@@ -1,6 +1,7 @@
 package com.lxt.ms.gateway.filter;
 
 import com.lxt.ms.common.bean.web.Packages;
+import com.lxt.ms.common.utils.CacheUtils;
 import com.lxt.ms.common.utils.JSONUtils;
 import com.lxt.ms.common.utils.JWTUtils;
 import com.lxt.ms.common.utils.SecurityUtils;
@@ -19,7 +20,10 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 @SuppressWarnings("unchecked")
 public class RequestFilter extends ZuulFilter{
@@ -34,7 +38,7 @@ public class RequestFilter extends ZuulFilter{
 	
 	@Value("${unencryptedApi}")
     private String unencryptedApi;
-	
+
 	@Override
 	public Object run() throws ZuulException{
 		RequestContext ctx = RequestContext.getCurrentContext();
@@ -55,26 +59,33 @@ public class RequestFilter extends ZuulFilter{
 				pkg = JSONUtils.json2Obj(decryptedText, Packages.class);
 			} catch (Exception e) {
 				e.printStackTrace();
-				throw new ZuulException(e, 500, "报文解密异常");
+				pkg.getHead().setStatus(500);
+				pkg.getHead().setMsg("报文解密异常！");
 			}
 
-			if (pkg.getHead().getStatus() == 200) {
+			if (pkg.getHead().getStatus() == 200 && safeApi.indexOf(uri) == -1) {
 				String token = pkg.getHead().getToken();
 				String userId = pkg.getHead().getUserId();
 
-				if (!StringUtils.isEmpty(userId)) {
+				if (StringUtils.isNotEmpty(userId)) {
 					try {
 						Map<String, Object> map = JWTUtils.parse(token);
-						if(!userId.equals(map.get("userId"))){
+						if(userId.equals(map.get("userId"))){
+							Set<Object> resourceSet = CacheUtils.sGet("RESOURCE_"+userId);
+							if(resourceSet == null || !resourceSet.contains(uri)){
+                                pkg.getHead().setStatus(500);
+                                pkg.getHead().setMsg("未授权的访问，请联系管理员！");
+                            }
+						}else {
 							pkg.getHead().setStatus(500);
 							pkg.getHead().setMsg("token验证失败！");
-							ctx.setSendZuulResponse(false);
+//							ctx.setSendZuulResponse(false);
 						}
 					} catch (Exception e) {
 						e.printStackTrace();
 						pkg.getHead().setStatus(500);
 						pkg.getHead().setMsg("token转换失败！");
-						ctx.setSendZuulResponse(false);
+//						ctx.setSendZuulResponse(false);
 					}
 				}
 			}
@@ -127,13 +138,13 @@ public class RequestFilter extends ZuulFilter{
 			}
 		}
 
-		String[] safeUrls = safeApi.split(",");
-		for(String safeUrl : safeUrls){
-			if(uri.startsWith(safeUrl)){
-				shouldFilter = false;
-				break;
-			}
-		}
+//		String[] safeUrls = safeApi.split(",");
+//		for(String safeUrl : safeUrls){
+//			if(uri.startsWith(safeUrl)){
+//				shouldFilter = false;
+//				break;
+//			}
+//		}
 		
 		return shouldFilter;
 	}

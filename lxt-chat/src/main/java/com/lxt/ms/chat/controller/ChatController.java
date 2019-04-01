@@ -74,19 +74,12 @@ public class ChatController {
             Map<String, Object> map = (Map<String, Object>) pkg.getBody().getData();
             for (int i = 0; i < paramNames.length; i++) {
                 args[i] = map.get(paramNames[i]);
-
-                System.out.println("args[i]:"+args[i]);
-
                 if(args[i] instanceof Map){
                     Object instance = paramClass[i].newInstance();
-
-                    System.out.println("instance:"+instance);
-
                     if(!(instance instanceof Map)){
                         BeanUtils.copyProperties(instance, args[i]);
                         args[i] = instance;
                     }
-                    System.out.println("args:"+args[i]);
                 }else if("$userId".equalsIgnoreCase(paramNames[i])){
                     args[i] = pkg.getHead().getUserId();
                 }else if(paramClass[i].isArray()){

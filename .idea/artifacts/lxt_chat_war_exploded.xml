@@ -114,6 +114,7 @@
           <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.0.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.0.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.0.1.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
@@ -162,7 +163,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.0.1.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

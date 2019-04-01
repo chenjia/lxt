@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.lang.reflect.Array;
 import java.lang.reflect.Method;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -87,6 +89,10 @@ public class WorkflowController implements ApplicationContextAware {
                 args[i] = instance;
             }else if("$userId".equalsIgnoreCase(paramNames[i])){
                 args[i] = pkg.getHead().getUserId();
+            }else if(paramClass[i].isArray()){
+                List list = (List) args[i];
+                Object[] obj = (Object[]) Array.newInstance(paramClass[i].getComponentType(), list.size());
+                args[i] = list.toArray(obj);
             }
         }
         result = (Packages) methodObj.invoke(serviceObj, args);

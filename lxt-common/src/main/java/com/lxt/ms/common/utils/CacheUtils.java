@@ -1,15 +1,16 @@
 package com.lxt.ms.common.utils;
 
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
+
+import javax.annotation.Resource;
+import java.nio.charset.Charset;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
-import javax.annotation.Resource;
-
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.stereotype.Component;
-import org.springframework.util.CollectionUtils;
 
 @Component
 public class CacheUtils{
@@ -17,9 +18,13 @@ public class CacheUtils{
 	
 	@Resource(name="redisTemplate")
 	public void setRedisTemplate(RedisTemplate<String, Object> redisTemplate) {
-		CacheUtils.redisTemplate = redisTemplate;  
+		RedisSerializer stringSerializer = new StringRedisSerializer();
+		redisTemplate.setKeySerializer(stringSerializer);
+		redisTemplate.setValueSerializer(stringSerializer);
+		redisTemplate.setHashKeySerializer(stringSerializer);
+		redisTemplate.setHashValueSerializer(stringSerializer);
+		this.redisTemplate = redisTemplate;
 	}
-	
 
 	/**
 	 * 指定缓存失效时间
@@ -636,6 +641,38 @@ public class CacheUtils{
 		} catch (Exception e) {
 			e.printStackTrace();
 			return 0;
+		}
+	}
+
+	class StringRedisSerializer implements RedisSerializer<Object> {
+
+		private final Charset charset;
+
+		private final String target = "\"";
+
+		private final String replacement = "";
+
+		public StringRedisSerializer() {
+			this(Charset.forName("UTF8"));
+		}
+
+		public StringRedisSerializer(Charset charset) {
+			this.charset = charset;
+		}
+
+		@Override
+		public String deserialize(byte[] bytes) {
+			return (bytes == null ? null : new String(bytes, charset));
+		}
+
+		@Override
+		public byte[] serialize(Object object) {
+			String string = JSONUtils.obj2Json(object);
+			if (string == null) {
+				return null;
+			}
+			string = string.replace(target, replacement);
+			return string.getBytes(charset);
 		}
 	}
 }

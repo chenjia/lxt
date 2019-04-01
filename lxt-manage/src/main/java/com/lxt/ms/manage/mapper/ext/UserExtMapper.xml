@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.lxt.ms.manage.mapper.ExtMapper">
+<mapper namespace="com.lxt.ms.manage.mapper.ext.UserExtMapper">
   <resultMap id="UserMap" type="java.util.Map">
     <id column="USER_ID" jdbcType="VARCHAR" property="userId" />
     <result column="USERNAME" jdbcType="VARCHAR" property="username" />
@@ -27,13 +27,16 @@
     <result column="IDENTITY_CARD" jdbcType="VARCHAR" property="identityCard" />
   </resultMap>
 
+  <select id="resourceList" parameterType="java.lang.String" resultType="java.lang.String">
+    select DISTINCT m.URL from lxt_user_role ur,lxt_role_menu rm,lxt_menu m
+    where ur.USER_ID=#{userId} and m.`STATUS`=1
+    and ur.ROLE_ID=rm.ROLE_ID
+    and rm.MENU_ID=m.MENU_ID
+  </select>
+
   <select id="selectUserByExample" parameterType="com.lxt.ms.manage.model.UserExample" resultMap="UserMap">
 
     select
-    <if test="distinct">
-      distinct
-    </if>
-    'true' as QUERYID,
     ORG_NAME as ORG_NAME,
     DEPT_NAME as DEPT_NAME,
     <include refid="com.lxt.ms.manage.mapper.UserMapper.Base_Column_List" />

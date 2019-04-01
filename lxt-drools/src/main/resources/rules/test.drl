@@ -1,10 +1,10 @@
 package com.lxt.ms
 
-import com.lxt.ms.drools.model.Person;
+import java.util.Map;
 
 rule "test"
     when
-        eval(true)
+        $map:Map(this["name"] == "chenjia")
     then
-        System.out.println("test.drl");
+        $map.put("name", "xiaoting");
 end

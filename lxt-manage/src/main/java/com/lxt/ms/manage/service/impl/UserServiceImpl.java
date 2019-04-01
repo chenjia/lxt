@@ -1,31 +1,29 @@
 package com.lxt.ms.manage.service.impl;
 
-import java.io.Serializable;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
-import com.lxt.ms.common.bean.web.PageData;
-import com.lxt.ms.manage.mapper.ExtMapper;
-import com.lxt.ms.manage.mapper.UserRoleMapper;
-import com.lxt.ms.manage.model.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.lxt.ms.common.bean.web.Packages;
+import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.common.exception.APIException;
 import com.lxt.ms.common.utils.CacheUtils;
 import com.lxt.ms.common.utils.CaptchaUtils;
 import com.lxt.ms.common.utils.JWTUtils;
 import com.lxt.ms.common.utils.SecurityUtils;
 import com.lxt.ms.manage.mapper.UserMapper;
+import com.lxt.ms.manage.mapper.UserRoleMapper;
 import com.lxt.ms.manage.mapper.UserSettingMapper;
+import com.lxt.ms.manage.mapper.ext.UserExtMapper;
+import com.lxt.ms.manage.model.*;
 import com.lxt.ms.manage.model.UserExample.Criteria;
 import com.lxt.ms.manage.service.api.UserService;
 import com.lxt.ms.manage.service.bo.LoginBO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -37,7 +35,7 @@ public class UserServiceImpl implements UserService {
 	private UserRoleMapper userRoleMapper;
 
 	@Autowired
-	private ExtMapper extMapper;
+	private UserExtMapper userExtMapper;
 
 	@Autowired
 	private UserSettingMapper userSettingMapper;
@@ -52,8 +50,6 @@ public class UserServiceImpl implements UserService {
 			String captchaToken) throws APIException {
 		Packages pkg = new Packages();
 
-		String temp = (String) CacheUtils.get(captchaToken);
-		System.out.println(temp);
 		if (captcha.equalsIgnoreCase((String) CacheUtils.get(captchaToken))) {
 			CacheUtils.del(captchaToken);
 			
@@ -67,8 +63,12 @@ public class UserServiceImpl implements UserService {
 				User user = list.get(0);
 				user.setPassword(null);
 				loginBO.setUser(user);
-				UserSetting userSetting = userSettingMapper
-						.selectByPrimaryKey(user.getUserId());
+				UserSetting userSetting = userSettingMapper.selectByPrimaryKey(user.getUserId());
+				List<String> resourceList = userExtMapper.resourceList(user.getUserId());
+                CacheUtils.del("RESOURCE_"+user.getUserId());
+				for (String resource : resourceList) {
+                    CacheUtils.sSet("RESOURCE_"+user.getUserId(), resource);
+                }
 				loginBO.setUserSetting(userSetting);
 				Map<String, Object> map = new HashMap<String, Object>();
 				map.put("userId", user.getUserId());
@@ -93,7 +93,7 @@ public class UserServiceImpl implements UserService {
 		Packages pkg = new Packages();
 
 		Page page = PageHelper.startPage(pageData.getPageNumber(), pageData.getPageSize(), true);
-		List<Map<String, Object>> userList = extMapper.selectUserByExample(example);
+		List<Map<String, Object>> userList = userExtMapper.selectUserByExample(example);
 		pageData.setData(userList);
 		pageData.setTotal(page.getTotal());
 		pkg.getBody().setData(pageData);

@@ -1,6 +1,6 @@
 eureka:
   client:
-    registryFetchIntervalSeconds: 30
+    registryFetchIntervalSeconds: 3
     serviceUrl:
       defaultZone: http://localhost:8101/eureka/
 file:
@@ -23,7 +23,7 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
     returnPageInfo: check
-safeApi: /api/user/captcha,/api/user/login
+safeApi: /api/manage/user/captcha,/api/manage/user/login
 safeDomain: http://localhost,http://localhost:8888,http://47.100.119.102
 security:
   oauth2:

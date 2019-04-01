@@ -19,7 +19,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service("ruleService")
 public class RuleServiceImpl implements RuleService {
@@ -103,7 +105,42 @@ public class RuleServiceImpl implements RuleService {
     }
 
     @Override
-    public Packages test() throws APIException {
+    public Packages test(Rule rule, Object... params) throws APIException {
+        Packages pkg = new Packages();
+
+        KieServices ks = KieServices.Factory.get();
+        KieRepository kr = ks.getRepository();
+        KieFileSystem kfs = ks.newKieFileSystem();
+
+        String  drl=rule.getContent();
+        kfs.write("src/main/resources/rules" + drl.hashCode() + ".drl", drl);
+
+        KieBuilder kb = ks.newKieBuilder(kfs);
+
+        kb.buildAll();
+        if (kb.getResults().hasMessages(Message.Level.ERROR)) {
+            throw new RuntimeException("规则内容错误，编译失败！");
+        }
+        KieContainer kContainer = ks.newKieContainer(kr.getDefaultReleaseId());
+
+        KieSession kieSession = kContainer.newKieSession();
+        for (Object param : params) {
+            kieSession.insert(param);
+        }
+
+        int ruleFiredCount = kieSession.fireAllRules();
+        kieSession.destroy();
+        System.out.println("触发了" + ruleFiredCount + "条规则");
+        Map<String, Object> map = new HashMap<>();
+        map.put("count", ruleFiredCount);
+        map.put("data", params);
+        pkg.getBody().setData(map);
+
+        return pkg;
+    }
+
+    @Override
+    public Packages testAll(Object... params) throws APIException {
         Packages pkg = new Packages();
 
         if(this.kieContainer == null || true){
@@ -112,9 +149,9 @@ public class RuleServiceImpl implements RuleService {
 
         KieSession kieSession = this.kieContainer.newKieSession();
 
-        User user = new User();
-        user.setUsername("admin");
-        kieSession.insert(user);
+        for (Object param : params) {
+            kieSession.insert(param);
+        }
 
         int ruleFiredCount = kieSession.fireAllRules();
         kieSession.destroy();

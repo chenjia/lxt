@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lxt.ms.chat.mapper.ext.ChatRecordExtMapper" >
+  <resultMap id="BaseResultMap" type="com.lxt.ms.chat.model.ChatRecord" >
+    <id column="RECORD_ID" property="recordId" jdbcType="VARCHAR" />
+    <result column="SEND_ID" property="sendId" jdbcType="VARCHAR" />
+    <result column="RECEIVE_ID" property="receiveId" jdbcType="VARCHAR" />
+    <result column="MSG_TYPE" property="msgType" jdbcType="INTEGER" />
+    <result column="CONTENT" property="content" jdbcType="VARCHAR" />
+    <result column="INSERT_TIME" property="insertTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    RECORD_ID, SEND_ID, RECEIVE_ID, MSG_TYPE, CONTENT, INSERT_TIME
+  </sql>
+  <select id="queryRecord" resultMap="BaseResultMap" parameterType="java.util.Map" >
+    select
+    <include refid="Base_Column_List" />
+    from lxt_chat_record
+    where INSERT_TIME &lt; #{insertTime}
+    and ((SEND_ID = #{sendId} and RECEIVE_ID = #{receiveId}) or (SEND_ID = #{receiveId} and RECEIVE_ID = #{sendId}))
+    order by INSERT_TIME DESC
+    limit ${startIndex},${pageSize}
+  </select>
+  <select id="queryRecordCount" parameterType="java.util.Map" resultType="java.lang.Integer" >
+    select count(1) from lxt_chat_record
+    where INSERT_TIME &lt; #{insertTime}
+    and ((SEND_ID = #{sendId} and RECEIVE_ID = #{receiveId}) or (SEND_ID = #{receiveId} and RECEIVE_ID = #{sendId}))
+  </select>
+</mapper>
