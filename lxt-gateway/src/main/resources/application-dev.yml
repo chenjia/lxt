@@ -4,6 +4,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8101/eureka/
 
+excludeUrl: /api/upload/uploadFile,/api/chat/chat
 filterUrl: /api/manage/,/api/upload/,/api/chat/,/api/workflow/
 
 hystrix:
@@ -17,17 +18,13 @@ hystrix:
               ReadTimeout:1000
               ConnectTimeout:1000
 
-unencryptedApi: /api/upload/uploadFile
-
 ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 1
 
-
-safeApi: /api/manage/user/captcha,/api/manage/user/login,/api/chat/chat
-
+safeApi: /api/manage/user/captcha,/api/manage/user/login
 safeDomain: http://localhost,http://localhost:8888,http://localhost:8880,http://47.100.119.102
 
 server:

@@ -23,8 +23,6 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
     returnPageInfo: check
-safeApi: /api/user/captcha,/api/user/login
-safeDomain: http://localhost:8888,http://localhost:8080http://47.100.119.102:8888,http://47.100.119.102:8080
 security:
   oauth2:
     resource:

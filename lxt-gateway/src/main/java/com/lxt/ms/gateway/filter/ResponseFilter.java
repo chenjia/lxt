@@ -27,8 +27,8 @@ public class ResponseFilter extends ZuulFilter {
 	@Value("${safeApi}")
 	private String safeApi;
 	
-	@Value("${unencryptedApi}")
-    private String unencryptedApi;
+	@Value("${excludeUrl}")
+    private String excludeUrl;
 
 	@Override
 	public Object run() throws ZuulException {
@@ -78,14 +78,14 @@ public class ResponseFilter extends ZuulFilter {
 			}
 		}
 
-//		String[] safeUrls = safeApi.split(",");
-//		for(String safeUrl : safeUrls){
-//			if(uri.startsWith(safeUrl)){
-//				shouldFilter = false;
-//				break;
-//			}
-//		}
-		
+		String[] excludeUrls = excludeUrl.split(",");
+		for(String exclude : excludeUrls){
+			if(uri.startsWith(exclude)){
+				shouldFilter = false;
+				break;
+			}
+		}
+
 		return shouldFilter;
 	}
 

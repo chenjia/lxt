@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ext/ChatRecordExtMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ext/ChatRecordExtMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ext/UserExtMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ext/UserExtMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatRecordExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/service/impl/RecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/service/impl/RecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-chat/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/CacheUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/CacheUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JSONUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JSONUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/resources/rules/test.drl" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-drools/src/main/resources/rules/test.drl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ExtMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ExtMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/controller/WorkflowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/controller/WorkflowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/RuleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/RuleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/RuleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/RuleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
@@ -56,12 +37,12 @@
     <session id="-487909995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="151" />
+          <entry key="project.closed" value="153" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="9" />
           <entry key="project.open.time.11" value="15" />
           <entry key="project.open.time.12" value="16" />
-          <entry key="project.open.time.13" value="17" />
+          <entry key="project.open.time.13" value="18" />
           <entry key="project.open.time.14" value="13" />
           <entry key="project.open.time.15" value="6" />
           <entry key="project.open.time.16" value="7" />
@@ -73,7 +54,7 @@
           <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="3" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="6" />
@@ -83,18 +64,18 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="153" />
+          <entry key="project.opened" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="96" />
           <entry key="css" value="9" />
-          <entry key="drl" value="22" />
+          <entry key="drl" value="24" />
           <entry key="factories" value="2" />
           <entry key="html" value="59" />
           <entry key="iml" value="2" />
-          <entry key="java" value="1154" />
+          <entry key="java" value="1168" />
           <entry key="jpg" value="1" />
           <entry key="js" value="14" />
           <entry key="json" value="4" />
@@ -106,19 +87,19 @@
           <entry key="sql" value="3" />
           <entry key="txt" value="8" />
           <entry key="vue" value="1" />
-          <entry key="xml" value="394" />
-          <entry key="yml" value="385" />
+          <entry key="xml" value="396" />
+          <entry key="yml" value="390" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="96" />
           <entry key="CSS" value="9" />
-          <entry key="Drools" value="22" />
+          <entry key="Drools" value="24" />
           <entry key="HTML" value="59" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="1154" />
+          <entry key="JAVA" value="1168" />
           <entry key="JSON" value="4" />
           <entry key="JSP" value="3" />
           <entry key="JavaScript" value="14" />
@@ -126,8 +107,8 @@
           <entry key="Properties" value="7" />
           <entry key="SQL" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="394" />
-          <entry key="YAML" value="385" />
+          <entry key="XML" value="396" />
+          <entry key="YAML" value="390" />
           <entry key="spring.factories" value="2" />
         </counts>
       </usages-collector>
@@ -135,65 +116,71 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="css" value="3" />
-          <entry key="drl" value="730" />
+          <entry key="drl" value="733" />
           <entry key="dummy" value="289" />
           <entry key="html" value="1774" />
-          <entry key="java" value="34115" />
+          <entry key="java" value="34205" />
           <entry key="js" value="39" />
           <entry key="jsp" value="43" />
           <entry key="properties" value="1" />
           <entry key="sh" value="21" />
           <entry key="txt" value="34" />
           <entry key="xml" value="2146" />
-          <entry key="yml" value="1488" />
+          <entry key="yml" value="1519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="3" />
-          <entry key="Drools" value="730" />
+          <entry key="Drools" value="733" />
           <entry key="HTML" value="1774" />
-          <entry key="JAVA" value="34115" />
+          <entry key="JAVA" value="34205" />
           <entry key="JSP" value="43" />
           <entry key="JavaScript" value="39" />
           <entry key="PLAIN_TEXT" value="344" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="19" />
           <entry key="XML" value="2127" />
-          <entry key="YAML" value="1488" />
+          <entry key="YAML" value="1519" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ManageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="139">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/RuleServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="130" column="55" lean-forward="true" selection-start-line="130" selection-start-column="55" selection-end-line="130" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/controller/WorkflowController.java">
+        <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="-965">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="10" selection-start-line="6" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -213,7 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>manage</find>
       <find>Start start \= root\.getStart\(\)\;\n\/\/\	\	End end \= root\.getEnd\(\)\;\n\/\/\	\	Workflow workflow \= root\.getWorkflow\(\)\;\n\/\/\	\	\n\/\/\	\	List\&lt;Vertex\&gt; vertexs \= root\.getVertexs\(\)\;\n\/\/\	\	List\&lt;Edge\&gt; edges \= root\.getEdges\(\)\;\n\/\/\	\	\n\/\/\	\	Definition definition \= new Definition\(\)\;\n\/\/\	\	Process process \= definition\.getProcess\(\)\;\n\/\/\	\	Diagram diagram \= definition\.getDiagram\(\)\;\n\/\/\	\	process\.setId\(workflow\.getWorkflowKey\(\)\+\&quot;_\&quot;\+workflow\.getVersion\(\)\)\;\n\/\/\	\	process\.setName\(workflow\.getWorkflowKey\(\)\)\;\n\/\/\	\	Plane plane \= diagram\.getPlane\(\)\;\n\/\/\	\	plane\.setBpmnElement\(\&quot;planeName\&quot;\)\;\n\/\/\	\	\n\/\/\	\	List\&lt;AbstractNode\&gt; abstractNodes \= process\.getAbstractNodes\(\)\;\n\/\/\	\	List\&lt;SequenceFlow\&gt; sequenceFlows \= process\.getSequenceFlows\(\)\;\n\/\/\	\	\n\/\/\	\	List\&lt;Shape\&gt; shapes \= plane\.getShapes\(\)\;\n\/\/\	\	List\&lt;com\.lxt\.workflow\.entity\.bpmn2\.Edge\&gt; bpmnEdges \= plane\.getEdges\(\)\;\n\/\/\	\	\n\/\/\	\	StartEvent startEvent \= new StartEvent\(\)\;\n\/\/\	\	startEvent\.setId\(start\.getId\(\)\)\;\n\/\/\	\	startEvent\.setName\(start\.getLabel\(\)\)\;\n\/\/\	\	\n\/\/\	\	EndEvent endEvent \= new EndEvent\(\)\;\n\/\/\	\	endEvent\.setId\(end\.getId\(\)\)\;\n\/\/\	\	endEvent\.setName\(end\.getLabel\(\)\)\;\n\/\/\	\	\n\/\/\	\	abstractNodes\.add\(startEvent\)\;\n\/\/\	\	abstractNodes\.add\(endEvent\)\;\n\/\/\	\	\n\/\/\	\	for\(Vertex vertex \: vertexs\)\{\n\/\/\	\	\	NodeBuilder nodeBuilder \= NodeBuilderFactory\.getBuilder\(vertex\)\;\n\/\/\	\	\	AbstractNode node \= nodeBuilder\.build\(vertex\)\;\n\/\/\	\	\	abstractNodes\.add\(node\)\;\n\/\/\	\	\	\n\/\/\	\	\	Shape shape \= new Shape\(node\.getId\(\)\)\;\n\/\/\	\	\	MxGeometry mxGeometry \= vertex\.getMxCell\(\)\.getMxGeometry\(\)\;\n\/\/\	\	\	shape\.setBounds\(new Bounds\(mxGeometry\.getX\(\)\, mxGeometry\.getY\(\)\, mxGeometry\.getWidth\(\)\, mxGeometry\.getHeight\(\)\)\)\;\n\/\/\	\	\	shapes\.add\(shape\)\;\n\/\/\	\	\}\n\/\/\	\	\n\/\/\	\	for\(Edge edge \: edges\)\{\n\/\/\	\	\	MxCell mxCell \= edge\.getMxCell\(\)\;\n\/\/\	\	\	SequenceFlow sf \= new SequenceFlow\(\)\;\n\/\/\	\	\	sf\.setId\(mxCell\.getSource\(\)\+\&quot;\-\&quot;\+mxCell\.getTarget\(\)\)\;\n\/\/\	\	\	sf\.setSourceRef\(mxCell\.getSource\(\)\)\;\n\/\/\	\	\	sf\.setTargetRef\(mxCell\.getTarget\(\)\)\;\n\/\/\	\	\	sequenceFlows\.add\(sf\)\;\n\/\/\	\	\	\n\/\/\	\	\	com\.lxt\.workflow\.entity\.bpmn2\.Edge bpmnEdge \= new com\.lxt\.workflow\.entity\.bpmn2\.Edge\(sf\.getId\(\)\)\;\n\/\/\	\	\	MxGeometry mxGeometry \= edge\.getMxCell\(\)\.getMxGeometry\(\)\;\n\/\/\	\	\	Array array \= mxGeometry\.getArray\(\)\;\n\/\/\	\	\	if\(array \!\= null\)\{\n\/\/\	\	\	\	List\&lt;MxPoint\&gt; mxPoints \= array\.getMxPoints\(\)\;\n\/\/\	\	\	\	List\&lt;WayPoint\&gt; waypoints \= new ArrayList\&lt;WayPoint\&gt;\(\)\;\n\/\/\	\	\	\	for\(MxPoint mxPoint \: mxPoints\)\{\n\/\/\	\	\	\	\	waypoints\.add\(new WayPoint\(mxPoint\.getX\(\)\, mxPoint\.getY\(\)\)\)\;\n\/\/\	\	\	\	\}\n\/\/\	\	\	\	bpmnEdge\.setWayPoints\(waypoints\)\;\n\/\/\	\	\	\}\n\/\/\	\	\	bpmnEdges\.add\(bpmnEdge\)\;\n\/\/\	\	\}\n\/\/\	\	\n\/\/\	\	return definition\;</find>
       <find>list(</find>
       <find>safeapi</find>
@@ -241,8 +227,9 @@
       <find>sset</find>
       <find>sget</find>
       <find>package com\.lxt\.ms\.common\.utils\;\n\nimport java\.io\.IOException\;\nimport java\.text\.DateFormat\;\nimport java\.text\.SimpleDateFormat\;\nimport java\.util\.List\;\nimport java\.util\.Map\;\n\nimport com\.fasterxml\.jackson\.core\.JsonParseException\;\nimport com\.fasterxml\.jackson\.core\.JsonProcessingException\;\nimport com\.fasterxml\.jackson\.databind\.JsonMappingException\;\nimport com\.fasterxml\.jackson\.databind\.ObjectMapper\;\n\npublic class JSONUtils \{\n\	private static DateFormat shortDateFormat \= new SimpleDateFormat\(DateUtils\.SHORT_DATE\)\;\n\	private static DateFormat longDateFormat \= new SimpleDateFormat\(DateUtils\.LONG_DATE\)\;\n\	private static ObjectMapper objectMapper \= new ObjectMapper\(\)\;\n\n\	public static String obj2Json\(Object obj\) \{\n\	\	String jsonStr \= \&quot;\&quot;\;\n\	\	try \{\n\	\	\	objectMapper\.setDateFormat\(longDateFormat\)\;\n\	\	\	jsonStr \= objectMapper\.writeValueAsString\(obj\)\;\n\	\	\} catch \(JsonProcessingException e\) \{\n\	\	\	e\.printStackTrace\(\)\;\n\	\	\}\n\	\	return jsonStr\;\n\	\}\n\	\n\	public static \&lt;T\&gt; T json2Obj\(String jsonStr\, Class\&lt;T\&gt; clazz\) throws JsonParseException\, JsonMappingException\, IOException\{\n\	\	T t \= objectMapper\.readValue\(jsonStr\.toString\(\)\, clazz\)\;\n\	\	return t\;\n\	\}\n\	\n\	\@SuppressWarnings\(\&quot;unchecked\&quot;\)\n\	public static Map\&lt;String\,Object\&gt; json2Map\(String json\)\{\n\	\	Map\&lt;String\, Object\&gt; map \= null\;\n\	\	 \n\	\	try \{\n\	\	\	map \= objectMapper\.readValue\(json\, Map\.class\)\;\n\	\	\} catch \(JsonParseException e\) \{\n\	\	\	e\.printStackTrace\(\)\;\n\	\	\} catch \(JsonMappingException e\) \{\n\	\	\	e\.printStackTrace\(\)\;\n\	\	\} catch \(IOException e\) \{\n\	\	\	e\.printStackTrace\(\)\;\n\	\	\}\n\	\	\n\	\	 \n\	\	return map\;\n\	\}\n\	\n\	\@SuppressWarnings\(\&quot;rawtypes\&quot;\)\n\	public static List json2List\(String json\)\{\n\	\	List list \= null\;\n\	\	\n\	\	try \{\n\	\	\	list \= objectMapper\.readValue\(json\, List\.class\)\;\n\	\	\} catch \(JsonParseException e\) \{\n\	\	\	e\.printStackTrace\(\)\;\n\	\	\} catch \(JsonMappingException e\) \{\n\	\	\	e\.printStackTrace\(\)\;\n\	\	\} catch \(IOException e\) \{\n\	\	\	e\.printStackTrace\(\)\;\n\	\	\}\n\	\	\n\	\	return list\;\n\	\}\n\n\	\/\*\*\n\	 \* 对象转化成map\n\	 \* \@param obj\n\	 \* \@return\n\	 \*\/\n\	public static Map\&lt;\?\, \?\&gt; obj2Map\(Object obj\)\{\n\	\	return new org\.apache\.commons\.beanutils\.BeanMap\(obj\)\; \n\	\}\n\	\n\}\n</find>
-      <find>safeApi</find>
       <find>unencryptedApi</find>
+      <find>cache</find>
+      <find>safeApi</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -263,14 +250,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/service/api/impl/RuleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lxt-drools/src/main/resources/rules/rule.drl" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/resources/META-INF/spring-devtools.properties" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/service/api/RuleService.java" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/service/impl/RuleServiceImpl.java" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/mapper/RuleMapper.java" />
-        <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/DroolsApplication.java" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/resources/rules/address.drl" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/controller/DroolsController.java" />
@@ -304,16 +287,20 @@
         <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/CacheUtils.java" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JSONUtils.java" />
-        <option value="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/RuleService.java" />
         <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" />
-        <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" />
-        <option value="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" />
         <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/controller/WorkflowController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/RuleServiceImpl.java" />
         <option value="$PROJECT_DIR$/lxt-drools/src/main/resources/rules/test.drl" />
+        <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/DroolsApplication.java" />
+        <option value="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/Test.java" />
+        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/Mybatis.java" />
+        <option value="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" />
+        <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" />
       </list>
     </option>
   </component>
@@ -342,11 +329,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lxt-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lxt-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -389,7 +376,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -401,43 +387,35 @@
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-drools" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-drools" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-drools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-drools" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-drools" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="rules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,7 +427,7 @@
     <property name="SearchEverywhereHistoryKey" value="html2pdf&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554110171894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554258528527" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -823,12 +801,14 @@
       <workItem from="1553652002955" duration="8768000" />
       <workItem from="1554015091613" duration="511000" />
       <workItem from="1554037481174" duration="8000" />
-      <workItem from="1554085538352" duration="16847000" />
+      <workItem from="1554085538352" duration="17444000" />
+      <workItem from="1554114361631" duration="2602000" />
+      <workItem from="1554252834973" duration="4525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="826939000" />
+    <option name="totallyTimeSpent" value="834663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,9 +820,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -852,7 +833,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3388203" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -864,14 +845,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32700136" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32700136" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" visible="true" weight="0.32147744" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" weight="0.31967214" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.14020029" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14020029" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.1881259" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1881259" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -940,87 +921,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatRecordExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="599" column="35" lean-forward="true" selection-start-line="599" selection-start-column="35" selection-end-line="599" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ext/ChatRecordExtMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ext/ChatRecordExtMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/bean/web/PageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/service/impl/RecordServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="98" column="10" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="98" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/CaptchaUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/config/FallbackConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ExtMapper.xml" />
     <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ExtMapper.java" />
     <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ext/UserExtMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1089,20 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JSONUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/controller/DroolsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1166,20 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/GatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1201,31 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="107" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/DroolsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lxt-drools/src/main/resources/META-INF/spring-devtools.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1243,6 +1090,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/controller/WorkflowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/RuleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <caret line="157" column="31" lean-forward="true" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1250,27 +1111,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/controller/WorkflowController.java">
+    <entry file="file://$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/DroolsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="220">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1213" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/Test.java" />
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="278" column="25" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/cache/decorators/FifoCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/cache/decorators/LruCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-956">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/cache/decorators/SoftCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/Mybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-drools/src/main/resources/rules/test.drl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/RuleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/lxt-drools/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/JSONUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="130" column="55" lean-forward="true" selection-start-line="130" selection-start-column="55" selection-end-line="130" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="6" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
