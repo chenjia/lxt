@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chat</title>
+	<script type="text/javascript" src="./pushEngine/engine.js"></script>
+	<script type="text/javascript" src="./pushEngine/interface/PushServer.js"></script>
+
+	<script type="text/javascript">
+		dwr.engine.setActiveReverseAjax(true);
+		dwr.engine.setErrorHandler(function(){
+			console.log('推送服务器连接异常！');
+		});
+		console.log(PushServer)
+		PushServer.binding(location.href.substr(location.href.indexOf('userId=')+7));
+		
+		var Push = {
+			sendMessage:function(message){
+                PushServer.sendMessage(JSON.stringify(message));
+			},
+			receiveMessage:function(messageJson){
+				var message = eval('('+messageJson+')');
+				parent.postMessage(message, '*');
+			}
+		};
+	
+		window.receiveMessage = function(messageJson){
+            Push.receiveMessage(messageJson);
+		};
+		window.addEventListener('message', function(event) {
+            Push.sendMessage(event.data);
+		});
+	</script>
+</head>
+<body>
+</body>
+</html>

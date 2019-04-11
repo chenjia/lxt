@@ -16,7 +16,7 @@ public class Head implements Serializable {
 
 	private int status = 200;
 
-	private long timestamp;
+	private long timestamp = System.currentTimeMillis();
 
 	private String msg = "接口调用成功";
 

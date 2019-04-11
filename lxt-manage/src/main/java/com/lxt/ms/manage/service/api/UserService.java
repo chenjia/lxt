@@ -13,6 +13,12 @@ public interface UserService{
 	
 	public abstract Packages login(String username, String password, String captcha, String captchaToken) throws APIException;
 
+	public abstract Packages qrcode() throws APIException;
+
+	public Packages qrcodeLogin(String qrcode) throws APIException;
+
+	public abstract Packages scan(String $userId, String $token, String qrcode, String type, String msg) throws APIException;
+
 	public abstract Packages list(UserExample example, PageData pageData) throws APIException;
 
 	public abstract Packages save(User user) throws APIException;

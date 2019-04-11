@@ -51,7 +51,7 @@ public class RequestFilter extends ZuulFilter{
 		String uri = request.getRequestURI().replaceAll(contextPath, "");
 
 		String encryptedText = request.getParameter("request");
-		Packages pkg = null;
+		Packages pkg = new Packages();
 		String decryptedText = null;
 		try {
 			decryptedText = SecurityUtils.decrypt(encryptedText);

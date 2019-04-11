@@ -15,14 +15,14 @@
 2018-12-01 16:41:30.204  INFO 94634 --- [           main] com.lxt.ms.ChatApplication               : The following profiles are active: dev
 2018-12-01 16:41:30.247  INFO 94634 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4232c52b: startup date [Sat Dec 01 16:41:30 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7e0babb1
 2018-12-01 16:41:31.662  INFO 94634 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [dwr-spring-config.xml]
-2018-12-01 16:41:31.832  INFO 94634 --- [           main] o.d.s.DwrClassPathBeanDefinitionScanner  : Dwr classpath scanning detected candidate bean [com.lxt.ms.chat.server.ChatServer#0]. Remoting using ChatServer
+2018-12-01 16:41:31.832  INFO 94634 --- [           main] o.d.s.DwrClassPathBeanDefinitionScanner  : Dwr classpath scanning detected candidate bean [com.lxt.ms.chat_bak.server.ChatServer#0]. Remoting using ChatServer
 2018-12-01 16:41:32.512  INFO 94634 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
 2018-12-01 16:41:33.469  INFO 94634 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=966cefdb-f855-3e60-a99f-6ff49d50d1e1
 2018-12-01 16:41:33.521  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Could not infer class for [org.springframework.cache.config.internalCacheAdvisor]. Is it a factory bean? Omitting bean from annotation processing
 2018-12-01 16:41:33.521  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Could not infer class for [cacheOperationSource]. Is it a factory bean? Omitting bean from annotation processing
 2018-12-01 16:41:33.523  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Could not infer class for [cacheInterceptor]. Is it a factory bean? Omitting bean from annotation processing
 2018-12-01 16:41:33.524  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Could not infer class for [servletRegistrationBean]. Is it a factory bean? Omitting bean from annotation processing
-2018-12-01 16:41:33.525  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Detected candidate bean [com.lxt.ms.chat.server.ChatServer#0]. Remoting using ChatServer
+2018-12-01 16:41:33.525  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Detected candidate bean [com.lxt.ms.chat_bak.server.ChatServer#0]. Remoting using ChatServer
 2018-12-01 16:41:33.525  INFO 94634 --- [           main] o.d.s.namespace.CreatorParserHelper      : [ChatServer] remote bean definition already detected. Invalid mixed use of <dwr:annotation-config /> and <dwr:annotation-scan />? Re-scanned package?
 2018-12-01 16:41:33.525  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Could not infer class for [hystrixCommandAspect]. Is it a factory bean? Omitting bean from annotation processing
 2018-12-01 16:41:33.525  INFO 94634 --- [           main] o.d.spring.DwrAnnotationPostProcessor    : Could not infer class for [hystrixShutdownHook]. Is it a factory bean? Omitting bean from annotation processing
@@ -270,7 +270,7 @@
 2018-12-01 16:41:43.147  INFO 94634 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
 2018-12-01 16:41:43.147  INFO 94634 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
 2018-12-01 16:41:43.150  INFO 94634 --- [ost-startStop-1] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
-2018-12-01 16:41:43.412  WARN 94634 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static com.lxt.ms.chat.mapper.ChatRecordMapper com.lxt.ms.chat.server.ChatServer.chatRecordMapper
+2018-12-01 16:41:43.412  WARN 94634 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static com.lxt.ms.chat_bak.mapper.ChatRecordMapper com.lxt.ms.chat_bak.server.ChatServer.chatRecordMapper
 2018-12-01 16:41:44.532  WARN 94634 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
 2018-12-01 16:41:44.532  INFO 94634 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
 2018-12-01 16:41:44.720  INFO 94634 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]

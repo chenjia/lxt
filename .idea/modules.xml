@@ -3,15 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/lxt.iml" filepath="$PROJECT_DIR$/.idea/lxt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lxt-chat/lxt-chat.iml" filepath="$PROJECT_DIR$/lxt-chat/lxt-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-common/lxt-common.iml" filepath="$PROJECT_DIR$/lxt-common/lxt-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-config/lxt-config.iml" filepath="$PROJECT_DIR$/lxt-config/lxt-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-consumer/lxt-consumer.iml" filepath="$PROJECT_DIR$/lxt-consumer/lxt-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lxt-drools/lxt-drools.iml" filepath="$PROJECT_DIR$/lxt-drools/lxt-drools.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-eureka/lxt-eureka.iml" filepath="$PROJECT_DIR$/lxt-eureka/lxt-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-gateway/lxt-gateway.iml" filepath="$PROJECT_DIR$/lxt-gateway/lxt-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxt-learn/lxt-learn.iml" filepath="$PROJECT_DIR$/lxt-learn/lxt-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-manage/lxt-manage.iml" filepath="$PROJECT_DIR$/lxt-manage/lxt-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-pdf/lxt-pdf.iml" filepath="$PROJECT_DIR$/lxt-pdf/lxt-pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxt-push/lxt-push.iml" filepath="$PROJECT_DIR$/lxt-push/lxt-push.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-upload/lxt-upload.iml" filepath="$PROJECT_DIR$/lxt-upload/lxt-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-web/lxt-web.iml" filepath="$PROJECT_DIR$/lxt-web/lxt-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxt-workflow/lxt-workflow.iml" filepath="$PROJECT_DIR$/lxt-workflow/lxt-workflow.iml" />

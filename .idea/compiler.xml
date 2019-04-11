@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lxt-chat" />
         <module name="lxt-common" />
         <module name="lxt-config" />
         <module name="lxt-consumer" />
-        <module name="lxt-drools" />
         <module name="lxt-eureka" />
         <module name="lxt-gateway" />
+        <module name="lxt-learn" />
         <module name="lxt-manage" />
         <module name="lxt-pdf" />
+        <module name="lxt-push" />
         <module name="lxt-upload" />
         <module name="lxt-web" />
         <module name="lxt-workflow" />
@@ -22,15 +22,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lxt" target="1.8" />
-      <module name="lxt-chat" target="1.8" />
       <module name="lxt-common" target="1.8" />
       <module name="lxt-config" target="1.8" />
       <module name="lxt-consumer" target="1.8" />
-      <module name="lxt-drools" target="1.8" />
       <module name="lxt-eureka" target="1.8" />
       <module name="lxt-gateway" target="1.8" />
+      <module name="lxt-learn" target="1.8" />
       <module name="lxt-manage" target="1.8" />
       <module name="lxt-pdf" target="1.8" />
+      <module name="lxt-push" target="1.8" />
       <module name="lxt-test" target="1.5" />
       <module name="lxt-upload" target="1.8" />
       <module name="lxt-web" target="1.8" />

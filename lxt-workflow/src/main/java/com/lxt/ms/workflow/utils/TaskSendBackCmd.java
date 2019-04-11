@@ -14,7 +14,7 @@
 //import org.activiti.engine.impl.interceptor.Command;
 //import org.activiti.engine.repository.ProcessDefinitionQuery;
 //import org.activiti.engine.runtime.Execution;
-//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.beans.factorymethod.annotation.Autowired;
 //
 //public class TaskSendBackCmd implements Command<Boolean> {
 //	@Autowired

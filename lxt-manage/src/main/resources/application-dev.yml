@@ -3,8 +3,6 @@ eureka:
     registryFetchIntervalSeconds: 3
     serviceUrl:
       defaultZone: http://localhost:8101/eureka/
-file:
-  uploadPath: ~/uploadFiles
 log:
   path: ~/logs
   level: error
@@ -23,10 +21,6 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
     returnPageInfo: check
-security:
-  oauth2:
-    resource:
-      filter-order: 3
 server:
   port: 8301
   servlet:

@@ -40,13 +40,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @RefreshScope
 @Controller
 public class ManageController {
-	private Logger logger = LoggerFactory.getLogger(getClass());
-
-	@Value("${file.uploadPath}")
-	private String uploadPath;
-	
-	@Value("${safeApi}")
-	private String safeApi;
 
 	@ResponseBody
 	@RequestMapping(value = "/{service}/{method}", method = RequestMethod.POST)
@@ -101,6 +94,8 @@ public class ManageController {
 					args[i] = instance;
 				}else if("$userId".equalsIgnoreCase(paramNames[i])){
 					args[i] = pkg.getHead().getUserId();
+				}else if("$token".equalsIgnoreCase(paramNames[i])){
+					args[i] = pkg.getHead().getToken();
 				}else if(paramClass[i].isArray()){
 					List list = (List) args[i];
 					Object[] obj = (Object[])Array.newInstance(paramClass[i].getComponentType(), list.size());
@@ -120,31 +115,4 @@ public class ManageController {
 		return result;
 	}
 
-	@ResponseBody
-	@RequestMapping(value = "/testconfig")
-	public Packages testconfig() throws Exception {
-		System.out.println("【test config】" + uploadPath);
-		Packages pkg = new Packages();
-		pkg.getBody().setData(uploadPath);
-
-		return pkg;
-	}
-
-	private String getIp(HttpServletRequest request) {
-		String ip = request.getHeader("X-Forwarded-For");
-		if (StringUtils.isNotEmpty(ip) && !"unKnown".equalsIgnoreCase(ip)) {
-			//多次反向代理后会有多个ip值，第一个ip才是真实ip
-			int index = ip.indexOf(",");
-			if (index != -1) {
-				return ip.substring(0, index);
-			} else {
-				return ip;
-			}
-		}
-		ip = request.getHeader("X-Real-IP");
-		if (StringUtils.isNotEmpty(ip) && !"unKnown".equalsIgnoreCase(ip)) {
-			return ip;
-		}
-		return request.getRemoteAddr();
-	}
 }

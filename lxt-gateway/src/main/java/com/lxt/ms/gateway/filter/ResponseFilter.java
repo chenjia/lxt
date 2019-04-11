@@ -57,7 +57,7 @@ public class ResponseFilter extends ZuulFilter {
             InputStream stream = ctx.getResponseDataStream();
             String body = StreamUtils.copyToString(stream, Charset.forName("UTF-8"));
             String encryptedText = SecurityUtils.encrypt(body);
-            ctx.setResponseBody("{\"response\":\""+ encryptedText.replace("\r\n", "").replace("\n", "") +"\"}");
+            ctx.setResponseBody("{\"response\":\""+ encryptedText.replaceAll("\r\n|\n", "") +"\"}");
         } catch (Exception e) {
             throw new ZuulException(e, 500, "报文加密异常");
         }

@@ -28,7 +28,7 @@
         <module>lxt-gateway</module>
         <module>lxt-manage</module>
         <module>lxt-config</module>
-        <module>lxt-chat</module>
+        <module>lxt-push</module>
         <module>lxt-upload</module>
         <module>lxt-workflow</module>
         <module>lxt-web</module>

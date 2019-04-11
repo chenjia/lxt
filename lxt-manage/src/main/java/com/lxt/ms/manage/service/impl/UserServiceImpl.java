@@ -5,10 +5,7 @@ import com.github.pagehelper.PageHelper;
 import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.common.exception.APIException;
-import com.lxt.ms.common.utils.CacheUtils;
-import com.lxt.ms.common.utils.CaptchaUtils;
-import com.lxt.ms.common.utils.JWTUtils;
-import com.lxt.ms.common.utils.SecurityUtils;
+import com.lxt.ms.common.utils.*;
 import com.lxt.ms.manage.mapper.UserMapper;
 import com.lxt.ms.manage.mapper.UserRoleMapper;
 import com.lxt.ms.manage.mapper.UserSettingMapper;
@@ -19,7 +16,10 @@ import com.lxt.ms.manage.service.api.UserService;
 import com.lxt.ms.manage.service.bo.LoginBO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 import org.springframework.util.StringUtils;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
 import java.util.List;
@@ -39,6 +39,9 @@ public class UserServiceImpl implements UserService {
 
 	@Autowired
 	private UserSettingMapper userSettingMapper;
+
+	@Autowired
+	RestTemplate restTemplate;
 
 	@Override
 	public Packages captcha() throws APIException {
@@ -84,6 +87,91 @@ public class UserServiceImpl implements UserService {
 			pkg.getHead().setStatus(500);
 			pkg.getHead().setMsg("验证码错误！");
 		}
+
+		return pkg;
+	}
+
+	@Override
+	public Packages qrcodeLogin(String qrcode) throws APIException {
+		Packages pkg = new Packages();
+
+		String userId = (String) CacheUtils.get("QRCODE_"+qrcode);
+
+		if(userId == null){
+			pkg.getHead().setStatus(500);
+			pkg.getHead().setMsg("无效的二维码！");
+		}else {
+			CacheUtils.del("QRCODE_" + userId);
+			UserExample example = new UserExample();
+			Criteria criteria = example.createCriteria();
+			criteria.andUserIdEqualTo(userId);
+			List<User> list = userMapper.selectByExample(example);
+			if (list.size() == 1) {
+				LoginBO loginBO = new LoginBO();
+				User user = list.get(0);
+				user.setPassword(null);
+				loginBO.setUser(user);
+				UserSetting userSetting = userSettingMapper.selectByPrimaryKey(user.getUserId());
+				List<String> resourceList = userExtMapper.resourceList(user.getUserId());
+				CacheUtils.del("RESOURCE_" + user.getUserId());
+				for (String resource : resourceList) {
+					CacheUtils.sSet("RESOURCE_" + user.getUserId(), resource);
+				}
+				loginBO.setUserSetting(userSetting);
+				Map<String, Object> map = new HashMap<String, Object>();
+				map.put("userId", user.getUserId());
+				String token = JWTUtils.build(map);
+				pkg.getHead().setUserId(user.getUserId());
+				pkg.getHead().setToken(token);
+				pkg.getBody().setData(loginBO);
+			}
+		}
+
+		return pkg;
+	}
+
+	@Override
+	public Packages qrcode() throws APIException {
+		Packages pkg = new Packages();
+
+		String uuid = UUIDUtils.UUID();
+		CacheUtils.set("QRCODE_"+uuid, UUIDUtils.UUID(), 3 * 60);
+		pkg.getBody().setData(uuid);
+
+		return pkg;
+	}
+
+	@Override
+	public Packages scan(String $userId, String $token, String qrcode, String type, String msg) throws APIException {
+		Packages pkg = new Packages();
+		pkg.getHead().setUserId($userId);
+		pkg.getHead().setToken($token);
+
+		if("qrcodeScan".equalsIgnoreCase(type)){
+			CacheUtils.set("QRCODE_"+qrcode, $userId, 2 * 60);
+		}
+		MultiValueMap<String, Object> restParamMap = new LinkedMultiValueMap<String, Object>();
+		Map<String, Object> message = new HashMap<>();
+		message.put("receiveId", "QRCODE_"+qrcode);
+		message.put("qrcode", qrcode);
+		message.put("type", type);
+		message.put("msg", msg);
+		String messageJson = JSONUtils.obj2Json(message);
+		message.clear();
+		message.put("messageJson", messageJson);
+		pkg.getHead().setUserId($userId);
+		pkg.getHead().setToken($token);
+		pkg.getBody().setData(message);
+
+		try {
+			String encryptedText = SecurityUtils.encrypt(JSONUtils.obj2Json(pkg)).replaceAll("\r\n|\n", "");
+			restParamMap.add("request", encryptedText);
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new APIException(e);
+		}
+		// 推送二维码登录消息
+		pkg = restTemplate.postForObject("http://lxt-gateway/api/push/serverPush/sendMessage", restParamMap, Packages.class);
 
 		return pkg;
 	}
