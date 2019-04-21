@@ -21,9 +21,11 @@ public interface ProcessService {
 
     public Packages details(String pid) throws APIException;
 
+    public Packages graph(String taskId, String $userId) throws APIException;
+
     public Packages list(ProcessExample example, PageData page) throws APIException;
 
     public Packages logs(String instanceId) throws APIException;
 
-    public Packages history(String instanceId) throws APIException;
+    public Packages history(String processInstanceId) throws APIException;
 }

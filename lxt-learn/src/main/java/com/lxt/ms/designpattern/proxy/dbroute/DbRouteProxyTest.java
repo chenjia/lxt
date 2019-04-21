@@ -1,7 +1,6 @@
 package com.lxt.ms.designpattern.proxy.dbroute;
 
-import com.gupaoedu.vip.pattern.proxy.dbroute.proxy.OrderServiceDynamicProxy;
-import com.gupaoedu.vip.pattern.proxy.dbroute.proxy.OrderServiceStaticProxy;
+import com.lxt.ms.designpattern.proxy.dbroute.proxy.OrderServiceDynamicProxy;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lxt.ms.workflow.mapper.ext.ProcessExtMapper" >
+
+  <select id="queryGraphXmlByTaskId" parameterType="java.util.Map" resultMap="com.lxt.ms.workflow.mapper.ProcessMapper.ResultMapWithBLOBs">
+    select
+    <include refid="com.lxt.ms.workflow.mapper.ProcessMapper.Base_Column_List" />
+    ,
+    <include refid="com.lxt.ms.workflow.mapper.ProcessMapper.Blob_Column_List" />
+    from lxt_process lp,ACT_RE_PROCDEF ap,ACT_RU_TASK t
+    where t.ID_=#{taskId} and t.ASSIGNEE_=#{userId}
+    and lp.PROCESS_KEY=ap.KEY_
+    and t.PROC_DEF_ID_=ap.ID_
+  </select>
+</mapper>

@@ -9,6 +9,8 @@ public interface TaskService {
 
     public Packages rollback(String taskId, String nodeId, String target) throws APIException;
 
+    public Packages nextStep(String taskId) throws APIException;
+
     public Packages historyList(String $userId, PageData page) throws APIException;
 
     public Packages historyActivity(String instanceId) throws APIException;
@@ -18,4 +20,5 @@ public interface TaskService {
     public Packages details(String taskId) throws APIException;
 
     public Packages list(String $userId, PageData page) throws APIException;
+
 }

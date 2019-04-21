@@ -2,191 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/DeepCloneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/JinGuBang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/Monkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/QiTianDaSheng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/ConcretePrototypeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/ConcretePrototypeB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/PrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/【上课PPT】原型模式详解.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/【课堂笔记】原型模式详解.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/DbRouteProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/db/DynamicDataSourceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/jdkproxy/JDKMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/simpleproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/simpleproxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/simpleproxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/simpleproxy/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/staticproxy/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/staticproxy/FatherProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/staticproxy/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/【上课PPT】深度分析代理模式.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/【课堂笔记】深度分析代理模式.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/register/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/register/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/seriable/SeriableSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/threadlocal/ThreadLocalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/【上课PPT】单例模式详解.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/【课堂笔记】单例模式详解.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/prototype/【上课PPT】原型模式详解.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/prototype/【课堂笔记】原型模式详解.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ConcurrentExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ContainerSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/EnumSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ExectorThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/LazyInnerClassSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/LazySimpleSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/SeriableSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ThreadLocalSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/templates/pushFrame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lxt_chat_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/templates/crossdomain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/mvc/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/mvc/controllers/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/mvc/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/mvc/controllers/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/simple/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/simple/DelegateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/simple/EmployeeA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/simple/EmployeeB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/simple/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/simple/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/【上课PPT】委派模式及策略模式.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/delegate/【课堂笔记】委派模式及策略模式.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/IVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/JavaNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/PythonNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/abstractfactory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/ICourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/simplefactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/【上课PPT】为什么要从设计模式开始及工厂模式详解.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/【课堂笔记】为什么要从设计模式开始及工厂模式详解.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/MsgResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/PayStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/JDPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/PayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/UnionPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/WechatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/CashbackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/CouponStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/EmptyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/GroupbuyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/PromotionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/PromotionActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/PromotionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/PromotionStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/【上课PPT】委派模式及策略模式.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/【课堂笔记】委派模式及策略模式.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/test/controller/MyWebAppConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ext/ProcessExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ext/ProcessExtMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-chat-1.0-SNAPSHOT.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lxt-chat-1.0-SNAPSHOT.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/ChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/PushApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/controller/PushController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatFriendCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatFriendMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatFriendMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatGroupMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatGroupUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatGroupUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatRecordMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ChatRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/DepartmentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/DepartmentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/DictionaryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/DictionaryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/DictionaryTypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/DictionaryTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/NodeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/NodeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/OrganizationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/OrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ProcessCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ProcessCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ProcessMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ProcessMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/UserSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/UserSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ext/ChatRecordExtMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/mapper/ext/ChatRecordExtMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriendCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriendCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatFriendExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatGroupExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatGroupUserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatGroupUserKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ChatRecordExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/DepartmentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/DictionaryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/DictionaryType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/DictionaryTypeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/NodeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/Organization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/OrganizationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/Process.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ProcessCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ProcessCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ProcessExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/ProcessWithBLOBs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/UserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/UserSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/model/UserSettingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/server/ChatServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/server/ChatSessionFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/server/ChatSessionListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/server/ChatSessionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/service/api/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/service/api/PushService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/service/impl/RecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/service/impl/PushServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/ChatFriendCategoryVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/ChatFriendVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/ChatGroupVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/ChatRecordVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/ContactVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/DepartmentVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/OrganizationVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/TaskVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/UserVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/java/com/lxt/ms/chat/vo/WorkflowVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/WEB-INF/dwr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/WEB-INF/dwr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/dwr-spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/dwr-spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-chat/src/main/resources/templates/chatFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-push/src/main/resources/templates/chatFrame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/bean/web/Head.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/bean/web/Head.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/DroolsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/config/DroolsAutoConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/controller/DroolsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/mapper/RuleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/mapper/RuleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/model/Rule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/model/RuleExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/service/api/RuleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/service/impl/RuleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/resources/META-INF/spring-devtools.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/resources/META-INF/spring-devtools.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-drools/src/main/resources/rules/test.drl" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/resources/rules/test.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/api/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/api/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/utils/TaskSendBackCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/utils/TaskSendBackCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/DbRouteProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/DbRouteProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibMeipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibMeipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-learn/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-learn/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/resources/pdf/js/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/webapp/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/webapp/js/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/pdf/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/pdf/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-upload/src/main/resources/pdf/js/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/ProcessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/ProcessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/ProcessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/ProcessServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/TaskServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -205,6 +96,7 @@
     <ignored path="$PROJECT_DIR$/lxt-pdf/target/" />
     <ignored path="$PROJECT_DIR$/lxt-drools/target/" />
     <ignored path="$PROJECT_DIR$/lxt-push/target/" />
+    <ignored path="$PROJECT_DIR$/lxt-learn/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,20 +110,20 @@
     <session id="-487909995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="162" />
+          <entry key="project.closed" value="171" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="9" />
-          <entry key="project.open.time.11" value="16" />
-          <entry key="project.open.time.12" value="17" />
+          <entry key="project.open.time.11" value="18" />
+          <entry key="project.open.time.12" value="18" />
           <entry key="project.open.time.13" value="18" />
           <entry key="project.open.time.14" value="13" />
           <entry key="project.open.time.15" value="9" />
-          <entry key="project.open.time.16" value="8" />
-          <entry key="project.open.time.17" value="12" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.16" value="9" />
+          <entry key="project.open.time.17" value="13" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="7" />
-          <entry key="project.open.time.2" value="7" />
-          <entry key="project.open.time.20" value="5" />
+          <entry key="project.open.time.2" value="8" />
+          <entry key="project.open.time.20" value="6" />
           <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="3" />
@@ -241,23 +133,28 @@
           <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="165" />
+          <entry key="project.opened" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="FileOutputStream" value="1" />
+          <entry key="InputStream" value="1" />
+          <entry key="ObjectInputStream" value="1" />
+          <entry key="ObjectOutputStream" value="1" />
+          <entry key="UserExample" value="2" />
           <entry key="a" value="1" />
-          <entry key="class" value="101" />
+          <entry key="class" value="120" />
           <entry key="css" value="9" />
           <entry key="drl" value="25" />
           <entry key="factories" value="2" />
           <entry key="html" value="66" />
           <entry key="iml" value="2" />
-          <entry key="java" value="1365" />
+          <entry key="java" value="1477" />
           <entry key="jpg" value="1" />
           <entry key="js" value="14" />
           <entry key="json" value="4" />
@@ -269,19 +166,19 @@
           <entry key="sql" value="3" />
           <entry key="txt" value="8" />
           <entry key="vue" value="1" />
-          <entry key="xml" value="423" />
-          <entry key="yml" value="418" />
+          <entry key="xml" value="434" />
+          <entry key="yml" value="425" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="101" />
+          <entry key="CLASS" value="120" />
           <entry key="CSS" value="9" />
           <entry key="Drools" value="25" />
           <entry key="HTML" value="66" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="1365" />
+          <entry key="JAVA" value="1477" />
           <entry key="JSON" value="4" />
           <entry key="JSP" value="3" />
           <entry key="JavaScript" value="14" />
@@ -289,8 +186,9 @@
           <entry key="Properties" value="7" />
           <entry key="SQL" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="423" />
-          <entry key="YAML" value="418" />
+          <entry key="UML" value="6" />
+          <entry key="XML" value="434" />
+          <entry key="YAML" value="425" />
           <entry key="spring.factories" value="2" />
         </counts>
       </usages-collector>
@@ -299,16 +197,16 @@
           <entry key="class" value="2" />
           <entry key="css" value="3" />
           <entry key="drl" value="733" />
-          <entry key="dummy" value="293" />
+          <entry key="dummy" value="300" />
           <entry key="html" value="1805" />
-          <entry key="java" value="37033" />
+          <entry key="java" value="40878" />
           <entry key="js" value="39" />
           <entry key="jsp" value="43" />
           <entry key="properties" value="1" />
           <entry key="sh" value="21" />
           <entry key="txt" value="34" />
-          <entry key="xml" value="2195" />
-          <entry key="yml" value="1583" />
+          <entry key="xml" value="2459" />
+          <entry key="yml" value="1588" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -317,28 +215,46 @@
           <entry key="CSS" value="3" />
           <entry key="Drools" value="733" />
           <entry key="HTML" value="1805" />
-          <entry key="JAVA" value="37033" />
+          <entry key="JAVA" value="40878" />
           <entry key="JSP" value="43" />
           <entry key="JavaScript" value="39" />
-          <entry key="PLAIN_TEXT" value="348" />
+          <entry key="PLAIN_TEXT" value="355" />
           <entry key="Properties" value="1" />
-          <entry key="SQL" value="19" />
-          <entry key="XML" value="2176" />
-          <entry key="YAML" value="1583" />
+          <entry key="SQL" value="23" />
+          <entry key="XML" value="2436" />
+          <entry key="YAML" value="1588" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/ProcessServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="203">
+              <caret line="287" column="55" lean-forward="true" selection-start-line="287" selection-start-column="55" selection-end-line="287" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/TaskServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2413#2434#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/java/lxt20140429 (1)/lxt/src/com/lxt/workflow/service/impl/TaskServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="156" column="41" selection-start-line="156" selection-start-column="41" selection-end-line="156" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -358,15 +274,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>downloadImage</find>
-      <find>status</find>
-      <find>TERMINATED</find>
-      <find>enum</find>
-      <find>insert</find>
-      <find>updateByExampleSelective</find>
-      <find>\&lt;\?xml version\=\&quot;1\.0\&quot; encoding\=\&quot;UTF\-8\&quot;\?\&gt;\n\&lt;beans xmlns\=\&quot;http\:\/\/www\.springframework\.org\/schema\/beans\&quot;\n       xmlns\:xsi\=\&quot;http\:\/\/www\.w3\.org\/2001\/XMLSchema\-instance\&quot;\n       xmlns\:kie\=\&quot;http\:\/\/drools\.org\/schema\/kie\-spring\&quot;\n       xsi\:schemaLocation\=\&quot;\n       http\:\/\/drools\.org\/schema\/kie\-spring http\:\/\/drools\.org\/schema\/kie\-spring\.xsd\n       http\:\/\/www\.springframework\.org\/schema\/beans http\:\/\/www\.springframework\.org\/schema\/beans\/spring\-beans\.xsd\&quot;\&gt;\n\n    \&lt;kie\:kmodule id\=\&quot;kmodule\&quot;\&gt;\n        \&lt;kie\:kbase name\=\&quot;kbase\&quot; packages\=\&quot;rules\&quot;\&gt;\n            \&lt;kie\:ksession name\=\&quot;ksession\&quot;\/\&gt;\n        \&lt;\/kie\:kbase\&gt;\n    \&lt;\/kie\:kmodule\&gt;</find>
-      <find>7.0.0.Final</find>
-      <find>getRuleFiles</find>
       <find>       </find>
       <find>7.11.0.Final</find>
       <find>com.lxt.ms.manage</find>
@@ -388,6 +295,15 @@
       <find>restTemplate</find>
       <find>replace</find>
       <find>clone</find>
+      <find>let array \= \'ed26d4cd99aa11e5b8a4c89cdc776729\'\.split\(\'\'\)\n let letters \= \'abcdefghijklmnopqrstuvwxyz0123456789\'\n let key \= \'\'\n for\(let i\=0\;i\&lt;array\.length\;i\+\+\)\{\n   key \+\= array\[i\]\n   for\(let j\=0\;j\&lt;i\%2\+1\;j\+\+\)\{\n     key \+\= letters\.substr\(parseInt\(Math\.random\(\)\*letters\.length\)\,1\)\n   \}\n \}\n key \= key\.split\(\'\'\)\.reverse\(\)\.join\(\'\'\)\n console\.log\(key\,key\.length\)\n let str \= \'\'\n for\(let i\=0\,j\=0\;i\&lt;key\.length\;i\+\+\)\{\n   str \+\= key\[i\]\n   i \+\= \(j \% 2 \+ 1\)\n   j\+\+\n \}\n console\.log\(str\)</find>
+      <find>nextint</find>
+      <find>Base64Encoder</find>
+      <find>decodeFromString</find>
+      <find>where</find>
+      <find>Example_Where_Clause</find>
+      <find>history</find>
+      <find>currentList</find>
+      <find>geta</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -408,49 +324,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lxt-push/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/service/api/RecordService.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/ChatFriendCategoryVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/ChatFriendVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/ChatGroupVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/ContactVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/DepartmentVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/OrganizationVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/TaskVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/UserVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/WorkflowVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/mapper/ext/ChatRecordExtMapper.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/PushApplication.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/controller/PushController.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/service/api/PushService.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/service/impl/RecordServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ManageController.java" />
-        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/ManageApplication.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/resources/templates/pushFrame.html" />
-        <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java" />
-        <option value="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/vo/ChatRecordVO.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/server/PushSessionFilter.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/server/PushServer.java" />
-        <option value="$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/service/impl/PushServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/api/UserService.java" />
-        <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/bean/web/Head.java" />
-        <option value="$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java" />
-        <option value="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lxt-drools/src/main/java/com/lxt/ms/drools/controller/Singleton.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/Factory.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/Prototype.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/hungry/HungrySingleton.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ConcurrentExecutor.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ContainerSingletonTest.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/EnumSingletonTest.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ExectorThread.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/LazyInnerClassSingletonTest.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/SeriableSingletonTest.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ThreadLocalSingletonTest.java" />
-        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/Monkey.java" />
         <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/PrototypeTest.java" />
         <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/db/DynamicDataSourceEntity.java" />
         <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/staticproxy/Father.java" />
@@ -459,6 +332,49 @@
         <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" />
         <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPMeipo.java" />
         <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/delegate/mvc/controllers/OrderController.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/delegate/mvc/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/JDPay.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/PayStrategyTest.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/payport/Payment.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/pay/Order.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibMeipo.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/DbRouteProxyTest.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/Test.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/ICourse.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/simplefactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/FactoryMethodTest.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/ICourseFactory.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/factorymethod/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/simplefactory/SimpleFactoryTest.java" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/utils/WorkflowUtils.java" />
+        <option value="$PROJECT_DIR$/lxt-gateway/src/main/resources/template/crossdomain.xml" />
+        <option value="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/pdf/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/Application.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/com/test/Application.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/com/test/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/com/test/controller/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/test/Application.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/PromotionActivityTest.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/test/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/test/controller/MyWebAppConfigurer.java" />
+        <option value="$PROJECT_DIR$/lxt-learn/src/main/java/com/test/controller/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ext/ProcessExtMapper.java" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ext/ProcessExtMapper.xml" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/ProcessService.java" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/ProcessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/TaskService.java" />
+        <option value="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/TaskServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -534,9 +450,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -547,87 +462,99 @@
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="gpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="lxt" type="462c0819:PsiDirectoryNode" />
-              <item name="lxt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="jdkproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="ext" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lxt" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lxt" type="462c0819:PsiDirectoryNode" />
+              <item name="lxt-workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,7 +566,7 @@
     <property name="SearchEverywhereHistoryKey" value="ChatServer&#9;FILE&#9;file:///Users/farben/project/lxt/lxt-push/src/main/java/com/lxt/ms/chat/server/ChatServer.java&#10;html2pdf&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554886804133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555667881465" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -650,18 +577,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources" />
-      <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources/META-INF" />
-      <recent name="$PROJECT_DIR$/lxt-common/src/main/resources/pdf/images" />
-      <recent name="$PROJECT_DIR$/lxt-manage/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/lxt-manage/src/main/resources/templates" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lxt.ms.designpattern" />
       <recent name="com.lxt.ms.pdf.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factorymethod" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/delegate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lxt.ms.push.service.api" />
@@ -670,12 +598,12 @@
       <recent name="com.lxt.ms.chat.server" />
       <recent name="com.lxt.ms.chat.model.ext" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy" />
-      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype" />
-      <recent name="$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton" />
-      <recent name="$PROJECT_DIR$/lxt-learn/src/main" />
-      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory" />
+      <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources" />
+      <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/lxt-common/src/main/resources/pdf/images" />
+      <recent name="$PROJECT_DIR$/lxt-manage/src/main/resources/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -696,13 +624,13 @@
     </option>
     <option name="contentProportion" value="0.24452555" />
   </component>
-  <component name="RunManager" selected="Application.DeepCloneTest">
-    <configuration name="DeepCloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.designpattern.prototype.deep.DeepCloneTest" />
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="PayStrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.designpattern.strategy.pay.PayStrategyTest" />
       <module name="lxt-learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lxt.ms.designpattern.prototype.deep.*" />
+          <option name="PATTERN" value="com.lxt.ms.designpattern.strategy.pay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -710,12 +638,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.designpattern.prototype.simple.PrototypeTest" />
-      <module name="lxt-learn" />
+    <configuration name="SecurityUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.common.utils.SecurityUtils" />
+      <module name="lxt-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lxt.ms.designpattern.prototype.simple.*" />
+          <option name="PATTERN" value="com.lxt.ms.common.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -723,15 +651,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxt.ms.designpattern.singleton.Singleton" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="lxt-learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lxt.ms.designpattern.factorymethod.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxt-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxt-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxt-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -769,6 +718,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PdfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxt-pdf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.PdfApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PushApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxt-push" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.PushApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxt-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.UploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxt-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkflowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lxt-workflow" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxt.ms.WorkflowApplication" />
@@ -778,20 +755,27 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.EurekaApplication" />
-      <item itemvalue="Spring Boot.ManageApplication" />
-      <item itemvalue="Application.Singleton" />
-      <item itemvalue="Application.PrototypeTest" />
-      <item itemvalue="Application.DeepCloneTest" />
       <item itemvalue="Spring Boot.WorkflowApplication" />
+      <item itemvalue="Spring Boot.UploadApplication" />
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.PushApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.PdfApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Spring Boot.ManageApplication" />
+      <item itemvalue="Application.PayStrategyTest" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Application.SecurityUtils" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeepCloneTest" />
-        <item itemvalue="Application.PrototypeTest" />
-        <item itemvalue="Application.Singleton" />
         <item itemvalue="Spring Boot.ManageApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.SecurityUtils" />
+        <item itemvalue="Application.PayStrategyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -969,12 +953,21 @@
       <workItem from="1554770975513" duration="4816000" />
       <workItem from="1554817979671" duration="663000" />
       <workItem from="1554857131633" duration="10457000" />
-      <workItem from="1554943049658" duration="890000" />
+      <workItem from="1554943049658" duration="9711000" />
+      <workItem from="1555035250976" duration="437000" />
+      <workItem from="1555310323836" duration="795000" />
+      <workItem from="1555320333574" duration="38000" />
+      <workItem from="1555374988148" duration="2239000" />
+      <workItem from="1555381999408" duration="3179000" />
+      <workItem from="1555461787481" duration="14565000" />
+      <workItem from="1555510635727" duration="10964000" />
+      <workItem from="1555633256772" duration="17294000" />
+      <workItem from="1555849184436" duration="7112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="893434000" />
+    <option name="totallyTimeSpent" value="958878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,10 +979,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31330472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20529328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -998,8 +991,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3383356" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3374317" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32742155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983629" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1007,15 +1000,15 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32786885" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5035765" side_tool="true" weight="0.3941094" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.30832195" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.30601093" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32700136" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32700136" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" weight="0.372442" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" visible="true" weight="0.36748633" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14020029" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14020029" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.1881259" />
@@ -1025,7 +1018,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3090129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19957082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1034,8 +1027,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3383356" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32742155" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3374317" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32742155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983629" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1043,18 +1036,18 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32786885" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5035765" side_tool="true" weight="0.3941094" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.30874318" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.30737704" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32700136" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32700136" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" weight="0.372442" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49642345" weight="0.36834925" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14020029" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.14020029" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1881259" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.1881259" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1123,327 +1116,331 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/directwebremoting/dwr/3.0.2-RELEASE/dwr-3.0.2-RELEASE.jar!/org/directwebremoting/impl/DefaultRemoter.class">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/CrossOrigin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        <state relative-caret-position="193">
+          <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/controller/ManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="98" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
+        <state relative-caret-position="70">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/api/UserService.java">
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/resources/templates/crossdomain.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/bean/web/Head.java">
+    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/GatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/service/impl/PushServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/lxt-upload/src/main/java/com/lxt/ms/pdf/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="748">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/server/PushServer.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE-sources.jar!/org/springframework/util/Base64Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="155">
+          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-push/src/main/java/com/lxt/ms/push/server/PushSessionFilter.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="137">
+          <caret line="2221" column="18" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="59" column="86" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="86" />
+        <state relative-caret-position="304">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="57">
+          <caret line="181" column="24" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/Application.java" />
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/com/test/controller.java" />
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/com/test/Application.java" />
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/com/test/controller/TestController.java" />
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/d340d77f0d1bac2464ba91baad08632b/Message/MessageTemp/a657fa7ed933bcb120716f82d0914b78/File/AuthInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="104" column="17" lean-forward="true" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+        <state relative-caret-position="661">
+          <caret line="93" column="5" lean-forward="true" selection-end-line="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-push/src/main/resources/templates/pushFrame.html">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/com/test/controller/AuthInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/springcloud.a" />
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory/Factory.java" />
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/Singleton.java" />
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/Prototype.java" />
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/singleton/hungry/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/hungry/HungrySingleton.java" />
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/hungry/HungryStaticSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/prototype/Prototype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/EnumSingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy/promotion/PromotionActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ContainerSingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="925">
+          <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ConcurrentExecutor.java">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/test/controller/AuthInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ExectorThread.java">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/test/controller/MyWebAppConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="235">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/LazyInnerClassSingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/test/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="276">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/LazySimpleSingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/test/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/Pojo.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ChatFriendCategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-841" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/bpmn/listener/MyAssignmentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/SeriableSingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ProcessMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-492">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/test/com/lxt/ms/designpattern/singleton/ThreadLocalSingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ext/ProcessExtMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="220">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/Monkey.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/ConcretePrototypeB.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/ProcessService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="305">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/QiTianDaSheng.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/query/Query.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="53" column="40" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="215">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/deep/DeepCloneTest.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/task/TaskInfo.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/ConcretePrototypeA.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/graph/entity/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="88">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/graph/entity/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9884">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/HistoricTaskInstanceEntityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="3212" column="21" selection-start-line="3212" selection-start-column="21" selection-end-line="3212" selection-end-column="21" />
+        <state relative-caret-position="246">
+          <caret line="225" column="9" lean-forward="true" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="355" column="39" selection-start-line="355" selection-start-column="39" selection-end-line="355" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/staticproxy/Son.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/HistoricTaskInstanceEntity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/staticproxy/Father.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/history/HistoricTaskInstance.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="89">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/staticproxy/FatherProxyTest.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/TaskService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="145">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dbroute/db/DynamicDataSourceEntity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/prototype/simple/PrototypeTest.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/api/TaskService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="124">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-899">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper/ext/ProcessExtMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="29" />
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPProxy.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/repository/ProcessDefinition.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-723">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/ProcessDefinitionEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/IdentityLinkEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/IdentityLinkEntityImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#5499#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/jdkproxy/Girl.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-bpmn-model/6.0.0/activiti-bpmn-model-6.0.0.jar!/org/activiti/bpmn/model/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/jdkproxy/JDKMeipo.java">
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/controller/WorkflowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="383">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPMeipo.java">
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/ProcessDefinitionEntityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="166">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/java/lxt20140429 (1)/lxt/src/com/lxt/workflow/service/impl/WorkflowServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="270" column="44" selection-start-line="270" selection-start-column="44" selection-end-line="270" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/ProcessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="287" column="55" lean-forward="true" selection-start-line="287" selection-start-column="55" selection-end-line="287" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/apache-maven-3.5.4/repository/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/RepositoryService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/java/lxt20140429 (1)/lxt/src/com/lxt/workflow/assigner/AssignerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/java/lxt20140429 (1)/lxt/src/com/lxt/workflow/service/impl/TaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="156" column="41" selection-start-line="156" selection-start-column="41" selection-end-line="156" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/service/impl/TaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2413#2434#0" expanded="true" />
           </folding>
         </state>
       </provider>

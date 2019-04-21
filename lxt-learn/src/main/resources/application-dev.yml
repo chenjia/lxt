@@ -1,46 +1,10 @@
-mapper:
-  mappers: com.lxt.ms.designpattern.mapper
-  not-empty: false
-  identity: MYSQL
-mybatis:
-  mapper-locations: com/lxt/ms/**/*Mapper.xml
-  type-aliases-package: com.lxt.ms.designpattern.model
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-pagehelper:
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql
-    returnPageInfo: check
 server:
-  port: 8401
+  port: 8000
   servlet:
     contextPath: /
 spring:
   application:
     name: lxt-designpattern
-  datasource:
-    url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: root
-    type: com.alibaba.druid.pool.DruidDataSource
-    driverClassName: com.mysql.jdbc.Driver
-    filters: stat
-    maxActive: 1
-    maxIdle: 1
-    minIdle: 1
-    initialSize: 1
-    maxWait: 60000
-    timeBetweenEvictionRunsMillis: 60000
-    minEvictableIdleTimeMillis: 300000
-    validationQuery: select 'x'
-    testWhileIdle: true
-    testOnBorrow: false
-    testOnReturn: false
-    poolPreparedStatements: true
-    maxPoolPreparedStatementPerConnectionSize: 20
-    maxOpenPreparedStatements: 20
   devtools:
     restart:
       enable: true

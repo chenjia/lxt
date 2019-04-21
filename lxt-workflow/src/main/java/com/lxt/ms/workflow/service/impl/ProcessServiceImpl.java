@@ -11,20 +11,27 @@ import com.lxt.ms.workflow.constant.ProcessConstant;
 import com.lxt.ms.workflow.graph.entity.*;
 import com.lxt.ms.workflow.mapper.NodeMapper;
 import com.lxt.ms.workflow.mapper.ProcessMapper;
+import com.lxt.ms.workflow.mapper.ext.ProcessExtMapper;
 import com.lxt.ms.workflow.model.Node;
 import com.lxt.ms.workflow.model.NodeExample;
+import com.lxt.ms.workflow.model.Process;
 import com.lxt.ms.workflow.model.ProcessExample;
 import com.lxt.ms.workflow.model.ProcessWithBLOBs;
 import com.lxt.ms.workflow.service.api.ProcessService;
 import com.lxt.ms.workflow.utils.WorkflowUtils;
 import org.activiti.engine.*;
+import org.activiti.engine.history.HistoricActivityInstance;
 import org.activiti.engine.history.HistoricDetail;
 import org.activiti.engine.history.HistoricDetailQuery;
+import org.activiti.engine.history.HistoricTaskInstance;
+import org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntityImpl;
+import org.activiti.engine.impl.persistence.entity.HistoricTaskInstanceEntity;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.DeploymentBuilder;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.runtime.Execution;
 import org.activiti.engine.runtime.ProcessInstance;
+import org.activiti.engine.task.TaskInfo;
 import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -58,6 +65,9 @@ public class ProcessServiceImpl implements ProcessService {
 
     @Autowired
     private NodeMapper nodeMapper;
+
+    @Autowired
+    private ProcessExtMapper processExtMapper;
 
     @Override
     public Packages save(String graphXml) throws APIException {
@@ -270,16 +280,42 @@ public class ProcessServiceImpl implements ProcessService {
     }
 
     @Override
-    public Packages history(String instanceId) throws APIException {
+    public Packages history(String processInstanceId) throws APIException {
         Packages pkg = new Packages();
 
-        List<Execution> currentList = runtimeService.createExecutionQuery().executionId(instanceId).list();
-        List<HistoricDetail> historyList = historyService.createHistoricDetailQuery().executionId(instanceId).list();
+        List<HistoricTaskInstance> list = historyService.createHistoricTaskInstanceQuery().processInstanceId(processInstanceId).includeTaskLocalVariables().taskVariableValueLike("to","submit%").list();
+        List<Task> currentList = new ArrayList<Task>();
+        List<Task> historyList = new ArrayList<Task>();
+        Task task = null;
 
+        for(HistoricTaskInstance item : list){
+            task = new Task();
+
+            task.setLabel(item.getName());
+            if(item.getEndTime() == null){
+                currentList.add(task);
+            }else{
+                historyList.add(task);
+            }
+        }
         Map<String,Object> map = new HashMap<String, Object>();
         map.put("current", currentList);
         map.put("history", historyList);
+
         pkg.getBody().setData(map);
+
+        return pkg;
+    }
+
+    @Override
+    public Packages graph(String taskId, String $userId) throws APIException {
+        Packages pkg = new Packages();
+
+        Map<String, Object> params = new HashMap<>();
+        params.put("taskId", taskId);
+        params.put("userId", $userId);
+        Process process = processExtMapper.queryGraphXmlByTaskId(params);
+        pkg.getBody().setData(process);
 
         return pkg;
     }

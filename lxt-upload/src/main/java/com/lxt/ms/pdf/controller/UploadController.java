@@ -6,16 +6,16 @@ import com.lxt.ms.common.utils.ImageUtils;
 import com.lxt.ms.common.utils.JSONUtils;
 import com.lxt.ms.common.utils.UUIDUtils;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import sun.misc.BASE64Decoder;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.awt.image.RenderedImage;
 import java.io.*;
 import java.net.URLEncoder;
@@ -26,9 +26,8 @@ public class UploadController {
     @Value("${file.uploadPath}")
     private String uploadPath;
 
-    @ResponseBody
     @RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
-    public Packages upload(@RequestParam("file") MultipartFile file) throws Exception {
+    public void upload(@RequestParam("file") MultipartFile file, HttpServletResponse response) throws Exception {
         Packages result = new Packages();
         String fileName = file.getOriginalFilename();
         int size = (int) file.getSize();
@@ -47,7 +46,12 @@ public class UploadController {
             result.getHead().setMsg("文件上传失败:" + e.getMessage().substring(0, msgLength));
         }
 
-        return result;
+        response.setContentType("text/html;chatset=utf-8");
+        response.getWriter().write("ok");
+        response.getWriter().flush();
+        response.getWriter().close();
+
+//        return new ResponseEntity<Packages>(result, HttpStatus.OK);
     }
 
     @ResponseBody

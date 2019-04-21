@@ -6,7 +6,14 @@ import com.lxt.ms.common.exception.APIException;
 import com.lxt.ms.workflow.model.User;
 import com.lxt.ms.workflow.service.api.TaskService;
 import com.lxt.ms.workflow.utils.TaskRollbackCmd;
+import org.activiti.bpmn.model.Activity;
+import org.activiti.bpmn.model.BpmnModel;
+import org.activiti.bpmn.model.FlowElement;
+import org.activiti.bpmn.model.SequenceFlow;
 import org.activiti.engine.*;
+import org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity;
+import org.activiti.engine.impl.persistence.entity.TaskEntity;
+import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.task.Task;
 import org.activiti.engine.task.TaskQuery;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +45,10 @@ public class TaskServiceImpl implements TaskService {
     public Packages submit(String $userId, String taskId) throws APIException {
         Packages pkg = new Packages();
 
-        taskService.complete(taskId);
+        Map<String, Object> vars = new HashMap<>();
+        vars.put("to", "submit "+taskId);
+        TaskEntity t = null;
+        taskService.complete(taskId, vars, true);
 
         return pkg;
     }
@@ -48,6 +58,42 @@ public class TaskServiceImpl implements TaskService {
         Packages pkg = new Packages();
 
         managementService.executeCommand(new TaskRollbackCmd(taskId));
+
+        return pkg;
+    }
+
+    @Override
+    public Packages nextStep(String taskId) throws APIException {
+     Packages pkg = new Packages();
+
+        Task task = taskService.createTaskQuery().taskId(taskId).singleResult();
+        BpmnModel bpmnModel = repositoryService.getBpmnModel(task.getProcessDefinitionId());
+        Collection<FlowElement> list = bpmnModel.getMainProcess().getFlowElements();
+        List<Map<String, Object>> nextFlowList = new ArrayList<Map<String, Object>>();
+        for (FlowElement element : list) {
+            if (element instanceof SequenceFlow) {
+                SequenceFlow flow = (SequenceFlow) element;
+                if (task.getTaskDefinitionKey().equals(flow.getSourceRef())) {
+                    Map<String, Object> map = new HashMap<>();
+                    FlowElement target = flow.getTargetFlowElement();
+                    map.put("to", "任务提交至【" + target.getName()+"】");
+                    List<User> userList = new ArrayList<>();
+                    User user = new User();
+                    user.setUsername("testName");
+                    user.setUserId("testId");
+                    user.setRealname("testRealName");
+                    userList.add(user);
+                    User user2 = new User();
+                    user.setUsername("testName2");
+                    user.setUserId("testId");
+                    user.setRealname("testRealName2");
+                    userList.add(user2);
+                    map.put("assignee", userList);
+                    nextFlowList.add(map);
+                }
+            }
+        }
+        pkg.getBody().setData(nextFlowList);
 
         return pkg;
     }
