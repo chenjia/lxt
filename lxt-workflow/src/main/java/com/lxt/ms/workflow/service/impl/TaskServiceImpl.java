@@ -6,14 +6,9 @@ import com.lxt.ms.common.exception.APIException;
 import com.lxt.ms.workflow.model.User;
 import com.lxt.ms.workflow.service.api.TaskService;
 import com.lxt.ms.workflow.utils.TaskRollbackCmd;
-import org.activiti.bpmn.model.Activity;
-import org.activiti.bpmn.model.BpmnModel;
-import org.activiti.bpmn.model.FlowElement;
-import org.activiti.bpmn.model.SequenceFlow;
+import org.activiti.bpmn.model.*;
 import org.activiti.engine.*;
-import org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity;
-import org.activiti.engine.impl.persistence.entity.TaskEntity;
-import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.impl.persistence.entity.ExecutionEntity;
 import org.activiti.engine.task.Task;
 import org.activiti.engine.task.TaskQuery;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,13 +37,42 @@ public class TaskServiceImpl implements TaskService {
     private ManagementService managementService = null;
 
     @Override
-    public Packages submit(String $userId, String taskId) throws APIException {
+    public Packages submit(String $userId, String taskId, String targetId, String assignee) throws APIException {
         Packages pkg = new Packages();
-
+        Task task = taskService.createTaskQuery().taskId(taskId).singleResult();
+        BpmnModel bpmnModel = repositoryService.getBpmnModel(task.getProcessDefinitionId());
+        Collection<FlowElement> list = bpmnModel.getMainProcess().getFlowElements();
         Map<String, Object> vars = new HashMap<>();
-        vars.put("to", "submit "+taskId);
-        TaskEntity t = null;
-        taskService.complete(taskId, vars, true);
+        List<SequenceFlow> removeList = new ArrayList<SequenceFlow>();
+        UserTask currentUserTask = null;
+        for (FlowElement element : list) {
+            if (element instanceof UserTask) {
+                UserTask userTask = (UserTask) element;
+                if(userTask.getName().equals(task.getName())){
+                    currentUserTask = userTask;
+                    Iterator<SequenceFlow> iter = userTask.getOutgoingFlows().iterator();
+                    while(iter.hasNext()){
+                        SequenceFlow flow = iter.next();
+                        if(!flow.getTargetRef().equals(targetId)){
+                            removeList.add(flow);
+                            iter.remove();
+                        }
+                    }
+                }
+            }
+        }
+
+        if(assignee != null){
+            vars.put("ASSIGNEE_"+taskId, assignee);
+        }
+        if(targetId != null){
+            vars.put("OUT_"+taskId, currentUserTask.getOutgoingFlows().get(0).getTargetFlowElement().getName());
+        }
+
+        taskService.complete(taskId, vars);
+        for(SequenceFlow flow : removeList){
+            currentUserTask.getOutgoingFlows().add(flow);
+        }
 
         return pkg;
     }
@@ -74,22 +98,30 @@ public class TaskServiceImpl implements TaskService {
             if (element instanceof SequenceFlow) {
                 SequenceFlow flow = (SequenceFlow) element;
                 if (task.getTaskDefinitionKey().equals(flow.getSourceRef())) {
-                    Map<String, Object> map = new HashMap<>();
+                    Map<String, Object> activityMap = new HashMap<>();
                     FlowElement target = flow.getTargetFlowElement();
-                    map.put("to", "任务提交至【" + target.getName()+"】");
+                    activityMap.put("activity", target);
+
                     List<User> userList = new ArrayList<>();
                     User user = new User();
-                    user.setUsername("testName");
-                    user.setUserId("testId");
-                    user.setRealname("testRealName");
+                    user.setUsername("chenjia");
+                    user.setUserId("chenjia");
+                    user.setRealname("陈佳");
                     userList.add(user);
+
+                    User user1 = new User();
+                    user1.setUsername("admin");
+                    user1.setUserId("admin");
+                    user1.setRealname("admin");
+                    userList.add(user1);
+
                     User user2 = new User();
-                    user.setUsername("testName2");
-                    user.setUserId("testId");
-                    user.setRealname("testRealName2");
+                    user2.setUsername("xiaoting");
+                    user2.setUserId("xiaoting");
+                    user2.setRealname("xiaoting");
                     userList.add(user2);
-                    map.put("assignee", userList);
-                    nextFlowList.add(map);
+                    activityMap.put("assignee", userList);
+                    nextFlowList.add(activityMap);
                 }
             }
         }

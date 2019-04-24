@@ -2,9 +2,10 @@ package com.lxt.ms.workflow.graph.entity;
 
 import com.lxt.ms.workflow.graph.utils.NodeBuilder;
 
+import java.io.Serializable;
 import java.util.Map;
 
-public abstract class Vertex {
+public abstract class Vertex implements Serializable {
 	protected String id;
 	protected String label;
 	protected String nodeId;

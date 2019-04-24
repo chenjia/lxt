@@ -230,7 +230,7 @@ public class ProcessServiceImpl implements ProcessService {
     }
 
     @Override
-    public Packages start(String pid, Map<String, Object> variables) throws APIException {
+    public Packages start(String $userId, String pid, Map<String, Object> variables) throws APIException {
         Packages pkg = new Packages();
 
         ProcessWithBLOBs process = processMapper.selectByPrimaryKey(pid);
@@ -238,6 +238,10 @@ public class ProcessServiceImpl implements ProcessService {
         ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery().deploymentId(process.getDeployeId()).singleResult();
         if(processDefinition != null){
             String instanceId = null;
+            if(variables == null){
+                variables = new HashMap<String, Object>();
+                variables.put("INITIATOR" , $userId);
+            }
             instanceId = runtimeService.startProcessInstanceById(processDefinition.getId(), variables).getId();
             pkg.getBody().setData(instanceId);
         }else{
@@ -283,19 +287,20 @@ public class ProcessServiceImpl implements ProcessService {
     public Packages history(String processInstanceId) throws APIException {
         Packages pkg = new Packages();
 
-        List<HistoricTaskInstance> list = historyService.createHistoricTaskInstanceQuery().processInstanceId(processInstanceId).includeTaskLocalVariables().taskVariableValueLike("to","submit%").list();
-        List<Task> currentList = new ArrayList<Task>();
-        List<Task> historyList = new ArrayList<Task>();
-        Task task = null;
+        List<HistoricTaskInstance> list = historyService.createHistoricTaskInstanceQuery().processInstanceId(processInstanceId).list();
+        List<Map<String, Object>> currentList = new ArrayList<Map<String, Object>>();
+        List<Map<String, Object>> historyList = new ArrayList<Map<String, Object>>();
+        Map<String, Object> tempMap = null;
 
         for(HistoricTaskInstance item : list){
-            task = new Task();
-
-            task.setLabel(item.getName());
+            tempMap = new HashMap<String, Object>();
+            tempMap.put("activity", item.getName());
+            String transition = (String) runtimeService.getVariable(processInstanceId, "OUT_"+item.getId());
+            tempMap.put("transition", transition);
             if(item.getEndTime() == null){
-                currentList.add(task);
+                currentList.add(tempMap);
             }else{
-                historyList.add(task);
+                historyList.add(tempMap);
             }
         }
         Map<String,Object> map = new HashMap<String, Object>();

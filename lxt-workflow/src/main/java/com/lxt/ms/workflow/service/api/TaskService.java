@@ -5,7 +5,7 @@ import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.common.exception.APIException;
 
 public interface TaskService {
-    public Packages submit(String $userId, String taskId) throws APIException;
+    public Packages submit(String $userId, String taskId, String activity, String assignee) throws APIException;
 
     public Packages rollback(String taskId, String nodeId, String target) throws APIException;
 

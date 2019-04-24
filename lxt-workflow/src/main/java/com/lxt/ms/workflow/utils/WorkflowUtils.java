@@ -136,7 +136,8 @@ public class WorkflowUtils {
         bpmnStream.useAttributeFor(UserTask.class, "name");
         bpmnStream.aliasAttribute(ExtensionElements.class, "activitiTaskListener", "activiti:taskListener");
         bpmnStream.useAttributeFor(ActivitiTaskListener.class, "event");
-        bpmnStream.aliasAttribute(ActivitiTaskListener.class, "clazz", "class");
+        bpmnStream.useAttributeFor(ActivitiTaskListener.class, "delegateExpression");
+//        bpmnStream.aliasAttribute(ActivitiTaskListener.class, "clazz", "class");
 
         bpmnStream.alias("sequenceFlow", SequenceFlow.class);
         bpmnStream.useAttributeFor(SequenceFlow.class, "id");

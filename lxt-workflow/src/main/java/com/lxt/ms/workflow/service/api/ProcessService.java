@@ -17,7 +17,7 @@ public interface ProcessService {
 
     public Packages deleteAll() throws APIException;
 
-    public Packages start(String pid, Map<String, Object> variables) throws APIException;
+    public Packages start(String $userId, String pid, Map<String, Object> variables) throws APIException;
 
     public Packages details(String pid) throws APIException;
 
