@@ -290,19 +290,29 @@ public class ProcessServiceImpl implements ProcessService {
         List<HistoricTaskInstance> list = historyService.createHistoricTaskInstanceQuery().processInstanceId(processInstanceId).list();
         List<Map<String, Object>> currentList = new ArrayList<Map<String, Object>>();
         List<Map<String, Object>> historyList = new ArrayList<Map<String, Object>>();
+        List<String> keyList = new ArrayList<String>();
+        Map<String, Object> varMap = new HashMap<String, Object>();
         Map<String, Object> tempMap = null;
+
+        for(HistoricTaskInstance item : list){
+            keyList.add("OUT_"+item.getTaskDefinitionKey());
+        }
+        varMap = runtimeService.getVariables(processInstanceId, keyList);
 
         for(HistoricTaskInstance item : list){
             tempMap = new HashMap<String, Object>();
             tempMap.put("activity", item.getName());
-            String transition = (String) runtimeService.getVariable(processInstanceId, "OUT_"+item.getId());
-            tempMap.put("transition", transition);
+            String transition = (String) varMap.get("OUT_"+item.getTaskDefinitionKey());
+            if(transition != null){
+                tempMap.put("transition", transition.split("\\.")[0]);
+            }
             if(item.getEndTime() == null){
                 currentList.add(tempMap);
             }else{
                 historyList.add(tempMap);
             }
         }
+
         Map<String,Object> map = new HashMap<String, Object>();
         map.put("current", currentList);
         map.put("history", historyList);

@@ -7,8 +7,11 @@ import com.lxt.ms.workflow.model.User;
 import com.lxt.ms.workflow.service.api.TaskService;
 import com.lxt.ms.workflow.utils.TaskRollbackCmd;
 import org.activiti.bpmn.model.*;
+import org.activiti.bpmn.model.Process;
 import org.activiti.engine.*;
 import org.activiti.engine.impl.persistence.entity.ExecutionEntity;
+import org.activiti.engine.impl.persistence.entity.TaskEntity;
+import org.activiti.engine.impl.persistence.entity.TaskEntityManagerImpl;
 import org.activiti.engine.task.Task;
 import org.activiti.engine.task.TaskQuery;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,7 +51,7 @@ public class TaskServiceImpl implements TaskService {
         for (FlowElement element : list) {
             if (element instanceof UserTask) {
                 UserTask userTask = (UserTask) element;
-                if(userTask.getName().equals(task.getName())){
+                if(userTask.getId().equals(task.getTaskDefinitionKey())){
                     currentUserTask = userTask;
                     Iterator<SequenceFlow> iter = userTask.getOutgoingFlows().iterator();
                     while(iter.hasNext()){
@@ -66,7 +69,9 @@ public class TaskServiceImpl implements TaskService {
             vars.put("ASSIGNEE_"+taskId, assignee);
         }
         if(targetId != null){
-            vars.put("OUT_"+taskId, currentUserTask.getOutgoingFlows().get(0).getTargetFlowElement().getName());
+            String targetName = currentUserTask.getOutgoingFlows().get(0).getTargetFlowElement().getName();
+            vars.put("OUT_"+task.getTaskDefinitionKey(), targetName+"."+targetId);
+            vars.put("IN_"+targetId, task.getName()+"."+task.getTaskDefinitionKey());
         }
 
         taskService.complete(taskId, vars);
@@ -78,10 +83,39 @@ public class TaskServiceImpl implements TaskService {
     }
 
     @Override
-    public Packages rollback(String taskId, String nodeId, String target) throws APIException {
+    public Packages rollback(String $userId, String taskId) throws APIException {
         Packages pkg = new Packages();
 
-        managementService.executeCommand(new TaskRollbackCmd(taskId));
+        Task task = taskService.createTaskQuery().taskId(taskId).singleResult();
+        if(task != null){
+            if($userId.equals(task.getAssignee())){
+                BpmnModel bpmnModel = repositoryService.getBpmnModel(task.getProcessDefinitionId());
+                String rollbackVar = (String) runtimeService.getVariable(task.getProcessInstanceId(), "IN_"+task.getTaskDefinitionKey());
+                FlowNode currentNode = (FlowNode) bpmnModel.getMainProcess().getFlowElement(task.getTaskDefinitionKey());
+                FlowNode rollbackNode = (FlowNode) bpmnModel.getMainProcess().getFlowElement(rollbackVar.split("\\.")[1]);
+
+                List<SequenceFlow> originSequenceFlows = new ArrayList<SequenceFlow>();
+                originSequenceFlows.addAll(currentNode.getOutgoingFlows());
+                currentNode.getOutgoingFlows().clear();
+                SequenceFlow rollbackFlow = new SequenceFlow();
+                rollbackFlow.setId("rollback_"+currentNode.getId()+"_"+rollbackNode.getId());
+                rollbackFlow.setSourceFlowElement(currentNode);
+                rollbackFlow.setTargetFlowElement(rollbackNode);
+                currentNode.getOutgoingFlows().clear();
+                currentNode.getOutgoingFlows().add(rollbackFlow);
+
+                taskService.addComment(task.getId(), task.getProcessInstanceId(), "退回");
+
+                Map<String, Object> vars = new HashMap<String, Object>();
+                vars.put("ROLLBACK_"+task.getTaskDefinitionKey(), rollbackVar);
+                taskService.complete(taskId, vars);
+                currentNode.setOutgoingFlows(originSequenceFlows);
+            }else{
+                throw new APIException("非任务受理人不允许退回该任务");
+            }
+        }else{
+            throw new APIException("未找到要退回的任务");
+        }
 
         return pkg;
     }

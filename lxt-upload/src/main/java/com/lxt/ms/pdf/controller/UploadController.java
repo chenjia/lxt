@@ -19,19 +19,24 @@ import javax.servlet.http.HttpServletResponse;
 import java.awt.image.RenderedImage;
 import java.io.*;
 import java.net.URLEncoder;
+import java.util.Enumeration;
+import java.util.List;
 import java.util.Map;
 
+@CrossOrigin
 @Controller
 public class UploadController {
     @Value("${file.uploadPath}")
     private String uploadPath;
 
     @RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
-    public void upload(@RequestParam("file") MultipartFile file, HttpServletResponse response) throws Exception {
+    public ResponseEntity upload(@RequestParam("file") MultipartFile file, HttpServletRequest request, HttpServletResponse response) throws Exception {
         Packages result = new Packages();
         String fileName = file.getOriginalFilename();
         int size = (int) file.getSize();
         System.out.println(fileName + "-->" + size);
+        String name = request.getParameter("name");
+        String age = request.getParameter("age");
 
         File dest = new File(uploadPath + "/" + UUIDUtils.UUID()+fileName.substring(fileName.lastIndexOf(".")));
         if (!dest.getParentFile().exists()) {
@@ -46,12 +51,7 @@ public class UploadController {
             result.getHead().setMsg("文件上传失败:" + e.getMessage().substring(0, msgLength));
         }
 
-        response.setContentType("text/html;chatset=utf-8");
-        response.getWriter().write("ok");
-        response.getWriter().flush();
-        response.getWriter().close();
-
-//        return new ResponseEntity<Packages>(result, HttpStatus.OK);
+        return new ResponseEntity<Packages>(result, HttpStatus.OK);
     }
 
     @ResponseBody
