@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/CreateImageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/controller/CaptchaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_pusuo_patchca_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_8_5_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_8_5_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPath_IS_UNDEFINED/lxt-consumer.2019-01-10.log.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPath_IS_UNDEFINED/lxt-consumer.2019-01-12.log.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPath_IS_UNDEFINED/lxt-consumer.2019-01-13.log.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logPath_IS_UNDEFINED/lxt-consumer.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-chat-1.0-SNAPSHOT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-config-1.0-SNAPSHOT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-eureka-1.0-SNAPSHOT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-gateway-1.0-SNAPSHOT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-manage-1.0-SNAPSHOT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lxt-upload-1.0-SNAPSHOT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/CaptchaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/CaptchaUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-gateway/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/PdfApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-pdf/src/main/java/com/lxt/ms/pdf/utils/ImagePreProcess3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/src/main/java/com/lxt/ms/CrossDomainFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/src/main/java/com/lxt/ms/WebApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/src/main/resources/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/src/main/resources/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxt-web/src/main/webapp/test.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startChat.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startConfig.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startEureka.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startGateway.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startManage.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startUpload.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startWorkflow.sh" beforeDir="false" />
-    </list>
+    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
     <ignored path="$PROJECT_DIR$/lxt-common/target/" />
@@ -413,7 +366,7 @@
     <property name="SearchEverywhereHistoryKey" value="OUT_&#9;FILE&#9;file:///Users/farben/project/lxt/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml&#10;ChatServer&#9;FILE&#9;file:///Users/farben/project/lxt/lxt-push/src/main/java/com/lxt/ms/chat/server/ChatServer.java&#10;html2pdf&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558082355320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558093580850" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -814,12 +767,12 @@
       <workItem from="1557794086033" duration="1271000" />
       <workItem from="1557968131785" duration="2795000" />
       <workItem from="1557992500278" duration="3670000" />
-      <workItem from="1558076860972" duration="5308000" />
+      <workItem from="1558076860972" duration="5978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1039220000" />
+    <option name="totallyTimeSpent" value="1039890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
