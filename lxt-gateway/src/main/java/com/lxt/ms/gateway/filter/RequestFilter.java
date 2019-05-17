@@ -27,17 +27,14 @@ import java.util.Set;
 
 @SuppressWarnings("unchecked")
 public class RequestFilter extends ZuulFilter{
-	@Value("${filterUrl}")
-	private String filterUrl;
-	
-	@Value("${safeDomain}")
-	private String safeDomain;
-	
-	@Value("${safeApi}")
-	private String safeApi;
-	
-	@Value("${excludeUrl}")
-    private String excludeUrl;
+	@Value("#{'${filterUrls.services}'.split(',')}")
+	private String[] services;
+
+	@Value("${filterUrls.apis}")
+	private String apis;
+
+	@Value("#{'${filterUrls.excludes}'.split(',')}")
+	private String[] excludes;
 
 	@Override
 	public Object run() throws ZuulException{
@@ -62,7 +59,7 @@ public class RequestFilter extends ZuulFilter{
 			pkg.getHead().setMsg("报文解密异常！");
 		}
 
-		if (pkg.getHead().getStatus() == 200 && safeApi.indexOf(uri) == -1) {
+		if (pkg.getHead().getStatus() == 200 && apis.indexOf(uri) == -1) {
 			String token = pkg.getHead().getToken();
 			String userId = pkg.getHead().getUserId();
 
@@ -128,16 +125,14 @@ public class RequestFilter extends ZuulFilter{
 		
 		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
 		String uri = request.getRequestURI();
-		String[] filterUrls = filterUrl.split(",");
-		for(String url : filterUrls){
+		for(String url : services){
 			if(uri.startsWith(url)){
 				shouldFilter = true;
 				break;
 			}
 		}
 
-		String[] excludeUrls = excludeUrl.split(",");
-		for(String exclude : excludeUrls){
+		for(String exclude : excludes){
 			if(uri.startsWith(exclude)){
 				shouldFilter = false;
 				break;

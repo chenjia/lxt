@@ -4,8 +4,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8101/eureka/
 
-excludeUrl: /api/upload/uploadFile,/api/push/push,/api/push/chat
-filterUrl: /api/manage/,/api/upload/,/api/push/,/api/workflow/
+filterUrls:
+  services: /api/manage/,/api/upload/,/api/push/,/api/workflow/
+  excludes: /api/upload/uploadFile,/api/push/push,/api/push/chat
+  apis: /api/manage/user/captcha,/api/manage/user/login,/api/manage/user/qrcode,/api/manage/user/qrcodeLogin
+  origins: http://localhost,http://localhost:8888,http://localhost:8880,http://47.100.119.102
 
 hystrix:
   command:
@@ -24,8 +27,8 @@ ribbon:
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 1
 
-safeApi: /api/manage/user/captcha,/api/manage/user/login,/api/manage/user/qrcode,/api/manage/user/qrcodeLogin
-safeDomain: http://localhost,http://localhost:8888,http://localhost:8880,http://47.100.119.102
+safeApis:
+safeDomains:
 
 server:
   port: 8201

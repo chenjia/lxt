@@ -1,13 +1,11 @@
 eureka:
   client:
-    registryFetchIntervalSeconds: 300
+    registryFetchIntervalSeconds: 3
     serviceUrl:
-      defaultZone: http://localhost:8101/lxt-eureka/eureka/,http://localhost:8102/lxt-eureka/eureka/
-file:
-  uploadPath: /home/ms/uploadFiles
+      defaultZone: http://localhost:8101/eureka/
 log:
-  path: /home/ms/logs
-  level: debug
+  path: ~/logs
+  level: error
 mapper:
   mappers: com.lxt.ms.manage.mapper
   not-empty: false
@@ -15,29 +13,25 @@ mapper:
 mybatis:
   mapper-locations: com/lxt/ms/**/*Mapper.xml
   type-aliases-package: com.lxt.ms.manage.model
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 pagehelper:
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql
-    returnPageInfo: check
-safeApi: /api/user/captcha,/api/user/login
-safeDomain: http://localhost:8888,http://localhost:8080,http://47.100.119.102:8888,http://47.100.119.102:8080
-security:
-  oauth2:
-    resource:
-      filter-order: 3
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  returnPageInfo: check
 server:
   port: 8301
   servlet:
-    contextPath: /lxt-manage
+    contextPath: /
 spring:
   application:
     name: lxt-manage
   datasource:
-    url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
-    password: root
+    password: chenjias
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     filters: stat
@@ -59,6 +53,9 @@ spring:
     restart:
       enable: true
       additional-paths: src/main/java
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
   redis:
     database: 0
     host: localhost
@@ -71,7 +68,7 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
-  resources: 
+  resources:
     static-locations: classpath:/templates/
   thymeleaf:
     prefix: classpath:/templates/

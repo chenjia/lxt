@@ -1,10 +1,14 @@
 eureka:
   client:
-    registryFetchIntervalSeconds: 300
+    registryFetchIntervalSeconds: 3
     serviceUrl:
       defaultZone: http://localhost:8101/eureka/
 
-filterUrl: /lxt-manage/api/,/lxt-upload/api/,/lxt-chat_bak/api/,/lxt-workflow/api/
+filterUrls:
+  services: /api/manage/,/api/upload/,/api/push/,/api/workflow/
+  excludes: /api/upload/uploadFile,/api/push/push,/api/push/chat
+  apis: /api/manage/user/captcha,/api/manage/user/login,/api/manage/user/qrcode,/api/manage/user/qrcodeLogin
+  origins: http://localhost,http://localhost:8888,http://localhost:8880,http://47.100.119.102
 
 hystrix:
   command:
@@ -14,10 +18,8 @@ hystrix:
           thread:
             timeoutInMilliseconds: 60000
             ribbon:
-              ReadTimeout:1000
-              ConnectTimeout:1000
-
-unencryptedApi: /lxt-upload/api/upload
+              ReadTimeout:30000
+              ConnectTimeout:30000
 
 ribbon:
   ReadTimeout: 60000
@@ -25,15 +27,13 @@ ribbon:
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 1
 
-
-safeApi: /api/user/captcha,/api/user/login
-
-safeDomain: http://localhost:8888,http://localhost:8080
+safeApis:
+safeDomains:
 
 server:
   port: 8201
   servlet:
-    contextPath: /lxt-gateway
+    contextPath: /
 
 spring:
   application:
@@ -42,25 +42,44 @@ spring:
     restart:
       enable: true
       additional-paths: src/main/java
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password:
+    timeout: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
   resources:
     static-locations: classpath:/templates/
-  thymeleaf:
-    prefix: classpath:/templates/
-
 zuul:
+  add-host-header: true
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
   routes:
-    lxt-chat:
-      path: /lxt-chat_bak/**
-      serviceId: lxt-chat_bak
-      stripPrefix: false
+    lxt-push:
+      path: /api/push/**
+      serviceId: lxt-push
+      stripPrefix: true
     lxt-upload:
-      path: /lxt-upload/**
+      path: /api/upload/**
       serviceId: lxt-upload
-      stripPrefix: false
+      stripPrefix: true
     lxt-manage:
-      path: /lxt-manage/**
+      path: /api/manage/**
       serviceId: lxt-manage
-      stripPrefix: false
+      stripPrefix: true
+    lxt-workflow:
+      path: /api/workflow/**
+      serviceId: lxt-workflow
+      stripPrefix: true

@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 3
     serviceUrl:
-      defaultZone: http://localhost:8101/lxt-eureka/eureka/
+      defaultZone: http://localhost:8101/eureka/
 file:
   uploadPath: ~/uploadFiles
 log:
@@ -23,8 +23,6 @@ pagehelper:
   supportMethodsArguments: true
   params: count=countSql
   returnPageInfo: check
-safeApi: /api/user/captcha,/api/user/login
-safeDomain: http://localhost:8888,http://localhost:8080,http://47.100.119.102:8888,http://47.100.119.102:8080
 security:
   oauth2:
     resource:
@@ -32,14 +30,18 @@ security:
 server:
   port: 8331
   servlet:
-    contextPath: /lxt-workflow
+    contextPath: /
 spring:
+  activiti:
+    check-process-definitions: false
+    copy-variables-to-local-for-tasks: false
+    database-schema-update: true
   application:
     name: lxt-workflow
   datasource:
     url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
     username: root
-    password: root
+    password: chenjias
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     filters: stat
@@ -61,6 +63,9 @@ spring:
     restart:
       enable: true
       additional-paths: src/main/java
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
   redis:
     database: 0
     host: localhost
@@ -74,6 +79,6 @@ spring:
         max-idle: 8
         min-idle: 0
   resources:
-    static-locations: classpath:/templates/
+    static-locations: classpath:/templates/,classpath:/pdf/
   thymeleaf:
     prefix: classpath:/templates/

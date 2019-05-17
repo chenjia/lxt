@@ -29,7 +29,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/lxt_db?useUnicode=true&characterEncoding=UTF-8
     username: root
-    password: root
+    password: chenjias
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     filters: stat

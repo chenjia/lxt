@@ -4,6 +4,7 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import javax.servlet.http.HttpServletRequest;
@@ -18,31 +19,26 @@ import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 
 public class ResponseFilter extends ZuulFilter {
-	@Value("${filterUrl}")
-	private String filterUrl;
+	@Value("#{'${filterUrls.services}'.split(',')}")
+	private String[] services;
 
-	@Value("${safeDomain}")
-	private String safeDomain;
-	
-	@Value("${safeApi}")
-	private String safeApi;
-	
-	@Value("${excludeUrl}")
-    private String excludeUrl;
+	@Value("#{'${filterUrls.origins}'.split(',')}")
+	private Set<String> origins;
+
+	@Value("#{'${filterUrls.excludes}'.split(',')}")
+    private String[] excludes;
 
 	@Override
 	public Object run() throws ZuulException {
 		RequestContext ctx = RequestContext.getCurrentContext();
 		HttpServletRequest request = ctx.getRequest();
 		HttpServletResponse response = ctx.getResponse();
-		
-		Set<String> allowedOrigins = new HashSet<String>(Arrays.asList(safeDomain.split(",")));
-		String origin = request.getHeader("Origin");
 
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("application/json;charset=utf-8");
 
-		if (allowedOrigins.contains(origin)) {
+		String origin = request.getHeader("Origin");
+		if (origins.contains(origin)) {
 			response.setHeader("Access-Control-Allow-Origin", origin);
 			response.setHeader("Access-Control-Allow-Methods",
 					"POST,GET,OPTIONS");
@@ -70,16 +66,14 @@ public class ResponseFilter extends ZuulFilter {
 		
 		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
 		String uri = request.getRequestURI();
-		String[] filterUrls = filterUrl.split(",");
-		for(String url : filterUrls){
+		for(String url : services){
 			if(uri.startsWith(url)){
 				shouldFilter = true;
 				break;
 			}
 		}
 
-		String[] excludeUrls = excludeUrl.split(",");
-		for(String exclude : excludeUrls){
+		for(String exclude : excludes){
 			if(uri.startsWith(exclude)){
 				shouldFilter = false;
 				break;
