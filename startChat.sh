@@ -1,1 +1,0 @@
-nohup sh ~/java/apache-tomcat-8.5.33/bin/startup.sh &

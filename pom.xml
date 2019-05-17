@@ -31,7 +31,6 @@
         <module>lxt-push</module>
         <module>lxt-upload</module>
         <module>lxt-workflow</module>
-        <module>lxt-web</module>
         <module>lxt-pdf</module>
     </modules>
 

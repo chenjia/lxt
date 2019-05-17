@@ -15,7 +15,6 @@
         <module name="lxt-pdf" />
         <module name="lxt-push" />
         <module name="lxt-upload" />
-        <module name="lxt-web" />
         <module name="lxt-workflow" />
       </profile>
     </annotationProcessing>
