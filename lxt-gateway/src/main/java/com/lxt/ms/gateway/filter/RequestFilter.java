@@ -68,20 +68,18 @@ public class RequestFilter extends ZuulFilter{
 					Map<String, Object> map = JWTUtils.parse(token);
 					if(userId.equals(map.get("userId"))){
 						Set<Object> resourceSet = CacheUtils.sGet("RESOURCE_"+userId);
-						if(resourceSet == null || !resourceSet.contains(uri)){
-							pkg.getHead().setStatus(500);
-							pkg.getHead().setMsg("未授权的访问，请联系管理员！");
-						}
+//						if(resourceSet == null || !resourceSet.contains(uri)){
+//							pkg.getHead().setStatus(500);
+//							pkg.getHead().setMsg("未授权的访问，请联系管理员！");
+//						}
 					}else {
 						pkg.getHead().setStatus(500);
 						pkg.getHead().setMsg("token验证失败！");
-//							ctx.setSendZuulResponse(false);
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
 					pkg.getHead().setStatus(500);
 					pkg.getHead().setMsg("token转换失败！");
-//						ctx.setSendZuulResponse(false);
 				}
 			}
 		}
