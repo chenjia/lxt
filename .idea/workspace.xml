@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diff-eureka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/diff-eureka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diff-gateway.sh" beforeDir="false" afterPath="$PROJECT_DIR$/diff-gateway.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diff-manage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/diff-manage.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diff-push.sh" beforeDir="false" afterPath="$PROJECT_DIR$/diff-push.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diff-workflow.sh" beforeDir="false" afterPath="$PROJECT_DIR$/diff-workflow.sh" afterDir="false" />
+    </list>
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
     <ignored path="$PROJECT_DIR$/lxt-common/target/" />
@@ -84,7 +95,11 @@
           <entry key="log" value="1" />
           <entry key="png" value="2" />
           <entry key="properties" value="7" />
+<<<<<<< HEAD
           <entry key="sh" value="25" />
+=======
+          <entry key="sh" value="23" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
           <entry key="sql" value="3" />
           <entry key="txt" value="9" />
           <entry key="vue" value="1" />
@@ -104,7 +119,11 @@
           <entry key="JSON" value="4" />
           <entry key="JSP" value="3" />
           <entry key="JavaScript" value="14" />
+<<<<<<< HEAD
           <entry key="PLAIN_TEXT" value="37" />
+=======
+          <entry key="PLAIN_TEXT" value="35" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
           <entry key="Properties" value="7" />
           <entry key="SQL" value="3" />
           <entry key="Scratch" value="1" />
@@ -150,7 +169,57 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diff-gateway.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diff-manage.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diff-workflow.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diff-eureka.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/diff-push.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -298,7 +367,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lxt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lxt-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lxt-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
@@ -375,7 +448,11 @@
     <property name="SearchEverywhereHistoryKey" value="OUT_&#9;FILE&#9;file:///Users/farben/project/lxt/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml&#10;ChatServer&#9;FILE&#9;file:///Users/farben/project/lxt/lxt-push/src/main/java/com/lxt/ms/chat/server/ChatServer.java&#10;html2pdf&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558312011953" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558257438827" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -389,10 +466,18 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory" />
+      <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources" />
+      <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/lxt-common/src/main/resources/pdf/images" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lxt.ms.designpattern" />
       <recent name="com.lxt.ms.pdf.utils" />
     </key>
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper" />
@@ -400,6 +485,8 @@
       <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factorymethod" />
       <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy" />
     </key>
+=======
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lxt.ms.push.service.api" />
       <recent name="com.lxt.ms.push.service.impl" />
@@ -407,12 +494,21 @@
       <recent name="com.lxt.ms.chat.server" />
       <recent name="com.lxt.ms.chat.model.ext" />
     </key>
+<<<<<<< HEAD
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factory" />
       <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources" />
       <recent name="$PROJECT_DIR$/lxt-drools/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/lxt-common/src/main/resources/pdf/images" />
+=======
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lxt-workflow/src/main/java/com/lxt/ms/workflow/mapper" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/factorymethod" />
+      <recent name="$PROJECT_DIR$/lxt-learn/src/main/java/com/lxt/ms/designpattern/strategy" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
     </key>
   </component>
   <component name="RunDashboard">
@@ -778,12 +874,20 @@
       <workItem from="1557992500278" duration="3670000" />
       <workItem from="1558076860972" duration="5978000" />
       <workItem from="1558186101776" duration="361000" />
+<<<<<<< HEAD
       <workItem from="1558230447205" duration="2289000" />
+=======
+      <workItem from="1558230447205" duration="1614000" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1042544000" />
+=======
+    <option name="totallyTimeSpent" value="1041865000" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,6 +900,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+<<<<<<< HEAD
+=======
+    <editor active="true" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -807,7 +915,11 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3374317" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.3237705" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3237705" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983629" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1206,7 +1318,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/RequestFilter.java">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
     </entry>
     <entry file="file://$PROJECT_DIR$/lxt-gateway/src/main/java/com/lxt/ms/gateway/filter/ResponseFilter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1215,6 +1335,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/diff-gateway.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1247,6 +1368,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/diff-workflow.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diff-eureka.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diff-gateway.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diff-manage.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diff-push.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+>>>>>>> 04d10ca47ed86c2ef46b33c75a1de2c2a9ec149b
         </state>
       </provider>
     </entry>
