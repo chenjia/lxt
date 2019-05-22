@@ -2,7 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a922eb8-f276-49d3-8794-e6ad42683609" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatFriendMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatGroupUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ChatRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/DictionaryTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackReplyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackReplyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackReplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/FeedbackReplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/NodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/NodeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/NodeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/OrganizationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/OrganizationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/OrganizationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/OrganizationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/ProcessMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserSettingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserSettingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/mapper/UserSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriendCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriendCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriendCategoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriendCategoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriendExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatFriendExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroupExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroupExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroupUserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroupUserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroupUserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatGroupUserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ChatRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DepartmentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DepartmentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DictionaryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DictionaryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DictionaryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DictionaryType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DictionaryTypeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/DictionaryTypeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/FeedbackExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/FeedbackExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/FeedbackReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/FeedbackReply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/FeedbackReplyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/FeedbackReplyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/MenuExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/MenuExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/NodeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/NodeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Organization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/OrganizationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/OrganizationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessCategoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessCategoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessWithBLOBs.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/ProcessWithBLOBs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/RoleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/RoleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/RoleMenuExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/RoleMenuExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/RoleMenuKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/RoleMenuKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserLogExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserLogExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserRoleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserRoleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserRoleKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserRoleKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserSettingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxt-manage/src/main/java/com/lxt/ms/manage/model/UserSettingExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lxt-eureka/target/" />
@@ -152,20 +236,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lxt-common/src/main/java/com/lxt/ms/common/utils/SecurityUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="197" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -433,7 +504,7 @@
     <property name="SearchEverywhereHistoryKey" value="OUT_&#9;FILE&#9;file:///Users/farben/project/lxt/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml&#10;ChatServer&#9;FILE&#9;file:///Users/farben/project/lxt/lxt-push/src/main/java/com/lxt/ms/chat/server/ChatServer.java&#10;html2pdf&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558494114259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558494114442" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -855,7 +926,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1048336000" />
+    <option name="totallyTimeSpent" value="1048617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,9 +939,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -880,7 +950,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3374317" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3237705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3237705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983629" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
