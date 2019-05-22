@@ -15,6 +15,7 @@ import com.lxt.ms.manage.model.*;
 import com.lxt.ms.manage.model.UserExample.Criteria;
 import com.lxt.ms.manage.service.api.UserService;
 import com.lxt.ms.manage.service.bo.LoginBO;
+import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
@@ -22,6 +23,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -247,13 +249,25 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public Packages consoleLog(String $userId, List<UserLog> logs) throws APIException {
+	public Packages consoleLog(String $userId, List<Map> logs) throws APIException {
 		Packages pkg = new Packages();
 
 		System.out.println(JSONUtils.obj2Json(logs));
 
 		Date date = new Date();
-		for(UserLog log : logs){
+		UserLog log = new UserLog();
+		for(Map map : logs){
+			map.put("time", DateUtils.str2Date((String) map.get("time"), DateUtils.LONG_DATE));
+			try {
+				BeanUtils.copyProperties(log, map);
+				log.setUserId($userId);
+			} catch (IllegalAccessException e) {
+				e.printStackTrace();
+				throw new APIException(e);
+			} catch (InvocationTargetException e) {
+				e.printStackTrace();
+				throw new APIException(e);
+			}
 			log.setLogId(UUIDUtils.UUID());
 			log.setInsertTime(date);
 			userLogMapper.insert(log);
