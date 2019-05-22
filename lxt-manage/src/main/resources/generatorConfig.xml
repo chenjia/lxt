@@ -8,7 +8,7 @@
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"  
 			connectionURL="jdbc:mysql://localhost:3306/lxt_db"  
 			userId="root"  
-			password="root">  
+			password="chenjias">
 		</jdbcConnection>  
       
 		<javaTypeResolver >  
@@ -42,8 +42,9 @@
 		<table schema="lxt_db" tableName="lxt_organization" domainObjectName="Organization" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table> 
 		<table schema="lxt_db" tableName="lxt_process" domainObjectName="Process" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table> 
 		<table schema="lxt_db" tableName="lxt_process_category" domainObjectName="ProcessCategory" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table> 
-		<table schema="lxt_db" tableName="lxt_user" domainObjectName="User" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table> 
+		<table schema="lxt_db" tableName="lxt_user" domainObjectName="User" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 		<table schema="lxt_db" tableName="lxt_user_setting" domainObjectName="UserSetting" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+		<table schema="lxt_db" tableName="lxt_user_log" domainObjectName="UserLog" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 		<table schema="lxt_db" tableName="lxt_role" domainObjectName="Role" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 		<table schema="lxt_db" tableName="lxt_menu" domainObjectName="Menu" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
 		<table schema="lxt_db" tableName="lxt_user_role" domainObjectName="UserRole" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>

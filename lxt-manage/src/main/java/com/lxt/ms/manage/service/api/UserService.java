@@ -6,6 +6,9 @@ import com.lxt.ms.common.exception.APIException;
 import com.lxt.ms.manage.model.ProcessExample;
 import com.lxt.ms.manage.model.User;
 import com.lxt.ms.manage.model.UserExample;
+import com.lxt.ms.manage.model.UserLog;
+
+import java.util.List;
 
 public interface UserService{
 	
@@ -28,4 +31,6 @@ public interface UserService{
 	public abstract Packages status(String userId, int status) throws APIException;
 
 	public abstract Packages grant(String userId, String[] roleIds) throws APIException;
+
+	public abstract Packages consoleLog(String $userId, List<UserLog> logs) throws APIException;
 }

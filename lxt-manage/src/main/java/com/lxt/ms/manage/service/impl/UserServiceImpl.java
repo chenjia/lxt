@@ -6,6 +6,7 @@ import com.lxt.ms.common.bean.web.Packages;
 import com.lxt.ms.common.bean.web.PageData;
 import com.lxt.ms.common.exception.APIException;
 import com.lxt.ms.common.utils.*;
+import com.lxt.ms.manage.mapper.UserLogMapper;
 import com.lxt.ms.manage.mapper.UserMapper;
 import com.lxt.ms.manage.mapper.UserRoleMapper;
 import com.lxt.ms.manage.mapper.UserSettingMapper;
@@ -30,6 +31,9 @@ public class UserServiceImpl implements UserService {
 
 	@Autowired
 	private UserMapper userMapper;
+
+	@Autowired
+	private UserLogMapper userLogMapper;
 
 	@Autowired
 	private UserRoleMapper userRoleMapper;
@@ -236,6 +240,17 @@ public class UserServiceImpl implements UserService {
 			userRoleKey.setUserId(userId);
 			userRoleKey.setRoleId(roleId);
 			userRoleMapper.insert(userRoleKey);
+		}
+
+		return pkg;
+	}
+
+	@Override
+	public Packages consoleLog(String $userId, List<UserLog> logs) throws APIException {
+		Packages pkg = new Packages();
+
+		for(UserLog log : logs){
+			userLogMapper.insert(log);
 		}
 
 		return pkg;
