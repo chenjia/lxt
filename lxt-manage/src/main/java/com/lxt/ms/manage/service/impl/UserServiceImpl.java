@@ -22,6 +22,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -249,7 +250,12 @@ public class UserServiceImpl implements UserService {
 	public Packages consoleLog(String $userId, List<UserLog> logs) throws APIException {
 		Packages pkg = new Packages();
 
+		System.out.println(JSONUtils.obj2Json(logs));
+
+		Date date = new Date();
 		for(UserLog log : logs){
+			log.setLogId(UUIDUtils.UUID());
+			log.setInsertTime(date);
 			userLogMapper.insert(log);
 		}
 
