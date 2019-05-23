@@ -247,32 +247,4 @@ public class UserServiceImpl implements UserService {
 
 		return pkg;
 	}
-
-	@Override
-	public Packages consoleLog(String $userId, List<Map> logs) throws APIException {
-		Packages pkg = new Packages();
-
-		System.out.println(JSONUtils.obj2Json(logs));
-
-		Date date = new Date();
-		UserLog log = new UserLog();
-		for(Map map : logs){
-			map.put("time", DateUtils.str2Date((String) map.get("time"), DateUtils.LONG_DATE));
-			try {
-				BeanUtils.copyProperties(log, map);
-				log.setUserId($userId);
-			} catch (IllegalAccessException e) {
-				e.printStackTrace();
-				throw new APIException(e);
-			} catch (InvocationTargetException e) {
-				e.printStackTrace();
-				throw new APIException(e);
-			}
-			log.setLogId(UUIDUtils.UUID());
-			log.setInsertTime(date);
-			userLogMapper.insert(log);
-		}
-
-		return pkg;
-	}
 }

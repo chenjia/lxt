@@ -33,5 +33,4 @@ public interface UserService{
 
 	public abstract Packages grant(String userId, String[] roleIds) throws APIException;
 
-	public abstract Packages consoleLog(String $userId, List<Map> logs) throws APIException;
 }
